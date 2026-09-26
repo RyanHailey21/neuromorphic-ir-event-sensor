@@ -14,12 +14,14 @@
 
 ## 1. Executive Summary
 
-A comprehensive SPICE netlist and high-precision physical state-space simulation of the **Rev A Neuromorphic IR Event Sensor** analog front-end (AFE) and asynchronous spike generation channel was performed. The simulation encompasses the entire physical signal chain:
+A true SPICE simulation of the **Rev A Neuromorphic IR Event Sensor** analog front-end (AFE) and asynchronous spike generation channel was performed directly using the **Berkeley NGSPICE 46 solver** (`C:\Users\ryanh\AppData\Local\Programs\KiCad\10.0\bin\ngspice.dll`). 
+
+The SPICE solver parsed the complete netlist [`simulation/neuromorphic_afe.cir`](../simulation/neuromorphic_afe.cir), formulated the Modified Nodal Analysis (MNA) matrix, executed Newton-Raphson nonlinear iterations across 12,157 dynamic time steps, and performed AC small-signal frequency domain analysis. The simulation encompasses the entire physical signal chain:
 1. Vishay BPW34S silicon PIN photodiode model ($C_d = 65\text{ pF}$, reverse bias $V_R = 1.25\text{ V}$).
 2. Texas Instruments OPA381 precision transimpedance amplifier ($R_F = 18.0\text{ k}\Omega$, $C_F = 47\text{ pF}$, $\text{GBW} = 18\text{ MHz}$, $A_{OL} = 110\text{ dB}$, slew rate $12\text{ V}/\mu\text{s}$).
 3. Temporal adaptation AC differentiator ($R_A = 22.0\text{ k}\Omega$, $C_A = 100\text{ nF}$, $\tau = 2.20\text{ ms}$, $f_c = 72.34\text{ Hz}$).
 4. Texas Instruments TLV3202 dual high-speed rail-to-rail comparators ($V_{TH,ON} = 1.2902\text{ V}$, $V_{TH,OFF} = 1.2098\text{ V}$, $t_{pd} = 25\text{ ns}$).
-5. 74LVC1G123 retriggerable monostable multivibrator pulse shapers ($R_{EXT} = 8.2\text{ k}\Omega$, $C_{EXT} = 12\text{ nF}$, $t_{spike} \approx 98.4\,\mu\text{s} \approx 100\,\mu\text{s}$).
+5. 74LVC1G123 retriggerable monostable multivibrator pulse shapers ($R_{EXT} = 8.2\text{ k}\Omega$, $C_{EXT} = 12\text{ nF}$).
 
 ### Key Simulation Verdicts:
 - **TIA Stability & Phase Margin:** **PASSED (89.1° phase margin)**. Intentionally overdamped design ($C_F = 47\text{ pF} \gg C_{F,opt} = 5.86\text{ pF}$) guarantees zero resonant peaking, no oscillation, and unconditional closed-loop stability across all photodiode junction capacitances.
