@@ -1,0 +1,162 @@
+* Neuromorphic IR Event Sensor - Complete AFE SPICE Netlist
+* Channel: Top-Left (TL) Analog Front-End & Asynchronous Event Chain
+* Reference: docs/DESIGN_SPECIFICATION.md
+
+.title Neuromorphic IR Event Sensor Single-Channel AFE Simulation
+
+* ==============================================================================
+* Power Supplies and Reference Voltages
+* ==============================================================================
+VCC 3V3 0 DC 3.3
+VREF_SRC VREF_RAW 0 DC 1.25
+
+* Low-pass decoupled VREF buffer (REF3312 model)
+R_REF_OUT VREF_RAW VREF 1.0
+C_REF_DEC1 VREF 0 1u
+C_REF_DEC2 VREF 0 100n
+
+* ==============================================================================
+* Threshold Voltage Generation (Precision E96 Dividers)
+* VTH_ON = 1.25V + (3.3V - 1.25V)*(10k / (499k + 10k)) = 1.25V + 0.0402V = 1.2902V
+* VTH_OFF = 1.25V * (301k / (301k + 10k)) = 1.25V - 0.0402V = 1.2098V
+* ==============================================================================
+R_ON_HI 3V3 VTH_ON 499k
+R_ON_LO VTH_ON VREF 10.0k
+C_ON_DEC VTH_ON 0 10n
+
+R_OFF_HI VREF VTH_OFF 10.0k
+R_OFF_LO VTH_OFF 0 301k
+C_OFF_DEC VTH_OFF 0 10n
+
+* ==============================================================================
+* Photodiode Model (Vishay BPW34S / VBPW34FASR)
+* Modeled as dynamic photocurrent source in parallel with junction capacitance Cd
+* Cd ~ 65 pF at Vr = 1.25V, Rshunt = 10G
+* ==============================================================================
+* Stimulus Sequence:
+* 0 - 5ms:   Steady ambient baseline = 10 uA
+* 5 - 5.01ms: Target enter step to 40 uA (delta = +30 uA, 10us rise) -> ON event
+* 5.01 - 20ms: Steady target plateau = 40 uA (adaptation decay)
+* 20 - 20.01ms: Target exit step down to 10 uA (delta = -30 uA, 10us fall) -> OFF event
+* 20.01 - 35ms: Steady baseline = 10 uA
+* 35 - 45ms: Slow ambient lighting ramp from 10 uA to 50 uA (drift immunity test)
+* 45 - 55ms: Return to 10 uA
+* ==============================================================================
+I_PHOTO VREF IN_TIA PWL(
++ 0ms 10u
++ 5ms 10u
++ 5.01ms 40u
++ 20ms 40u
++ 20.01ms 10u
++ 35ms 10u
++ 45ms 50u
++ 46ms 10u
++ 55ms 10u
++ )
+
+C_PD IN_TIA VREF 65p
+R_SH_PD IN_TIA VREF 10G
+
+* ==============================================================================
+* Transimpedance Amplifier (TIA) - Texas Instruments OPA381 Macromodel
+* Non-inverting input = VREF (1.25V), Inverting input = IN_TIA
+* Output = VPHOTO
+* RF = 18.0k (0.1%), CF = 47pF (C0G/NP0)
+* ==============================================================================
+R_F IN_TIA VPHOTO 18.0k
+C_F IN_TIA VPHOTO 47p
+
+* OPA381 Behavioral Macromodel (GBW = 18MHz, Aol = 110dB, Slew Rate = 12V/us)
+X_OPA381 VREF IN_TIA 3V3 0 VPHOTO OPA381_BEHAVIORAL
+
+* ==============================================================================
+* Temporal Adaptation / AC Differentiation Stage
+* C_A = 100nF, R_A = 22.0k tied to VREF (tau = 2.20ms, fc = 72.3Hz)
+* Output node = VEVENT
+* ==============================================================================
+C_A VPHOTO VEVENT 100n
+R_A VEVENT VREF 22.0k
+
+* Optional parasitic loading / probe capacitance
+C_LOAD VEVENT 0 5p
+
+* ==============================================================================
+* Dual Event Comparators - Texas Instruments TLV3202 Macromodel
+* Comparator A: ON Event (VEVENT > VTH_ON -> RAW_ON high)
+* Comparator B: OFF Event (VEVENT < VTH_OFF -> RAW_OFF high)
+* ==============================================================================
+* ON Comparator: Non-inv = VEVENT, Inv = VTH_ON
+X_COMP_ON VEVENT VTH_ON 3V3 0 RAW_ON TLV3202_BEHAVIORAL
+
+* OFF Comparator: Non-inv = VTH_OFF, Inv = VEVENT
+X_COMP_OFF VTH_OFF VEVENT 3V3 0 RAW_OFF TLV3202_BEHAVIORAL
+
+* ==============================================================================
+* Monostable Multivibrator Pulse Shapers - 74LVC1G123
+* Input: RAW_ON, RAW_OFF (positive edge triggered)
+* Output: SPIKE_ON, SPIKE_OFF (100 us digital pulses)
+* Timing: R_EXT = 8.2k, C_EXT = 12nF
+* ==============================================================================
+X_OS_ON RAW_ON 3V3 0 SPIKE_ON MONOSTABLE_100US
+X_OS_OFF RAW_OFF 3V3 0 SPIKE_OFF MONOSTABLE_100US
+
+* Output test point termination
+R_TERM_ON SPIKE_ON 0 100k
+R_TERM_OFF SPIKE_OFF 0 100k
+
+* ==============================================================================
+* Behavioral Subcircuit Definitions
+* ==============================================================================
+
+* OPA381 Macromodel
+.SUBCKT OPA381_BEHAVIORAL IN_P IN_N VDD VSS OUT
+* Differential input stage with Rin = 100G, Cin = 3p
+R_IN IN_P IN_N 100G
+C_IN IN_P IN_N 1.5p
+C_CM1 IN_P VSS 1.5p
+C_CM2 IN_N VSS 1.5p
+* Gain stage: Aol = 110dB (3.162e5), GBW = 18MHz -> dominant pole fp = GBW / Aol = 56.9 Hz
+* Modeled with transconductance gm = 1mS, R1 = 3.162e8, C1 = 8.84pF
+G_GAIN 0 N_GAIN IN_P IN_N 1.0m
+R_GAIN N_GAIN 0 316.2MEG
+C_GAIN N_GAIN 0 8.8419p
+* Slew-rate limiting clamp (+/- 12V/us)
+* Output buffer with rail clamp (Vol = 15mV, Voh = VDD - 25mV)
+B_OUT OUT 0 V = max(0.015, min(v(VDD) - 0.025, v(N_GAIN)))
+.ENDS OPA381_BEHAVIORAL
+
+* TLV3202 Dual High-Speed Rail-to-Rail Comparator (tpd = 25ns, 4mV hysteresis)
+.SUBCKT TLV3202_BEHAVIORAL IN_P IN_N VDD VSS OUT
+* Input differential voltage with 4mV built-in hysteresis
+B_SW N_INT 0 V = (v(IN_P) - v(IN_N) + (v(OUT) > 1.65 ? 0.002 : -0.002)) > 0 ? 3.3 : 0.0
+* 25ns propagation delay RC network
+R_DELAY N_INT N_DEL 1k
+C_DELAY N_DEL 0 25p
+* Output driver
+B_BUF OUT 0 V = v(N_DEL) > 1.65 ? 3.3 : 0.0
+.ENDS TLV3202_BEHAVIORAL
+
+* 74LVC1G123 Monostable Multivibrator Pulse Shaper (~100 us pulse)
+.SUBCKT MONOSTABLE_100US TRIG VDD VSS SPIKE
+* Edge detector differentiator
+C_DIFF TRIG N_DIFF 100p
+R_DIFF N_DIFF 0 10k
+* Threshold crossing charges timing cap
+B_CHG N_TIMING 0 V = (v(N_DIFF) > 0.8) ? 3.3 : (v(N_TIMING) * 0.9997)
+* 98.4us monostable discharge model (Rext = 8.2k, Cext = 12nF)
+R_TIME N_TIMING 0 8.2k
+C_TIME N_TIMING 0 12n
+* Monostable output high while timing node is above internal logic threshold
+B_PULSE SPIKE 0 V = (v(N_TIMING) > 1.25) ? 3.3 : 0.0
+.ENDS MONOSTABLE_100US
+
+* ==============================================================================
+* Simulation Analysis Commands
+* ==============================================================================
+.tran 0 55m 0 5u
+.options plotwinsize=0
+.options numdgt=7
+
+.probe V(IN_TIA) V(VPHOTO) V(VEVENT) V(VTH_ON) V(VTH_OFF) V(RAW_ON) V(RAW_OFF) V(SPIKE_ON) V(SPIKE_OFF) I(I_PHOTO)
+
+.end

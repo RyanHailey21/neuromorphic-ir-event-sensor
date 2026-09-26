@@ -15,19 +15,19 @@ An analog front-end (AFE) neuromorphic infrared event sensor board designed in K
 ### Architecture Pipeline
 Each quadrant operates through an independent analog signal chain:
 ```
-[Photodiode Pair]
+[Photodiode Pair (BPW34S)]
         │
         ▼
-[Transimpedance Amplifier (TIA)]  ──> OPA356 / ADA4899 High-Bandwidth Stage
+[Transimpedance Amplifier (TIA)]  ──> OPA381 Precision Stage (RF = 18.0k, CF = 47pF, VREF = 1.25V)
         │
         ▼
-[High-Pass Differentiator (AC Coupling)] ──> Extracts Temporal Contrast d(ln I)/dt
+[High-Pass Differentiator (AC Coupling)] ──> Extracts Temporal Contrast (RA = 22.0k, CA = 100nF, tau = 2.2ms)
         │
-        ├──> (+) Positive Threshold Comparator (TLV3501/MAX9012) ──> ON Spike
-        └──> (-) Negative Threshold Comparator (TLV3501/MAX9012) ──> OFF Spike
+        ├──> (+) Positive Threshold Comparator (TLV3202, VTH_ON = 1.29V) ──> ON Event
+        └──> (-) Negative Threshold Comparator (TLV3202, VTH_OFF = 1.21V) ──> OFF Event
         │
         ▼
-[Monostable Pulse Shaper (74LVC1G123)] ──> Generates Calibrated Digital Pulses (~100 ns)
+[Monostable Pulse Shaper (74LVC1G123)] ──> Generates Calibrated Digital Spikes (~100 µs)
         │
         ▼
 [Digital SPIKE Interface] ──> 2x10 Pin Header (J_FPGA)
@@ -92,7 +92,7 @@ Convenient oscilloscope probe points for calibration and signal integrity checki
 | Pin | Net Name | Type | Description |
 | :---: | :--- | :---: | :--- |
 | **1** | `GND` | Ground | Probe Ground Reference |
-| **2** | `VREF` | Analog | Mid-Rail Analog Bias Reference (~1.65 V) |
+| **2** | `VREF` | Analog | Precision Low-Noise Bias Reference (1.250 V, REF3312) |
 | **3** | `VPHOTO_TL` | Analog | Transimpedance Output: TL Quadrant |
 | **4** | `VPHOTO_TR` | Analog | Transimpedance Output: TR Quadrant |
 | **5** | `VPHOTO_BL` | Analog | Transimpedance Output: BL Quadrant |
@@ -100,7 +100,33 @@ Convenient oscilloscope probe points for calibration and signal integrity checki
 
 ---
 
-## 4. Verification Status & DRC Sign-Off
+## 4. Circuit Simulation & SPICE Verification
+
+The analog front-end (AFE) and asynchronous spike generation stages have undergone complete SPICE and physical state-space simulation.
+
+> **Detailed Engineering Report**: See [`docs/SIMULATION_REPORT.md`](docs/SIMULATION_REPORT.md) for complete analytical derivations, phase margin calculations, and drift immunity proofs.
+
+### Simulation Verification Highlights:
+- **TIA Stability & Phase Margin**: **89.1° phase margin** at 7.17 MHz crossover frequency ($C_F = 47\text{ pF} \gg C_{F,opt} = 5.86\text{ pF}$). The transimpedance amplifier is strongly overdamped, ensuring zero ringing and unconditional stability.
+- **Closed-Loop Bandwidth**: **188.13 kHz** (-3dB cutoff), passing sub-microsecond optical contrast edges while filtering RF noise.
+- **Temporal Adaptation**: $\tau_A = 2.20\text{ ms}$ ($f_c = 72.34\text{ Hz}$), rejecting steady-state ambient illumination and environmental light drift up to $1.01\,\mu\text{A}/\text{ms}$ with **zero false spikes**.
+- **Asynchronous Digital Spikes**: The 74LVC1G123 monostable generates calibrated **$98.4\,\mu\text{s}$ digital CMOS pulses ($0\text{ V} \rightarrow 3.3\text{ V}$)** with $< 25\text{ ns}$ comparator propagation delay.
+
+| Full AFE Transient Response | AC Stability & Bode Response |
+| :---: | :---: |
+| ![Transient Simulation](docs/images/neuromorphic_afe_transient_response.png?raw=true&v=1) | ![Bode Stability](docs/images/neuromorphic_afe_frequency_response.png?raw=true&v=1) |
+
+| Microsecond-Scale Spike Timing Detail |
+| :---: |
+| ![Spike Detail](docs/images/neuromorphic_afe_spike_detail.png?raw=true&v=1) |
+
+### Companion Simulation Files:
+- **SPICE Netlist**: [`simulation/neuromorphic_afe.cir`](simulation/neuromorphic_afe.cir) (compatible with LTspice, ngspice, and standard SPICE engines)
+- **Python Simulator**: [`simulation/simulate_afe.py`](simulation/simulate_afe.py) (`python -u simulation/simulate_afe.py`)
+
+---
+
+## 5. Verification Status & DRC Sign-Off
 
 The board has been thoroughly verified using KiCad 10 CLI verification:
 - **Electrical Connections**: 62 nets, 268 pins mapped, 874 track segments, 83 vias.
@@ -112,17 +138,17 @@ The board has been thoroughly verified using KiCad 10 CLI verification:
 
 ---
 
-## 5. Turnkey Production Package
+## 6. Turnkey Production Package
 
 Ready-to-manufacture files are located in the `production/` and `gerbers/` directories:
-- **3D CAD STEP Model (Full Assembly)**: [`production/neuromorphic-ir-event-sensor-revA.step`](production/neuromorphic-ir-event-sensor-revA.step) *(Ready for direct import into OnShape, SolidWorks, or FreeCAD for mechanical enclosure/lens housing modeling)*
+- **3D CAD STEP Model (Full Assembly)**: [`production/neuromorphic-ir-event-sensor-revA.step`](production/neuromorphic-ir-event-sensor-revA.step) *(Ready for direct import into Onshape, SolidWorks, or FreeCAD for mechanical enclosure/lens housing modeling)*
 - **Gerbers & Drill Archive**: `production/neuromorphic-ir-event-sensor-revA-gerber.zip`
 - **Bill of Materials**: `production/neuromorphic-ir-event-sensor-bom.csv` (92 components, 27 unique groups)
 - **Pick-and-Place (CPL)**: `production/neuromorphic-ir-event-sensor-cpl.csv`
 
 ---
 
-## 6. How to Build & Verify (CLI Commands)
+## 7. How to Build & Verify (CLI Commands)
 
 ### Run PCB Design Rule Check (DRC)
 ```powershell
@@ -135,8 +161,7 @@ kicad-cli pcb export gerbers -o gerbers/ neuromorphic-ir-event-sensor.kicad_pcb
 kicad-cli pcb export drill -o gerbers/ neuromorphic-ir-event-sensor.kicad_pcb
 ```
 
-### Render Photorealistic 3D Views
+### Run SPICE & Numerical AFE Simulation
 ```powershell
-kicad-cli pcb render --side top --width 1920 --height 1080 -o render_top.png neuromorphic-ir-event-sensor.kicad_pcb
-kicad-cli pcb render --rotate -45,0,45 --width 1920 --height 1080 -o render_iso.png neuromorphic-ir-event-sensor.kicad_pcb
+python simulation/simulate_afe.py
 ```
