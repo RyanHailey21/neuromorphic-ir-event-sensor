@@ -888,7 +888,7 @@
 			(uuid "65090545-faad-401e-a384-f725afb17a3a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.step"
+		(model "${KIPRJMOD}/3dmodels/BPW34S.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -896,7 +896,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -1903,7 +1903,7 @@
 			(uuid "b6c19d03-7b67-456c-a376-15a56095dfab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.step"
+		(model "${KIPRJMOD}/3dmodels/BPW34S.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1911,7 +1911,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -6124,7 +6124,7 @@
 			(uuid "2d2069d5-a675-411c-939b-3b7695494ad6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.step"
+		(model "${KIPRJMOD}/3dmodels/BPW34S.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6132,7 +6132,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -15581,7 +15581,7 @@
 			(uuid "28a27834-8643-4d36-8c7a-697464f2b973")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_BPW34S-SMD.step"
+		(model "${KIPRJMOD}/3dmodels/BPW34S.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15589,7 +15589,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
