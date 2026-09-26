@@ -355,7 +355,10 @@
 			(symbol "OPA197xDGK_0_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -614,7 +617,10 @@
 			(symbol "LM2903_1_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -626,7 +632,12 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 3.302 -0.508)
+						(xy 2.794 -0.508)
+						(xy 3.302 0)
+						(xy 2.794 0.508)
+						(xy 2.286 0)
+						(xy 2.794 -0.508)
 						(xy 2.286 -0.508)
 					)
 					(stroke
@@ -695,7 +706,10 @@
 			(symbol "LM2903_2_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -707,7 +721,12 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 3.302 -0.508)
+						(xy 2.794 -0.508)
+						(xy 3.302 0)
+						(xy 2.794 0.508)
+						(xy 2.286 0)
+						(xy 2.794 -0.508)
 						(xy 2.286 -0.508)
 					)
 					(stroke
@@ -897,7 +916,10 @@
 			(symbol "LM393_1_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -909,7 +931,12 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 3.302 -0.508)
+						(xy 2.794 -0.508)
+						(xy 3.302 0)
+						(xy 2.794 0.508)
+						(xy 2.286 0)
+						(xy 2.794 -0.508)
 						(xy 2.286 -0.508)
 					)
 					(stroke
@@ -978,7 +1005,10 @@
 			(symbol "LM393_2_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -990,7 +1020,12 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 3.302 -0.508)
+						(xy 2.794 -0.508)
+						(xy 3.302 0)
+						(xy 2.794 0.508)
+						(xy 2.286 0)
+						(xy 2.794 -0.508)
 						(xy 2.286 -0.508)
 					)
 					(stroke
@@ -1975,7 +2010,8 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1987,7 +2023,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2140,7 +2177,11 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy -3.048 -0.762)
+						(xy -4.572 -2.286)
+						(xy -3.81 -2.286)
+						(xy -4.572 -2.286)
+						(xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -2152,7 +2193,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy -1.778 -0.762)
+						(xy -3.302 -2.286)
+						(xy -2.54 -2.286)
+						(xy -3.302 -2.286)
+						(xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -2164,7 +2209,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy -1.27 0)
+						(xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2176,7 +2222,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -1.27 -1.27)
+						(xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2188,7 +2235,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 1.27 -1.27)
+						(xy 1.27 1.27)
+						(xy -1.27 0)
+						(xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2378,7 +2428,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 2.286) (xy 1.016 2.794)
+						(xy 1.016 2.286)
+						(xy 1.016 2.794)
 					)
 					(stroke
 						(width 0)
@@ -2390,7 +2441,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.27) (xy 1.016 1.778)
+						(xy 1.016 1.27)
+						(xy 1.016 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2402,7 +2454,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0.254) (xy 1.016 0.762)
+						(xy 1.016 0.254)
+						(xy 1.016 0.762)
 					)
 					(stroke
 						(width 0)
@@ -2414,7 +2467,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -0.762) (xy 1.016 -0.254)
+						(xy 1.016 -0.762)
+						(xy 1.016 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -2426,7 +2480,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -1.778) (xy 1.016 -1.27)
+						(xy 1.016 -1.778)
+						(xy 1.016 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2438,7 +2493,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -2.794) (xy 1.016 -2.286)
+						(xy 1.016 -2.794)
+						(xy 1.016 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -2450,7 +2506,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 2.794) (xy 1.524 2.286)
+						(xy 1.524 2.794)
+						(xy 1.524 2.286)
 					)
 					(stroke
 						(width 0)
@@ -2462,7 +2519,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.778) (xy 1.524 1.27)
+						(xy 1.524 1.778)
+						(xy 1.524 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2474,7 +2532,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 0.762) (xy 1.524 0.254)
+						(xy 1.524 0.762)
+						(xy 1.524 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2486,7 +2545,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -0.254) (xy 1.524 -0.762)
+						(xy 1.524 -0.254)
+						(xy 1.524 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -2498,7 +2558,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.778)
+						(xy 1.524 -1.27)
+						(xy 1.524 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2510,7 +2571,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -2.286) (xy 1.524 -2.794)
+						(xy 1.524 -2.286)
+						(xy 1.524 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -2643,7 +2705,8 @@
 			(symbol "Q_NMOS_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.254 1.905)
+						(xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -2655,7 +2718,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 0.254 0)
+						(xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2667,7 +2731,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 2.286)
+						(xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2679,7 +2744,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy 0.762 0.508)
+						(xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -2691,7 +2757,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 -1.27)
+						(xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -2703,7 +2770,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 -1.778)
+						(xy 3.302 -1.778)
+						(xy 3.302 1.778)
+						(xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2715,7 +2785,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 1.016 0)
+						(xy 2.032 0.381)
+						(xy 2.032 -0.381)
+						(xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -2738,7 +2811,8 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 2.54 2.54)
+						(xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2772,7 +2846,9 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 2.54 -2.54)
+						(xy 2.54 0)
+						(xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -2784,7 +2860,8 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.921 0.381)
+						(xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2796,7 +2873,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 0.381)
+						(xy 2.921 -0.254)
+						(xy 3.683 -0.254)
+						(xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -3106,7 +3186,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.889 -0.635) (xy 0.381 -0.635) (xy -0.254 0.635) (xy -0.889 -0.635)
+						(xy -0.889 -0.635)
+						(xy 0.381 -0.635)
+						(xy -0.254 0.635)
+						(xy -0.889 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -3118,7 +3201,8 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 1.905) (xy -0.254 -1.905)
+						(xy -0.254 1.905)
+						(xy -0.254 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -3130,7 +3214,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.381 1.016) (xy 0.381 0.635) (xy -0.889 0.635) (xy -0.889 0.254)
+						(xy 0.381 1.016)
+						(xy 0.381 0.635)
+						(xy -0.889 0.635)
+						(xy -0.889 0.254)
 					)
 					(stroke
 						(width 0)
@@ -3291,7 +3378,8 @@
 			(symbol "BP104-SMD_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -2.54 1.27)
+						(xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -3303,7 +3391,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 1.778) (xy -1.524 1.778)
+						(xy -2.032 1.778)
+						(xy -1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -3315,7 +3404,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 3.302) (xy -2.032 1.778) (xy -2.032 2.286)
+						(xy -0.508 3.302)
+						(xy -2.032 1.778)
+						(xy -2.032 2.286)
 					)
 					(stroke
 						(width 0)
@@ -3327,7 +3418,9 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+						(xy 0 1.27)
+						(xy -2.54 0)
+						(xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3339,7 +3432,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -2.54 0)
+						(xy 0 0)
+						(xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -3351,7 +3445,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
+						(xy 0 -1.27)
+						(xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3363,7 +3458,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286) (xy -0.762 1.778) (xy -0.254 1.778)
+						(xy 0.762 3.302)
+						(xy -0.762 1.778)
+						(xy -0.762 2.286)
+						(xy -0.762 1.778)
+						(xy -0.254 1.778)
 					)
 					(stroke
 						(width 0)
@@ -3499,7 +3598,8 @@
 			(symbol "BPW34-SMD_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -2.54 1.27)
+						(xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -3511,7 +3611,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 1.778) (xy -1.524 1.778)
+						(xy -2.032 1.778)
+						(xy -1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -3523,7 +3624,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 3.302) (xy -2.032 1.778) (xy -2.032 2.286)
+						(xy -0.508 3.302)
+						(xy -2.032 1.778)
+						(xy -2.032 2.286)
 					)
 					(stroke
 						(width 0)
@@ -3535,7 +3638,9 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+						(xy 0 1.27)
+						(xy -2.54 0)
+						(xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3547,7 +3652,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -2.54 0)
+						(xy 0 0)
+						(xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -3559,7 +3665,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
+						(xy 0 -1.27)
+						(xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3571,7 +3678,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286) (xy -0.762 1.778) (xy -0.254 1.778)
+						(xy 0.762 3.302)
+						(xy -0.762 1.778)
+						(xy -0.762 2.286)
+						(xy -0.762 1.778)
+						(xy -0.254 1.778)
 					)
 					(stroke
 						(width 0)
@@ -3625,7 +3736,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 224.79) (xy 177.8 224.79)
+			(xy 157.48 224.79)
+			(xy 177.8 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3747,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 220.98) (xy 157.48 224.79)
+			(xy 157.48 220.98)
+			(xy 157.48 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4887,16 +5000,6 @@
 			(justify left)
 		)
 		(uuid "7a2d99ca-f837-40ff-9864-2b19b88d3635")
-	)
-	(label "LED_K"
-		(at 187.96 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7acdba8f-12de-4ac2-bf9a-3ad647f8cbe7")
 	)
 	(label "NET_REXT_ON_BL"
 		(at 190 143.81 0)
@@ -6435,15 +6538,33 @@
 		)
 		(uuid "feb69b30-1aa2-4c55-95a8-8cae87403d0b")
 	)
+	(label "3V3"
+		(at 187.96 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc445d3c-2263-4ab6-9130-ebffb4d3b145")
+	)
+	(label "LED_K"
+		(at 180.34 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d254708-750b-49d7-abbc-8cec3247453a")
+	)
 	(symbol
 		(lib_id "Comparator:LM393")
 		(at 130 181 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "01474b8e-0cd9-4ac8-b6b5-f225245d1084")
 		(property "Reference" "U_CMP4"
@@ -6497,6 +6618,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "8"
 			(uuid "4efdec91-444e-4021-9745-33a3c41820a0")
 		)
@@ -6534,11 +6657,9 @@
 		(lib_id "Device:C")
 		(at 190 125 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "01bb622d-423c-44f8-b6a4-351347bf6cb9")
 		(property "Reference" "COS_OFF_TR"
@@ -6592,6 +6713,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "5f7d34c8-9bd3-40fc-9108-04b933e07b6c")
 		)
@@ -6611,11 +6734,9 @@
 		(lib_id "Device:R")
 		(at 100 90 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "050c0552-1432-45c2-bfb9-a59cd869d22e")
 		(property "Reference" "RA1"
@@ -6669,6 +6790,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "6b9a5168-a87f-49a7-a730-ad1d866f9aed")
 		)
@@ -6688,11 +6811,9 @@
 		(lib_id "Device:C")
 		(at 55 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a1a612a-3ac8-402b-a235-8953b5ead319")
 		(property "Reference" "CF2"
@@ -6746,6 +6867,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "f7692024-a0a0-43a6-b17c-b4767b774d69")
 		)
@@ -6765,11 +6888,9 @@
 		(lib_id "Amplifier_Operational:OPA197xDGK")
 		(at 55 185 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e38a12c-4004-40fa-b23f-28e597554853")
 		(property "Reference" "U_TIA4"
@@ -6823,6 +6944,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "b9f0a04f-af81-40a2-a000-3ab9ad28b37a")
 		)
@@ -6860,11 +6983,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ea0d2f8-cda2-48d1-8eb4-f1220b1dd3a3")
 		(property "Reference" "TP_VEVENT_BL"
@@ -6918,6 +7039,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "aca33c42-ac16-4af8-be28-0be8a2776dfc")
 		)
@@ -6934,11 +7057,9 @@
 		(lib_id "Device:R")
 		(at 205 191 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1026b7b5-60c4-4ed0-b889-2fe532c940d1")
 		(property "Reference" "ROUT_OFF_BR"
@@ -6992,6 +7113,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7eff5f97-b97b-42ac-af0c-6f5daeb86996")
 		)
@@ -7011,11 +7134,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 146 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "10c4d40d-eb41-4c60-ac5f-b7f6613c4f39")
 		(property "Reference" "U_CMP3"
@@ -7069,6 +7190,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "e8798f07-9618-464d-8deb-71cd162f3def")
 		)
@@ -7106,11 +7229,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1144b89f-1a06-478e-b273-ebe287658a41")
 		(property "Reference" "TP_RAW_ON_BR"
@@ -7164,6 +7285,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3256e6ed-f861-429c-83d7-d47cb0ff2fc3")
 		)
@@ -7180,11 +7303,9 @@
 		(lib_id "Device:R")
 		(at 205 86 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "154a9b05-1698-429f-bb6b-6dbe90a45772")
 		(property "Reference" "ROUT_OFF_TL"
@@ -7238,6 +7359,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "8e2b022c-f57c-4b4c-bdc7-2711b4ec9a73")
 		)
@@ -7257,11 +7380,9 @@
 		(lib_id "Device:C")
 		(at 130 203 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "16e0f116-2e2e-4b73-9158-4f65f0a4731c")
 		(property "Reference" "C_DEC_CMP4"
@@ -7315,6 +7436,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "fc236a36-40c0-4473-bea8-d686d078f393")
 		)
@@ -7334,11 +7457,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 342.9 152.4 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "17c3de46-42c5-4987-9712-3779f0c0db93")
 		(property "Reference" "U_OS_ON_TR"
@@ -7392,6 +7513,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "4"
 			(uuid "8e492a6f-dc02-47c3-a3b1-0858671c5d5c")
 		)
@@ -7429,11 +7552,9 @@
 		(lib_id "Device:R")
 		(at 100 195 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a5dc68a-8044-4905-9baf-5202431e7120")
 		(property "Reference" "RA4"
@@ -7487,6 +7608,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "09986829-b173-414f-8942-04f12a4585cc")
 		)
@@ -7506,11 +7629,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b0d63f4-d8d3-4458-8003-8fbfe7c0bba7")
 		(property "Reference" "TP_3V3"
@@ -7564,6 +7685,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7282f6df-14df-4c4a-872c-d2291bed8d95")
 		)
@@ -7580,11 +7703,9 @@
 		(lib_id "Device:R")
 		(at 190 105 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b139d1b-35ac-48f3-8028-b6647ba75306")
 		(property "Reference" "ROS_ON_TR"
@@ -7638,6 +7759,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "96d797cb-e44d-4f1c-8908-59638867d135")
 		)
@@ -7657,11 +7780,9 @@
 		(lib_id "Device:R")
 		(at 100 160 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d79dd5e-c364-4e64-aa43-82383a303604")
 		(property "Reference" "RA3"
@@ -7715,6 +7836,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b1bef1a2-1c77-4dc5-be16-0b9b515fc25a")
 		)
@@ -7734,11 +7857,9 @@
 		(lib_id "Device:R")
 		(at 55 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d9e3d41-1e2c-492b-9f30-0f8908f5710a")
 		(property "Reference" "RF1"
@@ -7792,6 +7913,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cdbb4a45-cdf9-4744-893d-3a96727d85a6")
 		)
@@ -7811,11 +7934,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 342.9 101.6 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e6066da-388a-4341-ba02-0e34e4ea3c09")
 		(property "Reference" "U_OS_OFF_TL"
@@ -7869,6 +7990,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "a5002991-f5db-418a-89e9-37b647787333")
 		)
@@ -7906,11 +8029,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a7834c-f938-4046-a63f-05a78d8630d9")
 		(property "Reference" "TP_VPHOTO_BR"
@@ -7964,6 +8085,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "e2060d5c-cd10-4c87-bf7c-972b405ff064")
 		)
@@ -7980,11 +8103,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 156 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "23d2980a-42bf-440e-8167-f16d63b66811")
 		(property "Reference" "U_OS_OFF_BL"
@@ -8038,6 +8159,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "5e4bd5ad-d87f-4f4b-892f-b2580154e9bf")
 		)
@@ -8075,11 +8198,9 @@
 		(lib_id "Reference_Voltage:REF3012")
 		(at 80 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "242aa7e5-0873-49f7-b1f7-46c77bc33229")
 		(property "Reference" "U_REF"
@@ -8133,6 +8254,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "3"
 			(uuid "c99ff9ff-b330-4cca-bd22-44ee01443b15")
 		)
@@ -8155,11 +8278,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 154 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "29ec9522-b7e4-468f-b8be-dad6e5272d88")
 		(property "Reference" "U_CMP3"
@@ -8213,6 +8334,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "af9a6657-cd74-41fe-abb4-3bff73a9999b")
 		)
@@ -8250,11 +8373,9 @@
 		(lib_id "Device:C")
 		(at 45 125 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a785203-c60c-4b48-8efa-54f32b2d7bd4")
 		(property "Reference" "C_DEC_TIA2"
@@ -8308,6 +8429,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "ce125675-4a82-48fd-950b-1591088bf11a")
 		)
@@ -8327,11 +8450,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 127 0)
 		(unit 3)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cdb3515-d726-4749-8929-3dffab050b20")
 		(property "Reference" "U_CMP2"
@@ -8385,6 +8506,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "f5b32427-7be5-4adf-9a13-4f473c790b60")
 		)
@@ -8422,11 +8545,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e331c83-bdad-4b4f-a91d-794f4c50b6d6")
 		(property "Reference" "TP_VEVENT_TR"
@@ -8480,6 +8601,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4c92414c-6d71-4c1d-b515-bb8a33723957")
 		)
@@ -8496,11 +8619,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 55 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "30baa908-d941-48cd-83d7-f343c2365315")
 		(property "Reference" "TP_GND"
@@ -8554,6 +8675,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "172c187d-4333-4cf6-8099-c4eb5223d763")
 		)
@@ -8570,11 +8693,9 @@
 		(lib_id "Device:C")
 		(at 190 160 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "316c9666-cdd8-4202-a4b4-eb789fc8815f")
 		(property "Reference" "COS_OFF_BL"
@@ -8628,6 +8749,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "074dd330-71d2-4535-8227-4daee64aff9b")
 		)
@@ -8647,11 +8770,9 @@
 		(lib_id "Device:C")
 		(at 45 90 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "320dd17a-30cd-4d80-a83a-2ce630af249a")
 		(property "Reference" "C_DEC_TIA1"
@@ -8705,6 +8826,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4c79886b-91b0-47c9-9d0b-7d406e84aa53")
 		)
@@ -8724,11 +8847,9 @@
 		(lib_id "Device:R")
 		(at 190 175 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "36160ab8-10bc-47b2-8d7e-fff34758272b")
 		(property "Reference" "ROS_ON_BR"
@@ -8782,6 +8903,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8e6f132b-3321-44cd-a6e0-5911845bcbc4")
 		)
@@ -8801,11 +8924,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 130 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "36191e46-841f-4b6d-96dc-cd47731553b8")
 		(property "Reference" "TP_SPIKE_ON_TR"
@@ -8859,6 +8980,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "45725812-413c-43eb-93eb-8b600ab83a2d")
 		)
@@ -8875,11 +8998,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 145 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "36589b45-d58f-489a-9cde-2d7895da8a8b")
 		(property "Reference" "TP_SPIKE_ON_BR"
@@ -8933,6 +9054,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "678d1d19-1f0f-4a90-aceb-af525e899a65")
 		)
@@ -8949,11 +9072,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 130 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "37027f27-3747-42b4-9e09-c14aebe5f401")
 		(property "Reference" "TP_SPIKE_ON_BL"
@@ -9007,6 +9128,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f57267d1-b689-4dd7-b7b4-6bc17cfdbeff")
 		)
@@ -9023,11 +9146,9 @@
 		(lib_id "Sensor_Optical:BPW34-SMD")
 		(at 30 185 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "3815512e-e287-42f3-b993-c762b525612b")
 		(property "Reference" "DPD4"
@@ -9081,6 +9202,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cd4edf9b-adc2-426a-9e20-4b646acc792e")
 		)
@@ -9100,11 +9223,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "39124fb0-a4ee-4922-9e6c-1385ae8fa7d1")
 		(property "Reference" "TP_VEVENT_BR"
@@ -9158,6 +9279,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b58737e9-bbd4-4b44-883f-01ad65566e7f")
 		)
@@ -9174,11 +9297,9 @@
 		(lib_id "Amplifier_Operational:OPA197xDGK")
 		(at 55 150 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c433b9a-cc67-4465-9048-f9e8b23f01ca")
 		(property "Reference" "U_TIA3"
@@ -9232,6 +9353,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "539eb4eb-6e0b-499c-bce4-d843780d53d9")
 		)
@@ -9269,11 +9392,9 @@
 		(lib_id "Device:C")
 		(at 130 168 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ea2724a-93d9-426f-a597-929fd7443b33")
 		(property "Reference" "C_DEC_CMP3"
@@ -9327,6 +9448,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "837d73a4-782d-441b-8a8c-79446d617dd0")
 		)
@@ -9346,11 +9469,9 @@
 		(lib_id "Sensor_Optical:BPW34-SMD")
 		(at 30 150 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "428eea1a-7a07-41d3-9675-0ff324e4cdf4")
 		(property "Reference" "DPD3"
@@ -9404,6 +9525,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8b05a199-4362-4938-bd1d-bffb0e966a50")
 		)
@@ -9423,11 +9546,9 @@
 		(lib_id "Device:R")
 		(at 100 125 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "443c7564-544a-4581-aebf-27de34708d44")
 		(property "Reference" "RA2"
@@ -9481,6 +9602,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "4bf1b99e-79a2-45dd-9ba0-cc4cf2640a6b")
 		)
@@ -9500,11 +9623,9 @@
 		(lib_id "Device:R")
 		(at 55 140 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "457acb2c-bfdf-4f0a-86ce-a1d9e11db00a")
 		(property "Reference" "RF3"
@@ -9558,6 +9679,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "d6d46ea6-a7c4-41c6-a19c-648a865b4555")
 		)
@@ -9577,11 +9700,9 @@
 		(lib_id "Device:R")
 		(at 205 121 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "45800d50-d9e3-4b83-85b8-ecf6d1d7bdf2")
 		(property "Reference" "ROUT_OFF_TR"
@@ -9635,6 +9756,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "d0061801-d2af-4787-9417-01930163b28d")
 		)
@@ -9654,11 +9777,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 92 0)
 		(unit 3)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4929a45c-c945-4142-bfe1-8c237677ff86")
 		(property "Reference" "U_CMP1"
@@ -9712,6 +9833,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "4"
 			(uuid "0e913d47-5d91-4e82-a30d-1d365b5b4f35")
 		)
@@ -9749,11 +9872,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 130 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c1058d1-7d28-417a-91c0-21e307b993a2")
 		(property "Reference" "TP_SPIKE_OFF_TR"
@@ -9807,6 +9928,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "0e34b428-f6da-49c1-9198-6793967f5421")
 		)
@@ -9823,11 +9946,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cdaa103-fbd3-458d-921a-d02cb136a8a2")
 		(property "Reference" "TP_RAW_ON_TR"
@@ -9881,6 +10002,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4c57fc6a-f426-49b7-8843-24ce1aa30cb8")
 		)
@@ -9897,11 +10020,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fa6223d-cd25-4558-b5bf-a72fa58a4467")
 		(property "Reference" "TP_SPIKE_ON_TL"
@@ -9955,6 +10076,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "126de24c-4a9b-4332-b4a4-f668f3720981")
 		)
@@ -9971,11 +10094,9 @@
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 240 160 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fb24096-d78e-4898-afd8-881426573d7b")
 		(property "Reference" "J_DEBUG"
@@ -10029,6 +10150,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "1b05c758-53be-49f9-8b0e-6bb2afc901a6")
 		)
@@ -10060,11 +10183,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 381 203.2 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ffbdfd2-aa80-4e0b-aee1-d919f2d51321")
 		(property "Reference" "U_OS_OFF_BR"
@@ -10118,6 +10239,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "805d3197-f85d-4586-9b43-42aca9eb2c09")
 		)
@@ -10155,11 +10278,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 145 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c1325e-57c2-449d-9fff-d1fd838fd14e")
 		(property "Reference" "TP_SPIKE_OFF_BR"
@@ -10213,6 +10334,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "c33831df-3720-4329-8de7-f21ede615e7b")
 		)
@@ -10229,11 +10352,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "514626ea-98f5-49c1-97d3-4e87229c7436")
 		(property "Reference" "TP_RAW_OFF_TR"
@@ -10287,6 +10408,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "df9f8fbd-bdcf-4438-a909-b57f62ec987d")
 		)
@@ -10303,11 +10426,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "51d1e521-196c-4731-a2d4-06c158eab43f")
 		(property "Reference" "TP_RAW_OFF_BR"
@@ -10361,6 +10482,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f38040a4-dda8-479c-bd2f-9e0df9ccad20")
 		)
@@ -10377,11 +10500,9 @@
 		(lib_id "Device:R")
 		(at 190 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "561a3929-43f4-43eb-9f96-2ba97f46fd89")
 		(property "Reference" "ROS_ON_TL"
@@ -10435,6 +10556,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "67cf9dba-8e88-4776-8e6c-66d7fc9501d8")
 		)
@@ -10454,11 +10577,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 84 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "57232e28-2b65-4d35-8867-650e480945bc")
 		(property "Reference" "U_CMP1"
@@ -10512,6 +10633,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "e4b3fea8-6969-45ba-b9b9-55fdfd7d3c73")
 		)
@@ -10549,11 +10672,9 @@
 		(lib_id "Device:C")
 		(at 55 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d7592bc-c72f-4f5f-bdc2-e43ec5c5cf1b")
 		(property "Reference" "C_BULK_A"
@@ -10607,6 +10728,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "b8e36bac-7ed0-421d-b799-0658c237dac6")
 		)
@@ -10626,11 +10749,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d831001-1646-42af-a25c-da4b61e985ec")
 		(property "Reference" "TP_RAW_OFF_TL"
@@ -10684,6 +10805,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "32e0813a-99c5-4dfb-aba0-af468b786137")
 		)
@@ -10700,11 +10823,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 119 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e0ac3e2-23d1-4b4b-82bf-a829fda77755")
 		(property "Reference" "U_CMP2"
@@ -10758,6 +10879,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b6febc61-df8b-4731-8337-8359ebc546a5")
 		)
@@ -10795,11 +10918,9 @@
 		(lib_id "Device:C")
 		(at 85 80 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e3ce13a-bc85-4238-a27d-24af9de47c17")
 		(property "Reference" "CA1"
@@ -10853,6 +10974,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "6bad545d-a068-4788-b373-648006f690da")
 		)
@@ -10872,11 +10995,9 @@
 		(lib_id "Device:C")
 		(at 45 195 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f062eaf-0037-4c5a-8319-bfd208cb26c2")
 		(property "Reference" "C_DEC_TIA4"
@@ -10930,6 +11051,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "af736a7d-b1e0-4878-9fe8-af4c441bd074")
 		)
@@ -10949,11 +11072,9 @@
 		(lib_id "Device:C")
 		(at 130 98 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fc85f87-7ead-401e-baeb-6828cad9fdad")
 		(property "Reference" "C_DEC_CMP1"
@@ -11007,6 +11128,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "148c5bcf-177c-4d3f-9f55-cf3a1894c964")
 		)
@@ -11026,11 +11149,9 @@
 		(lib_id "Device:C")
 		(at 105 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "608b4d65-4c5a-47d9-a8fa-1fdf245ea895")
 		(property "Reference" "CREF2"
@@ -11084,6 +11205,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "31820fa5-b564-4782-b89c-10c23aa9c55f")
 		)
@@ -11103,11 +11226,9 @@
 		(lib_id "Device:R")
 		(at 190 140 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "615adc5d-8ded-4ac1-ba88-9629aed041c1")
 		(property "Reference" "ROS_ON_BL"
@@ -11161,6 +11282,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "0f4664a6-63ab-4aac-86e1-e4e68a364355")
 		)
@@ -11180,11 +11303,9 @@
 		(lib_id "Device:C")
 		(at 55 65 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "637fbed6-d038-4dff-a9a3-030f3c688760")
 		(property "Reference" "CF1"
@@ -11238,6 +11359,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "73f507a2-4ce9-4d3e-8348-a17e9bf549d6")
 		)
@@ -11257,11 +11380,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 55 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "6966302a-494e-4943-a491-f8473cafc03a")
 		(property "Reference" "TP_3V3_ANALOG"
@@ -11315,6 +11436,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "c145635e-ddab-4074-a4f6-c0adc472cd63")
 		)
@@ -11331,11 +11454,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 144 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7122f724-968d-4494-bd2a-7a5dd4f129c8")
 		(property "Reference" "U_OS_ON_BL"
@@ -11389,6 +11510,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4248fa5b-7abf-4bca-84f5-c566fb180e7d")
 		)
@@ -11426,11 +11549,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "73708e57-b77a-47e7-bf32-98270a0b78dc")
 		(property "Reference" "TP_RAW_OFF_BL"
@@ -11484,6 +11605,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cf44dc48-e9ed-4f7c-865c-36bdea53b418")
 		)
@@ -11500,11 +11623,9 @@
 		(lib_id "Device:R")
 		(at 150 47.7 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "73898243-00e8-48e1-a499-cad3e61fba7d")
 		(property "Reference" "RTHN_A"
@@ -11558,6 +11679,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "d7e5bfa6-72b8-43b7-8a36-704e787dfdb5")
 		)
@@ -11577,11 +11700,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 162 0)
 		(unit 3)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "738d3db2-8b26-4cd7-a106-d361e0f1fc52")
 		(property "Reference" "U_CMP3"
@@ -11635,6 +11756,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "4c1a13ae-a33a-44c6-976e-1863232735c8")
 		)
@@ -11672,11 +11795,9 @@
 		(lib_id "Device:C")
 		(at 190 113 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "75d4789c-c429-45c1-93ae-8ef196fd45a7")
 		(property "Reference" "COS_ON_TR"
@@ -11730,6 +11851,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7e29dd5c-d5bb-4e1a-8163-864dfb9fdff8")
 		)
@@ -11749,11 +11872,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 74 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "79102680-b835-4268-bc4d-96878c00b900")
 		(property "Reference" "U_OS_ON_TL"
@@ -11807,6 +11928,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "24b90326-f7c1-4ab5-93ae-ad2f8f334324")
 		)
@@ -11844,11 +11967,9 @@
 		(lib_id "Device:C")
 		(at 190 78 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "79e85e40-d377-42a4-a0b0-f5df68238e51")
 		(property "Reference" "COS_ON_TL"
@@ -11902,6 +12023,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "238c1085-c7e2-4e3c-82ff-7dfd58ea097f")
 		)
@@ -11921,11 +12044,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 342.9 203.2 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af4ef1b-7954-4e0d-b22c-8569cbce225b")
 		(property "Reference" "U_OS_OFF_TR"
@@ -11979,6 +12100,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "8"
 			(uuid "4b9af208-c79b-4fb2-b898-bfe2d3387056")
 		)
@@ -12016,11 +12139,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 381 101.6 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f04d821-b84b-4fe5-9937-65a4cc2a56e5")
 		(property "Reference" "U_OS_OFF_BL"
@@ -12074,6 +12195,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "53d34639-152e-4c46-a143-86b5ddec8db9")
 		)
@@ -12111,11 +12234,9 @@
 		(lib_id "Device:C")
 		(at 85 150 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "810c1d8c-230e-45f4-b5cf-675ba7721fee")
 		(property "Reference" "CA3"
@@ -12169,6 +12290,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "487e7c10-6d57-47c0-a3d3-62a43f5425fe")
 		)
@@ -12188,11 +12311,9 @@
 		(lib_id "Device:C")
 		(at 190 90 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "81fe6280-39fa-4f15-99aa-d5d6907d44d4")
 		(property "Reference" "COS_OFF_TL"
@@ -12246,6 +12367,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "81fe58a2-8f19-4a8e-8339-44cf826a81e1")
 		)
@@ -12265,11 +12388,9 @@
 		(lib_id "Device:C")
 		(at 25 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "823756a1-c5ff-4455-9e19-f0f864697396")
 		(property "Reference" "C_BULK_D"
@@ -12323,6 +12444,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "be3fb389-f80d-403a-9d38-7cb1fa9e0841")
 		)
@@ -12342,11 +12465,9 @@
 		(lib_id "Device:R")
 		(at 130 47.7 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "832da8c1-2d54-4dbb-885b-787ffe8f4e03")
 		(property "Reference" "RTHP_B"
@@ -12400,6 +12521,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "9a59aff5-7e02-4e17-aa7c-13087fe284e9")
 		)
@@ -12419,11 +12542,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 189 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "840caf73-1746-4e18-b11f-c919eaa3b9e5")
 		(property "Reference" "U_CMP4"
@@ -12477,6 +12598,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "91aa7e93-b7dc-4ce4-a757-e7422e29476e")
 		)
@@ -12514,11 +12637,9 @@
 		(lib_id "Sensor_Optical:BPW34-SMD")
 		(at 30 80 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "84318e15-cd51-4b5e-b81a-3053f60dae5f")
 		(property "Reference" "DPD1"
@@ -12572,6 +12693,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "3b2a0085-3c55-49b9-a099-459a406b56c4")
 		)
@@ -12591,11 +12714,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 285 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "86688318-0805-408e-a965-e1637f3308ff")
 		(property "Reference" "TP_VTH_ON"
@@ -12649,6 +12770,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "0fbee152-7686-4d2e-b640-c078c0b74141")
 		)
@@ -12665,11 +12788,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 157.48 208.28 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "88b8f437-e2c6-4c6e-b3ad-1f7b768cfa4a")
 		(property "Reference" "U_OS_OFF_BR"
@@ -12723,6 +12844,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "f0e7e96e-ecf8-4bf9-ac09-5013b4504036")
 		)
@@ -12760,11 +12883,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "89a21933-1458-4667-aed4-4d65fd31ee07")
 		(property "Reference" "TP_SPIKE_OFF_TL"
@@ -12818,6 +12939,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3a06028d-406a-4932-905b-7d25e1fe9ba9")
 		)
@@ -12834,11 +12957,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 86 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a624805-9404-40ae-b8e8-aac92269d894")
 		(property "Reference" "U_OS_OFF_TL"
@@ -12892,6 +13013,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "6b1c1d24-4b1e-495e-8949-2ab03a16b999")
 		)
@@ -12929,11 +13052,9 @@
 		(lib_id "Device:R")
 		(at 205 109 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a762032-1b0d-4e36-9050-97a295a19a21")
 		(property "Reference" "ROUT_ON_TR"
@@ -12987,6 +13108,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "89a62095-30a4-4497-8c99-405b48e57181")
 		)
@@ -13006,11 +13129,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d46df34-98df-4ae4-a870-3c32d47624d3")
 		(property "Reference" "TP_VTH_OFF"
@@ -13064,6 +13185,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3e3290a4-0bf8-4bc2-81a1-d48a043adf00")
 		)
@@ -13080,11 +13203,9 @@
 		(lib_id "Device:C")
 		(at 200.66 30.48 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eb1ea3a-45a3-451e-967d-1f0319c6f58e")
 		(property "Reference" "C_LED"
@@ -13138,6 +13259,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b77991df-2440-498d-8830-1ebbae12bf81")
 		)
@@ -13157,11 +13280,9 @@
 		(lib_id "Device:C")
 		(at 130 133 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "935e0644-d58c-4691-bb9d-f94dcf57d5d0")
 		(property "Reference" "C_DEC_CMP2"
@@ -13215,6 +13336,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cfafcf3e-813f-45f5-ba80-28a27b85783b")
 		)
@@ -13234,11 +13357,9 @@
 		(lib_id "Device:C")
 		(at 45 160 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "93a025cd-f46c-4e7a-aee4-ed4d45acae27")
 		(property "Reference" "C_DEC_TIA3"
@@ -13292,6 +13413,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "5106e842-27fc-4de2-bc4c-4cebf32f46e9")
 		)
@@ -13311,11 +13434,9 @@
 		(lib_id "Device:C")
 		(at 190 148 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "948695a4-9ad3-4033-b007-3c0a562a7388")
 		(property "Reference" "COS_ON_BL"
@@ -13369,6 +13490,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "c44424d6-cf11-4fbb-bc4d-cdc395c27fc4")
 		)
@@ -13388,11 +13511,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 197 0)
 		(unit 3)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "99bc2de3-1d0e-4a75-854c-116d4c14aaff")
 		(property "Reference" "U_CMP4"
@@ -13446,6 +13567,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "7"
 			(uuid "b90bf3d9-9c48-404b-aa86-3788e2128cd9")
 		)
@@ -13483,11 +13606,9 @@
 		(lib_id "Device:R")
 		(at 150 35 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de7f267-d2b9-4e11-b5ba-a5aed75641c7")
 		(property "Reference" "RTHN_B"
@@ -13541,6 +13662,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "afee21d1-8491-4098-8067-9261e208e8a8")
 		)
@@ -13560,11 +13683,9 @@
 		(lib_id "Sensor_Optical:BPW34-SMD")
 		(at 30 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0028dba-7c5e-40ae-ac6d-5bc81b913f96")
 		(property "Reference" "DPD2"
@@ -13618,6 +13739,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "9575ee2a-18b4-4f08-ae56-60e93238c7e8")
 		)
@@ -13637,11 +13760,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 179 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0e3e591-a19a-4d7b-985d-8c4679b544ca")
 		(property "Reference" "U_OS_ON_BR"
@@ -13695,6 +13816,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "37efe9d7-2cf2-47f5-8233-7be251cc512e")
 		)
@@ -13732,11 +13855,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2093795-a9ad-44fc-88b3-c3cbf4a45a25")
 		(property "Reference" "TP_RAW_ON_TL"
@@ -13790,6 +13911,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "84c65650-60c9-4a10-ba88-96e3f681e6c9")
 		)
@@ -13806,11 +13929,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 381 50.8 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8c9b21a-3d0f-45ef-9e91-bcd315b7102d")
 		(property "Reference" "U_OS_ON_BL"
@@ -13864,6 +13985,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "8"
 			(uuid "1e3f1773-c131-4791-8085-276eef63e878")
 		)
@@ -13901,11 +14024,9 @@
 		(lib_id "Amplifier_Operational:OPA197xDGK")
 		(at 55 80 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "abdd2c20-6999-408c-a26a-8440d9a5b42e")
 		(property "Reference" "U_TIA1"
@@ -13959,6 +14080,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "8"
 			(uuid "283830cf-d575-4e32-8caf-0cdd8f1badbf")
 		)
@@ -13996,11 +14119,9 @@
 		(lib_id "Device:C")
 		(at 85 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac47937e-626a-4dc7-8946-70662322ec27")
 		(property "Reference" "CA2"
@@ -14054,6 +14175,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "0c866168-dcf4-456f-abd1-6503633cbf92")
 		)
@@ -14073,11 +14196,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 55 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1a2fc8c-da11-4abf-b122-78e0d4fb4d74")
 		(property "Reference" "TP_VPHOTO_TR"
@@ -14131,6 +14252,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "2f7ed7b6-a14f-4bd0-bdb1-8dfc93b6a908")
 		)
@@ -14147,11 +14270,9 @@
 		(lib_id "Device:R")
 		(at 190 82 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b35a4298-b4fb-467b-88c6-8acc2c4035d5")
 		(property "Reference" "ROS_OFF_TL"
@@ -14205,6 +14326,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "0909b6db-78c2-4d35-b15c-3b3ec51f0edb")
 		)
@@ -14224,11 +14347,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 121 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b37cfe15-8ae2-42ec-82d5-917b1e3aaf9a")
 		(property "Reference" "U_OS_OFF_TR"
@@ -14282,6 +14403,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "5"
 			(uuid "169c655e-1a69-4728-acd7-754603451d93")
 		)
@@ -14319,11 +14442,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 342.9 50.8 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9beb9af-46a0-485a-9476-99be734f63f0")
 		(property "Reference" "U_OS_ON_TL"
@@ -14377,6 +14498,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "8"
 			(uuid "9c5bcc12-f26a-4fc3-abd5-7ffcfa2c3d5a")
 		)
@@ -14414,11 +14537,9 @@
 		(lib_id "Device:R")
 		(at 55 105 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb6d3fcf-f24b-4282-b015-4c9fac7ba639")
 		(property "Reference" "RF2"
@@ -14472,6 +14593,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "2a5b83f3-484b-4d9f-85e7-ebd5ada5759a")
 		)
@@ -14491,11 +14614,9 @@
 		(lib_id "Amplifier_Operational:OPA197xDGK")
 		(at 55 115 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc81471b-bff2-4844-9557-2f6dc3a27687")
 		(property "Reference" "U_TIA2"
@@ -14549,6 +14670,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b99dcd23-d04e-4ef9-85d9-7df21a722df0")
 		)
@@ -14586,11 +14709,9 @@
 		(lib_id "Device:R")
 		(at 190 117 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdf85870-af65-464c-b1b8-09b17eb2f2b3")
 		(property "Reference" "ROS_OFF_TR"
@@ -14644,6 +14765,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "d0ba8504-918c-465e-994a-6c9f1a9f7e4a")
 		)
@@ -14663,11 +14786,9 @@
 		(lib_id "Device:R")
 		(at 180 25 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "be38d990-37e1-4928-b426-42a3924d6a5c")
 		(property "Reference" "RLED"
@@ -14721,6 +14842,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "9d5e4b72-a9be-458a-b93f-aee89cc50925")
 		)
@@ -14740,11 +14863,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfb116ac-03d3-4627-9e65-0a6ba91abce4")
 		(property "Reference" "TP_RAW_ON_BL"
@@ -14798,6 +14919,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "19108cdd-7afe-444d-83d9-4746bfc8e749")
 		)
@@ -14814,11 +14937,9 @@
 		(lib_id "Device:C")
 		(at 95 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0e34f11-b104-4705-96b9-f41490066162")
 		(property "Reference" "CREF1"
@@ -14872,6 +14993,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "0b862e30-fbe0-4ba7-b17f-ba2b20314253")
 		)
@@ -14891,11 +15014,9 @@
 		(lib_id "Device:R")
 		(at 205 74 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3e84a17-4fa0-4676-8986-c743786c306b")
 		(property "Reference" "ROUT_ON_TL"
@@ -14949,6 +15070,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "4cf3926b-ebe9-4d35-bd41-090a5507c69e")
 		)
@@ -14968,11 +15091,9 @@
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 240 100 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c457b129-3c71-4eac-855c-d16b6e90c59f")
 		(property "Reference" "J_FPGA"
@@ -15026,6 +15147,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "9"
 			(uuid "ffb6ba7f-fd73-4ddf-8e37-4b64c83c0f05")
 		)
@@ -15069,11 +15192,9 @@
 		(lib_id "Device:R")
 		(at 170 50 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5456e2b-16ce-4b85-8888-762b6379cd0c")
 		(property "Reference" "RG"
@@ -15127,6 +15248,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "ddc3f018-41f4-43ba-8ed2-f9ea0baaff7d")
 		)
@@ -15146,11 +15269,9 @@
 		(lib_id "Device:C")
 		(at 190 195 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9af5608-c1e8-46dd-a47f-cad064128284")
 		(property "Reference" "COS_OFF_BR"
@@ -15204,6 +15325,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "4b737c4b-a877-4c32-9e1f-c2ff1b5f66ec")
 		)
@@ -15223,11 +15346,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 76 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9c1e01a-be18-415f-8fdb-a8a153a5ca03")
 		(property "Reference" "U_CMP1"
@@ -15281,6 +15402,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "6"
 			(uuid "ca686e49-bbb5-40b6-b817-1e485e798b76")
 		)
@@ -15318,11 +15441,9 @@
 		(lib_id "Device:R")
 		(at 55 175 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca2fdf36-8954-4d6f-8e78-37e568144353")
 		(property "Reference" "RF4"
@@ -15376,6 +15497,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "1458962b-bee0-4d4e-8a2f-0cdcf475ac21")
 		)
@@ -15395,11 +15518,9 @@
 		(lib_id "Device:R")
 		(at 190 187 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb6d914a-55ca-4074-a3ca-d6c7a5b5b199")
 		(property "Reference" "ROS_OFF_BR"
@@ -15453,6 +15574,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "3aa9a5fa-d690-4ec4-b950-20fb395eff68")
 		)
@@ -15472,11 +15595,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 315 130 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc35cb8e-84d6-49b9-b8f4-1891720b4949")
 		(property "Reference" "TP_SPIKE_OFF_BL"
@@ -15530,6 +15651,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "de05da60-cc49-4e03-9454-7f720233a935")
 		)
@@ -15546,11 +15669,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 175 109 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "cca79168-9947-40aa-9221-55b62ef1786f")
 		(property "Reference" "U_OS_ON_TR"
@@ -15604,6 +15725,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "4"
 			(uuid "fd8eb608-184e-410d-935c-2d1cc9667950")
 		)
@@ -15641,11 +15764,9 @@
 		(lib_id "Comparator:LM393")
 		(at 130 111 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d29c34ee-fd28-4c8e-a724-4be93228d920")
 		(property "Reference" "U_CMP2"
@@ -15699,6 +15820,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "08abb07f-e79a-4e2c-8505-31d5235fa8ca")
 		)
@@ -15736,11 +15859,9 @@
 		(lib_id "74xGxx:74LVC1G123")
 		(at 381 152.4 0)
 		(unit 2)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3519f4d-e36a-4b5c-9b69-98dcd5f8224a")
 		(property "Reference" "U_OS_ON_BR"
@@ -15794,6 +15915,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "e4020a28-08ea-487d-b452-1b961426967a")
 		)
@@ -15831,11 +15954,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d75ca1d3-9d03-4b55-99e6-2514ee483d25")
 		(property "Reference" "TP_VPHOTO_BL"
@@ -15889,6 +16010,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "17e951a5-3d51-413c-b839-e346e926d5ca")
 		)
@@ -15905,11 +16028,9 @@
 		(lib_id "Device:R")
 		(at 130 35 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d935709c-77dd-493a-b8d2-4d96043ee871")
 		(property "Reference" "RTHP_A"
@@ -15963,6 +16084,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "1e9f823b-a0e2-4fe5-9b3f-be84348aa881")
 		)
@@ -15982,11 +16105,9 @@
 		(lib_id "Device:R")
 		(at 205 144 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "db2a6f21-d97f-48e3-9d53-a57d0f43c4d4")
 		(property "Reference" "ROUT_ON_BL"
@@ -16040,6 +16161,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "e48ee062-9b73-4066-b79a-12792bc007ec")
 		)
@@ -16059,11 +16182,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 70 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd1dd60e-6b6f-4883-934c-c596e233fd6b")
 		(property "Reference" "TP_VEVENT_TL"
@@ -16117,6 +16238,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "419b07c9-409c-408e-a575-1ff1e8d9c55f")
 		)
@@ -16133,11 +16256,9 @@
 		(lib_id "Device:LED")
 		(at 184.15 36.83 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee1f886-74db-41b4-b611-fb67389d74f9")
 		(property "Reference" "LED1"
@@ -16191,6 +16312,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3b34c44d-db45-4261-b934-1f5193bb30a3")
 		)
@@ -16210,11 +16333,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 270 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb451f28-73bc-43cd-b9ad-1a04f59728bb")
 		(property "Reference" "TP_VREF"
@@ -16268,6 +16389,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "98037071-f692-42b7-912f-248a89913f5a")
 		)
@@ -16284,11 +16407,9 @@
 		(lib_id "Device:C")
 		(at 55 135 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed3d6484-90ce-4ce5-8306-45431d5ba429")
 		(property "Reference" "CF3"
@@ -16342,6 +16463,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7c8e547c-3eb6-4abf-aa18-a6ae22f26e2b")
 		)
@@ -16361,11 +16484,9 @@
 		(lib_id "Device:R")
 		(at 190 152 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed860c11-990d-47cd-bb4b-836df479e86a")
 		(property "Reference" "ROS_OFF_BL"
@@ -16419,6 +16540,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "08ad8758-afaa-4695-9a7e-df1c6f4d30ac")
 		)
@@ -16438,11 +16561,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 180 50 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "edd673b2-6fd3-435b-8871-22679ae3c176")
 		(property "Reference" "Q1"
@@ -16496,6 +16617,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "b7a82d52-7bcf-4513-97d9-ed89f9398c9c")
 		)
@@ -16518,11 +16641,9 @@
 		(lib_id "Device:C")
 		(at 55 170 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f24172b3-a95b-404a-ad2a-88d703411013")
 		(property "Reference" "CF4"
@@ -16576,6 +16697,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "a6bcfc43-884a-4d13-bd4a-99a938c4eb11")
 		)
@@ -16595,11 +16718,9 @@
 		(lib_id "Device:R")
 		(at 205 156 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3883d4e-dd94-43a8-861f-475440852237")
 		(property "Reference" "ROUT_OFF_BL"
@@ -16653,6 +16774,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "a6b3c973-8f9c-4ef7-858e-113342a02e3d")
 		)
@@ -16672,11 +16795,9 @@
 		(lib_id "Device:R")
 		(at 205 179 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7f90b7e-a30b-4158-b58b-f658f0da6a6e")
 		(property "Reference" "ROUT_ON_BR"
@@ -16730,6 +16851,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "41217d23-890a-483a-ad08-533554433619")
 		)
@@ -16749,11 +16872,9 @@
 		(lib_id "Device:L_Ferrite")
 		(at 40 40 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8190811-e8dc-4375-8ba3-62984f1bf9b0")
 		(property "Reference" "FB1"
@@ -16807,6 +16928,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "089db4f2-66c1-4f43-aaa6-5579a5b23c9c")
 		)
@@ -16826,11 +16949,9 @@
 		(lib_id "Device:R")
 		(at 170 60 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f85876f8-f982-4fe2-a1b2-a8a6721397c4")
 		(property "Reference" "RPD"
@@ -16884,6 +17005,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "eaba614e-f9b0-4dbf-ab33-bc63e0739d42")
 		)
@@ -16903,11 +17026,9 @@
 		(lib_id "Device:C")
 		(at 190 183 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9342017-ba68-4822-86a0-f8639232980a")
 		(property "Reference" "COS_ON_BR"
@@ -16961,6 +17082,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "758a572b-8b64-4f53-abca-f70c7c3377d6")
 		)
@@ -16980,11 +17103,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 300 55 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe1b41ca-fd36-46df-bd4d-efb2475106eb")
 		(property "Reference" "TP_VPHOTO_TL"
@@ -17038,6 +17159,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "be97a353-81cc-4e6e-a69d-8eba25285e71")
 		)
@@ -17054,11 +17177,9 @@
 		(lib_id "Device:C")
 		(at 85 185 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff7f8b54-749f-4e4e-8006-b8dd1370b154")
 		(property "Reference" "CA4"
@@ -17112,6 +17233,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "4477727f-f6d0-4c88-ba72-8cd7a627253e")
 		)
@@ -17127,10 +17250,10 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
