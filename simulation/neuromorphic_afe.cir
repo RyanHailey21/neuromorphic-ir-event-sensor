@@ -68,8 +68,8 @@ R_SH_PD IN_TIA VREF 10G
 R_F IN_TIA VPHOTO 18.0k
 C_F IN_TIA VPHOTO 47p
 
-* OPA381 Behavioral Macromodel (GBW = 18MHz, Aol = 110dB, Slew Rate = 12V/us)
-X_OPA381 VREF IN_TIA 3V3 0 VPHOTO OPA381_BEHAVIORAL
+* Texas Instruments Official OPA381 Macromodel (OPAx381.LIB from TI)
+X_OPA381 VREF IN_TIA 3V3 0 VPHOTO OPAx381
 
 * ==============================================================================
 * Temporal Adaptation / AC Differentiation Stage
@@ -113,21 +113,10 @@ R_TERM_OFF SPIKE_OFF 0 100k
 * Behavioral Subcircuit Definitions
 * ==============================================================================
 
-* OPA381 Macromodel
-.SUBCKT OPA381_BEHAVIORAL IN_P IN_N VDD VSS OUT
-* Differential input stage with Rin = 100G, Cin = 3p
-R_IN IN_P IN_N 100G
-C_IN IN_P IN_N 1.5p
-C_CM1 IN_P VSS 1.5p
-C_CM2 IN_N VSS 1.5p
-* Gain stage: Aol = 110dB (3.162e5), GBW = 18MHz -> dominant pole fp = GBW / Aol = 56.9 Hz
-* Modeled with transconductance gm = 1mS, R1 = 3.162e8, C1 = 8.84pF
-G_GAIN 0 N_GAIN IN_P IN_N 1.0m
-R_GAIN N_GAIN 0 316.2MEG
-C_GAIN N_GAIN 0 8.8419p
-* Rail-to-rail output buffer with clamping (Vol = 15mV, Voh = VDD - 25mV)
-B_OUT OUT 0 V = max(0.015, min(v(VDD) - 0.025, v(N_GAIN)))
-.ENDS OPA381_BEHAVIORAL
+* Texas Instruments Official Production SPICE Model (Rev B, 2022)
+* Downloaded directly from Texas Instruments (sboc073)
+* Pinout Order: +IN -IN +V -V OUT (pins 3 2 1 4 6)
+.include "simulation/ti_models/opa381/OPAx381.LIB"
 
 * TLV3202 Dual High-Speed Rail-to-Rail Comparator (tpd = 25ns, 4mV hysteresis)
 .SUBCKT TLV3202_BEHAVIORAL IN_P IN_N VDD VSS OUT
