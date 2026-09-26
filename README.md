@@ -2,7 +2,10 @@
 
 An analog front-end (AFE) neuromorphic infrared event sensor board designed in KiCad 10. The board implements biologically-inspired temporal contrast sensing across four quadrants (Top-Left, Top-Right, Bottom-Left, Bottom-Right), transducing rapid dynamic changes in infrared illumination into asynchronous digital spike trains suitable for direct FPGA processing.
 
-![3D Isometric Render](C:/Users/ryanh/.gemini/antigravity/brain/1d670f9c-6148-438e-9266-418825b1e656/sensor_3d_clean_iso.png)
+<p align="center">
+  <img src="docs/images/sensor_3d_iso.png" width="48%" alt="3D Isometric Render" />
+  <img src="docs/images/sensor_3d_top.png" width="48%" alt="3D Top Render" />
+</p>
 
 ---
 
