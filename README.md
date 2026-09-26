@@ -6,7 +6,7 @@ An analog front-end (AFE) neuromorphic infrared event sensor board designed in K
 
 | 3D Isometric View | 3D Top View |
 | :---: | :---: |
-| ![3D Isometric](docs/images/sensor_3d_iso.png?raw=true&v=2) | ![3D Top](docs/images/sensor_3d_top.png?raw=true&v=2) |
+| ![3D Isometric](docs/images/sensor_3d_iso.png?raw=true&v=4) | ![3D Top](docs/images/sensor_3d_top.png?raw=true&v=4) |
 
 ---
 

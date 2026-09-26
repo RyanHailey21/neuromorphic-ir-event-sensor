@@ -10603,6 +10603,17 @@
 			(uuid "727518ba-38f1-4c27-9dff-e85a89c421dd")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/m12_lens_mount_20mm.step"
+			(offset
+				(xyz 10 0 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
