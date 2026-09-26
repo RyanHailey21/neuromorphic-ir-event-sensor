@@ -1,0 +1,18 @@
+# KiCad temporary & backup files
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.kicad_*
+_autosave-*
+*.lck
+
+# Freerouting temporary artifacts
+*.freerouting.log
+*.dsn
+*.ses
+
+# Local companion & IDE artifacts
+.companion/
+.history/
+reports/*.json

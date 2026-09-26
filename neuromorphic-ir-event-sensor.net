@@ -1,0 +1,9560 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\ryanh\\neuromorphic-ir-event-sensor\\neuromorphic-ir-event-sensor.kicad_sch")
+		(date "2026-09-25T10:49:35")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Rev A Neuromorphic IR Event Sensor")
+				(company "Open SNN Robot Project")
+				(rev "Rev A")
+				(date "2026-09-25")
+				(source "neuromorphic-ir-event-sensor.kicad_sch")
+				(comment
+					(number "1")
+					(value "8-Channel Hardware Asynchronous Event Sensor for Tang Nano 20K")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "CA1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e3ce13a-bc85-4238-a27d-24af9de47c17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CA2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ac47937e-626a-4dc7-8946-70662322ec27")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CA3")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "810c1d8c-230e-45f4-b5cf-675ba7721fee")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CA4")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ff7f8b54-749f-4e4e-8006-b8dd1370b154")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CF1")
+			(value "47pF C0G")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "637fbed6-d038-4dff-a9a3-030f3c688760")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CF2")
+			(value "47pF C0G")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a1a612a-3ac8-402b-a235-8953b5ead319")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CF3")
+			(value "47pF C0G")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ed3d6484-90ce-4ce5-8306-45431d5ba429")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CF4")
+			(value "47pF C0G")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f24172b3-a95b-404a-ad2a-88d703411013")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_OFF_BL")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "316c9666-cdd8-4202-a4b4-eb789fc8815f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_OFF_BR")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9af5608-c1e8-46dd-a47f-cad064128284")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_OFF_TL")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81fe6280-39fa-4f15-99aa-d5d6907d44d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_OFF_TR")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "01bb622d-423c-44f8-b6a4-351347bf6cb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_ON_BL")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "948695a4-9ad3-4033-b007-3c0a562a7388")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_ON_BR")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f9342017-ba68-4822-86a0-f8639232980a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_ON_TL")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "79e85e40-d377-42a4-a0b0-f5df68238e51")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "COS_ON_TR")
+			(value "12nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "75d4789c-c429-45c1-93ae-8ef196fd45a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CREF1")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c0e34f11-b104-4705-96b9-f41490066162")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CREF2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "608b4d65-4c5a-47d9-a8fa-1fdf245ea895")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BULK_A")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d7592bc-c72f-4f5f-bdc2-e43ec5c5cf1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BULK_D")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "823756a1-c5ff-4455-9e19-f0f864697396")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_CMP1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5fc85f87-7ead-401e-baeb-6828cad9fdad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_CMP2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "935e0644-d58c-4691-bb9d-f94dcf57d5d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_CMP3")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ea2724a-93d9-426f-a597-929fd7443b33")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_CMP4")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "16e0f116-2e2e-4b73-9158-4f65f0a4731c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_TIA1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "320dd17a-30cd-4d80-a83a-2ce630af249a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_TIA2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a785203-c60c-4b48-8efa-54f32b2d7bd4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_TIA3")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "93a025cd-f46c-4e7a-aee4-ed4d45acae27")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DEC_TIA4")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5f062eaf-0037-4c5a-8319-bfd208cb26c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8eb1ea3a-45a3-451e-967d-1f0319c6f58e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DPD1")
+			(value "VBPW34FASR")
+			(footprint "OptoDevice:Osram_BPW34S-SMD")
+			(fields
+				(field
+					(name "Footprint") "OptoDevice:Osram_BPW34S-SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Sensor_Optical")
+				(part "BPW34-SMD")
+				(description "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "opto photodiode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Osram*BPW34S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "84318e15-cd51-4b5e-b81a-3053f60dae5f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DPD2")
+			(value "VBPW34FASR")
+			(footprint "OptoDevice:Osram_BPW34S-SMD")
+			(fields
+				(field
+					(name "Footprint") "OptoDevice:Osram_BPW34S-SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Sensor_Optical")
+				(part "BPW34-SMD")
+				(description "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "opto photodiode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Osram*BPW34S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a0028dba-7c5e-40ae-ac6d-5bc81b913f96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DPD3")
+			(value "VBPW34FASR")
+			(footprint "OptoDevice:Osram_BPW34S-SMD")
+			(fields
+				(field
+					(name "Footprint") "OptoDevice:Osram_BPW34S-SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Sensor_Optical")
+				(part "BPW34-SMD")
+				(description "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "opto photodiode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Osram*BPW34S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "428eea1a-7a07-41d3-9675-0ff324e4cdf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DPD4")
+			(value "VBPW34FASR")
+			(footprint "OptoDevice:Osram_BPW34S-SMD")
+			(fields
+				(field
+					(name "Footprint") "OptoDevice:Osram_BPW34S-SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Sensor_Optical")
+				(part "BPW34-SMD")
+				(description "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "opto photodiode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Osram*BPW34S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3815512e-e287-42f3-b993-c762b525612b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB1")
+			(value "BLM18AG601SN1D")
+			(footprint "Inductor_SMD:L_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "L_Ferrite")
+				(description "Inductor with ferrite core")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f8190811-e8dc-4375-8ba3-62984f1bf9b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_DEBUG")
+			(value "Analog_Debug")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x06")
+				(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4fb24096-d78e-4898-afd8-881426573d7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_FPGA")
+			(value "Tang_Nano_Event_Out")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x05_Odd_Even")
+				(description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c457b129-3c71-4eac-855c-d16b6e90c59f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "TSAL6200")
+			(footprint "LED_THT:LED_D5.0mm")
+			(fields
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dee1f886-74db-41b4-b611-fb67389d74f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AO3400A")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_NMOS")
+				(description "N-MOSFET transistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NMOS N-MOS")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "edd673b2-6fd3-435b-8871-22679ae3c176")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RA1")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "050c0552-1432-45c2-bfb9-a59cd869d22e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RA2")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "443c7564-544a-4581-aebf-27de34708d44")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RA3")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d79dd5e-c364-4e64-aa43-82383a303604")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RA4")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a5dc68a-8044-4905-9baf-5202431e7120")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RF1")
+			(value "18.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d9e3d41-1e2c-492b-9f30-0f8908f5710a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RF2")
+			(value "18.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb6d3fcf-f24b-4282-b015-4c9fac7ba639")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RF3")
+			(value "18.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "457acb2c-bfdf-4f0a-86ce-a1d9e11db00a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RF4")
+			(value "18.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca2fdf36-8954-4d6f-8e78-37e568144353")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RG")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c5456e2b-16ce-4b85-8888-762b6379cd0c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RLED")
+			(value "82R 1206")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be38d990-37e1-4928-b426-42a3924d6a5c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_OFF_BL")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ed860c11-990d-47cd-bb4b-836df479e86a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_OFF_BR")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cb6d914a-55ca-4074-a3ca-d6c7a5b5b199")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_OFF_TL")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b35a4298-b4fb-467b-88c6-8acc2c4035d5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_OFF_TR")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bdf85870-af65-464c-b1b8-09b17eb2f2b3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_ON_BL")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "615adc5d-8ded-4ac1-ba88-9629aed041c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_ON_BR")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36160ab8-10bc-47b2-8d7e-fff34758272b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_ON_TL")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "561a3929-43f4-43eb-9f96-2ba97f46fd89")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROS_ON_TR")
+			(value "8.2k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b139d1b-35ac-48f3-8028-b6647ba75306")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_OFF_BL")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f3883d4e-dd94-43a8-861f-475440852237")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_OFF_BR")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1026b7b5-60c4-4ed0-b889-2fe532c940d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_OFF_TL")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "154a9b05-1698-429f-bb6b-6dbe90a45772")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_OFF_TR")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45800d50-d9e3-4b83-85b8-ecf6d1d7bdf2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_ON_BL")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db2a6f21-d97f-48e3-9d53-a57d0f43c4d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_ON_BR")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f7f90b7e-a30b-4158-b58b-f658f0da6a6e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_ON_TL")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c3e84a17-4fa0-4676-8986-c743786c306b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ROUT_ON_TR")
+			(value "150R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a762032-1b0d-4e36-9050-97a295a19a21")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RPD")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f85876f8-f982-4fe2-a1b2-a8a6721397c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RTHN_A")
+			(value "301k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73898243-00e8-48e1-a499-cad3e61fba7d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RTHN_B")
+			(value "10.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9de7f267-d2b9-4e11-b5ba-a5aed75641c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RTHP_A")
+			(value "499k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d935709c-77dd-493a-b8d2-4d96043ee871")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RTHP_B")
+			(value "10.0k 0.1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "832da8c1-2d54-4dbb-885b-787ffe8f4e03")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_3V3")
+			(value "3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b0d63f4-d8d3-4458-8003-8fbfe7c0bba7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_3V3_ANALOG")
+			(value "3V3_ANALOG")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6966302a-494e-4943-a491-f8473cafc03a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30baa908-d941-48cd-83d7-f343c2365315")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_OFF_BL")
+			(value "RAW_OFF_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73708e57-b77a-47e7-bf32-98270a0b78dc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_OFF_BR")
+			(value "RAW_OFF_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "51d1e521-196c-4731-a2d4-06c158eab43f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_OFF_TL")
+			(value "RAW_OFF_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d831001-1646-42af-a25c-da4b61e985ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_OFF_TR")
+			(value "RAW_OFF_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "514626ea-98f5-49c1-97d3-4e87229c7436")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_ON_BL")
+			(value "RAW_ON_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bfb116ac-03d3-4627-9e65-0a6ba91abce4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_ON_BR")
+			(value "RAW_ON_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1144b89f-1a06-478e-b273-ebe287658a41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_ON_TL")
+			(value "RAW_ON_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a2093795-a9ad-44fc-88b3-c3cbf4a45a25")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_RAW_ON_TR")
+			(value "RAW_ON_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4cdaa103-fbd3-458d-921a-d02cb136a8a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_OFF_BL")
+			(value "SPIKE_OFF_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc35cb8e-84d6-49b9-b8f4-1891720b4949")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_OFF_BR")
+			(value "SPIKE_OFF_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "50c1325e-57c2-449d-9fff-d1fd838fd14e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_OFF_TL")
+			(value "SPIKE_OFF_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89a21933-1458-4667-aed4-4d65fd31ee07")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_OFF_TR")
+			(value "SPIKE_OFF_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c1058d1-7d28-417a-91c0-21e307b993a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_ON_BL")
+			(value "SPIKE_ON_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "37027f27-3747-42b4-9e09-c14aebe5f401")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_ON_BR")
+			(value "SPIKE_ON_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36589b45-d58f-489a-9cde-2d7895da8a8b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_ON_TL")
+			(value "SPIKE_ON_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4fa6223d-cd25-4558-b5bf-a72fa58a4467")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SPIKE_ON_TR")
+			(value "SPIKE_ON_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36191e46-841f-4b6d-96dc-cd47731553b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VEVENT_BL")
+			(value "VEVENT_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0ea0d2f8-cda2-48d1-8eb4-f1220b1dd3a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VEVENT_BR")
+			(value "VEVENT_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39124fb0-a4ee-4922-9e6c-1385ae8fa7d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VEVENT_TL")
+			(value "VEVENT_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd1dd60e-6b6f-4883-934c-c596e233fd6b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VEVENT_TR")
+			(value "VEVENT_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e331c83-bdad-4b4f-a91d-794f4c50b6d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VPHOTO_BL")
+			(value "VPHOTO_BL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d75ca1d3-9d03-4b55-99e6-2514ee483d25")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VPHOTO_BR")
+			(value "VPHOTO_BR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22a7834c-f938-4046-a63f-05a78d8630d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VPHOTO_TL")
+			(value "VPHOTO_TL")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe1b41ca-fd36-46df-bd4d-efb2475106eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VPHOTO_TR")
+			(value "VPHOTO_TR")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1a2fc8c-da11-4abf-b122-78e0d4fb4d74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VREF")
+			(value "VREF")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb451f28-73bc-43cd-b9ad-1a04f59728bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VTH_OFF")
+			(value "VTH_OFF")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8d46df34-98df-4ae4-a870-3c32d47624d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VTH_ON")
+			(value "VTH_ON")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86688318-0805-408e-a965-e1637f3308ff")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_CMP1")
+			(value "TLV3202AIDR")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Comparator")
+				(part "LM393")
+				(description "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cmp open collector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9c1e01a-be18-415f-8fdb-a8a153a5ca03" "57232e28-2b65-4d35-8867-650e480945bc"
+				"4929a45c-c945-4142-bfe1-8c237677ff86"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_CMP2")
+			(value "TLV3202AIDR")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Comparator")
+				(part "LM393")
+				(description "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cmp open collector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d29c34ee-fd28-4c8e-a724-4be93228d920" "5e0ac3e2-23d1-4b4b-82bf-a829fda77755"
+				"2cdb3515-d726-4749-8929-3dffab050b20"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_CMP3")
+			(value "TLV3202AIDR")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Comparator")
+				(part "LM393")
+				(description "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cmp open collector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29ec9522-b7e4-468f-b8be-dad6e5272d88" "738d3db2-8b26-4cd7-a106-d361e0f1fc52"
+				"10c4d40d-eb41-4c60-ac5f-b7f6613c4f39"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_CMP4")
+			(value "TLV3202AIDR")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Comparator")
+				(part "LM393")
+				(description "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cmp open collector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "99bc2de3-1d0e-4a75-854c-116d4c14aaff" "840caf73-1746-4e18-b11f-c919eaa3b9e5"
+				"01474b8e-0cd9-4ac8-b6b5-f225245d1084"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_OFF_BL")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7f04d821-b84b-4fe5-9937-65a4cc2a56e5" "23d2980a-42bf-440e-8167-f16d63b66811")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_OFF_BR")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88b8f437-e2c6-4c6e-b3ad-1f7b768cfa4a" "4ffbdfd2-aa80-4e0b-aee1-d919f2d51321")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_OFF_TL")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a624805-9404-40ae-b8e8-aac92269d894" "1e6066da-388a-4341-ba02-0e34e4ea3c09")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_OFF_TR")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b37cfe15-8ae2-42ec-82d5-917b1e3aaf9a" "7af4ef1b-7954-4e0d-b22c-8569cbce225b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_ON_BL")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a8c9b21a-3d0f-45ef-9e91-bcd315b7102d" "7122f724-968d-4494-bd2a-7a5dd4f129c8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_ON_BR")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d3519f4d-e36a-4b5c-9b69-98dcd5f8224a" "a0e3e591-a19a-4d7b-985d-8c4679b544ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_ON_TL")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b9beb9af-46a0-485a-9476-99be734f63f0" "79102680-b835-4268-bc4d-96878c00b900")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OS_ON_TR")
+			(value "74LVC1G123")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G123")
+				(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Mono Multivibrator CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*2.95x2.8mm*P0.65* VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cca79168-9947-40aa-9221-55b62ef1786f" "17c3de46-42c5-4987-9712-3779f0c0db93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_REF")
+			(value "REF3312AIDBZR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-3")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Reference_Voltage")
+				(part "REF3012")
+				(description "1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "voltage reference")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "242aa7e5-0873-49f7-b1f7-46c77bc33229")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TIA1")
+			(value "OPA381AIDGKR")
+			(footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:MSOP-8_3x3mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Amplifier_Operational")
+				(part "OPA197xDGK")
+				(description "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp rtor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "VSSOP*3x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abdd2c20-6999-408c-a26a-8440d9a5b42e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TIA2")
+			(value "OPA381AIDGKR")
+			(footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:MSOP-8_3x3mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Amplifier_Operational")
+				(part "OPA197xDGK")
+				(description "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp rtor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "VSSOP*3x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc81471b-bff2-4844-9557-2f6dc3a27687")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TIA3")
+			(value "OPA381AIDGKR")
+			(footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:MSOP-8_3x3mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Amplifier_Operational")
+				(part "OPA197xDGK")
+				(description "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp rtor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "VSSOP*3x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c433b9a-cc67-4465-9048-f9e8b23f01ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TIA4")
+			(value "OPA381AIDGKR")
+			(footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:MSOP-8_3x3mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Amplifier_Operational")
+				(part "OPA197xDGK")
+				(description "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "neuromorphic-ir-event-sensor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "neuromorphic-ir-event-sensor.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp rtor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "VSSOP*3x3mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e38a12c-4004-40fa-b23f-28e597554853")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "74xGxx")
+			(part "74LVC1G123")
+			(description "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			(docs "http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf")
+			(footprints
+				(fp "SSOP*2.95x2.8mm*P0.65*")
+				(fp "VSSOP*2.3x2mm*P0.5mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC1G123")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf")
+				(field
+					(name "Description") "Single Retriggerable Monostable Multivibrator, Low-Voltage CMOS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{A}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "~{CLR}")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "Q")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "Cext")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "RCext")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Amplifier_Operational")
+			(part "OPA197xDGK")
+			(description "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			(docs "http://www.ti.com/lit/ds/symlink/opa197.pdf")
+			(footprints
+				(fp "VSSOP*3x3mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "OPA197xDGK")
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_3x3mm_P0.65mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa197.pdf")
+				(field
+					(name "Description") "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "NC")
+					(type "no_connect")
+				)
+			)
+		)
+		(libpart
+			(lib "Comparator")
+			(part "LM393")
+			(description "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			(docs "http://www.ti.com/lit/ds/symlink/lm393.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+				(fp "DIP*W7.62mm*")
+				(fp "SOP*5.28x5.23mm*P1.27mm*")
+				(fp "VSSOP*3x3mm*P0.65mm*")
+				(fp "TSSOP*4.4x3mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LM393")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm393.pdf")
+				(field
+					(name "Description") "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "open_collector")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "")
+					(type "open_collector")
+				)
+				(pin
+					(num "8")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x06")
+			(description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x06")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x05_Odd_Even")
+			(description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x05_Odd_Even")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L_Ferrite")
+			(description "Inductor with ferrite core")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L_Ferrite")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor with ferrite core")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Q_NMOS")
+			(description "N-MOSFET transistor")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Reference_Voltage")
+			(part "REF3012")
+			(description "1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3")
+			(docs "http://www.ti.com/lit/ds/symlink/ref3033.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "REF3012")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ref3033.pdf")
+				(field
+					(name "Description") "1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Sensor_Optical")
+			(part "BPW34-SMD")
+			(description "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			(docs "https://dammedia.osram.info/media/resource/hires/osram-dam-5488319/BPW%2034%20S_EN.pdf")
+			(footprints
+				(fp "Osram*BPW34S*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "BPW34-SMD")
+				(field
+					(name "Footprint") "OptoDevice:Osram_BPW34S-SMD")
+				(field
+					(name "Datasheet") "https://dammedia.osram.info/media/resource/hires/osram-dam-5488319/BPW%2034%20S_EN.pdf")
+				(field
+					(name "Description") "Silicon PIN Photodiode, Area 2.65x2.65mm")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "74xGxx")
+			(uri "${KICAD10_SYMBOL_DIR}/74xGxx.kicad_sym")
+		)
+		(library
+			(logical "Amplifier_Operational")
+			(uri "${KICAD10_SYMBOL_DIR}/Amplifier_Operational.kicad_sym")
+		)
+		(library
+			(logical "Comparator")
+			(uri "${KICAD10_SYMBOL_DIR}/Comparator.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Reference_Voltage")
+			(uri "${KICAD10_SYMBOL_DIR}/Reference_Voltage.kicad_sym")
+		)
+		(library
+			(logical "Sensor_Optical")
+			(uri "${KICAD10_SYMBOL_DIR}/Sensor_Optical.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/3V3")
+			(class "Default")
+			(node
+				(ref "C_BULK_D")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_FPGA")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "3")
+				(pinfunction "~{CLR}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/3V3_ANALOG")
+			(class "Default")
+			(node
+				(ref "C_BULK_A")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHP_A")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_REF")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA1")
+				(pin "7")
+				(pinfunction "V+_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA2")
+				(pin "7")
+				(pinfunction "V+_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA3")
+				(pin "7")
+				(pinfunction "V+_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA4")
+				(pin "7")
+				(pinfunction "V+_7")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "CREF1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "CREF2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BULK_A")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BULK_D")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_CMP4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DEC_TIA4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_FPGA")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHN_A")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "1")
+				(pinfunction "~{A}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_REF")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA1")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA2")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA3")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TIA4")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "/LED_EN")
+			(class "Default")
+			(node
+				(ref "RG")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/LED_GATE")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "RG")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RPD")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/LED_K")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RLED")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/NET_CEXT_OFF_BL")
+			(class "Default")
+			(node
+				(ref "COS_OFF_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "/NET_CEXT_OFF_BR")
+			(class "Default")
+			(node
+				(ref "COS_OFF_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/NET_CEXT_OFF_TL")
+			(class "Default")
+			(node
+				(ref "COS_OFF_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "/NET_CEXT_OFF_TR")
+			(class "Default")
+			(node
+				(ref "COS_OFF_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/NET_CEXT_ON_BL")
+			(class "Default")
+			(node
+				(ref "COS_ON_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/NET_CEXT_ON_BR")
+			(class "Default")
+			(node
+				(ref "COS_ON_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/NET_CEXT_ON_TL")
+			(class "Default")
+			(node
+				(ref "COS_ON_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/NET_CEXT_ON_TR")
+			(class "Default")
+			(node
+				(ref "COS_ON_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "6")
+				(pinfunction "Cext_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/NET_OS_OUT_OFF_BL")
+			(class "Default")
+			(node
+				(ref "ROUT_OFF_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/NET_OS_OUT_OFF_BR")
+			(class "Default")
+			(node
+				(ref "ROUT_OFF_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "17")
+			(name "/NET_OS_OUT_OFF_TL")
+			(class "Default")
+			(node
+				(ref "ROUT_OFF_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "18")
+			(name "/NET_OS_OUT_OFF_TR")
+			(class "Default")
+			(node
+				(ref "ROUT_OFF_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "19")
+			(name "/NET_OS_OUT_ON_BL")
+			(class "Default")
+			(node
+				(ref "ROUT_ON_BL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "20")
+			(name "/NET_OS_OUT_ON_BR")
+			(class "Default")
+			(node
+				(ref "ROUT_ON_BR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "21")
+			(name "/NET_OS_OUT_ON_TL")
+			(class "Default")
+			(node
+				(ref "ROUT_ON_TL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "22")
+			(name "/NET_OS_OUT_ON_TR")
+			(class "Default")
+			(node
+				(ref "ROUT_ON_TR")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "23")
+			(name "/NET_Q1_DRAIN")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RLED")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/NET_REXT_OFF_BL")
+			(class "Default")
+			(node
+				(ref "COS_OFF_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "25")
+			(name "/NET_REXT_OFF_BR")
+			(class "Default")
+			(node
+				(ref "COS_OFF_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "/NET_REXT_OFF_TL")
+			(class "Default")
+			(node
+				(ref "COS_OFF_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "27")
+			(name "/NET_REXT_OFF_TR")
+			(class "Default")
+			(node
+				(ref "COS_OFF_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_OFF_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "28")
+			(name "/NET_REXT_ON_BL")
+			(class "Default")
+			(node
+				(ref "COS_ON_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "29")
+			(name "/NET_REXT_ON_BR")
+			(class "Default")
+			(node
+				(ref "COS_ON_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "30")
+			(name "/NET_REXT_ON_TL")
+			(class "Default")
+			(node
+				(ref "COS_ON_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "/NET_REXT_ON_TR")
+			(class "Default")
+			(node
+				(ref "COS_ON_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROS_ON_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "7")
+				(pinfunction "RCext_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "32")
+			(name "/NET_TIA_IN_BL")
+			(class "Default")
+			(node
+				(ref "CF3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "33")
+			(name "/NET_TIA_IN_BR")
+			(class "Default")
+			(node
+				(ref "CF4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA4")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "/NET_TIA_IN_TL")
+			(class "Default")
+			(node
+				(ref "CF1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "/NET_TIA_IN_TR")
+			(class "Default")
+			(node
+				(ref "CF2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "/RAW_OFF_BL")
+			(class "Default")
+			(node
+				(ref "U_CMP3")
+				(pin "7")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_OFF_BL")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "/RAW_OFF_BR")
+			(class "Default")
+			(node
+				(ref "U_CMP4")
+				(pin "7")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_OFF_BR")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "38")
+			(name "/RAW_OFF_TL")
+			(class "Default")
+			(node
+				(ref "U_CMP1")
+				(pin "7")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_OFF_TL")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "39")
+			(name "/RAW_OFF_TR")
+			(class "Default")
+			(node
+				(ref "U_CMP2")
+				(pin "7")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_OFF_TR")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "40")
+			(name "/RAW_ON_BL")
+			(class "Default")
+			(node
+				(ref "U_CMP3")
+				(pin "1")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_ON_BL")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "41")
+			(name "/RAW_ON_BR")
+			(class "Default")
+			(node
+				(ref "U_CMP4")
+				(pin "1")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_ON_BR")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "/RAW_ON_TL")
+			(class "Default")
+			(node
+				(ref "U_CMP1")
+				(pin "1")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_ON_TL")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "43")
+			(name "/RAW_ON_TR")
+			(class "Default")
+			(node
+				(ref "U_CMP2")
+				(pin "1")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "U_OS_ON_TR")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "44")
+			(name "/SPIKE_OFF_BL")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_OFF_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "/SPIKE_OFF_BR")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_OFF_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "/SPIKE_OFF_TL")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_OFF_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "/SPIKE_OFF_TR")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_OFF_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "/SPIKE_ON_BL")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_ON_BL")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "/SPIKE_ON_BR")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_ON_BR")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "/SPIKE_ON_TL")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_ON_TL")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "/SPIKE_ON_TR")
+			(class "Default")
+			(node
+				(ref "J_FPGA")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "ROUT_ON_TR")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "/VEVENT_BL")
+			(class "Default")
+			(node
+				(ref "CA3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "53")
+			(name "/VEVENT_BR")
+			(class "Default")
+			(node
+				(ref "CA4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "54")
+			(name "/VEVENT_TL")
+			(class "Default")
+			(node
+				(ref "CA1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "55")
+			(name "/VEVENT_TR")
+			(class "Default")
+			(node
+				(ref "CA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "56")
+			(name "/VPHOTO_BL")
+			(class "Default")
+			(node
+				(ref "CA3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "CF3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA3")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "57")
+			(name "/VPHOTO_BR")
+			(class "Default")
+			(node
+				(ref "CA4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "CF4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA4")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "58")
+			(name "/VPHOTO_TL")
+			(class "Default")
+			(node
+				(ref "CA1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "CF1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA1")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "59")
+			(name "/VPHOTO_TR")
+			(class "Default")
+			(node
+				(ref "CA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "CF2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "RF2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TIA2")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "60")
+			(name "/VREF")
+			(class "Default")
+			(node
+				(ref "CREF1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "CREF2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "DPD4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DEBUG")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RA4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHN_B")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHP_B")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_REF")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U_TIA1")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_TIA2")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_TIA3")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_TIA4")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "/VTH_OFF")
+			(class "Default")
+			(node
+				(ref "RTHN_A")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHN_B")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "/VTH_ON")
+			(class "Default")
+			(node
+				(ref "RTHP_A")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RTHP_B")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_CMP1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U_CMP4")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(LED1-K-Pad1)")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(RPD-Pad2)")
+			(class "Default")
+			(node
+				(ref "RPD")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(TP_3V3-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_3V3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(TP_3V3_ANALOG-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_3V3_ANALOG")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(TP_GND-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_GND")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(TP_RAW_OFF_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_OFF_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(TP_RAW_OFF_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_OFF_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(TP_RAW_OFF_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_OFF_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(TP_RAW_OFF_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_OFF_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(TP_RAW_ON_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_ON_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(TP_RAW_ON_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_ON_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(TP_RAW_ON_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_ON_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(TP_RAW_ON_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_RAW_ON_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(TP_SPIKE_OFF_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_OFF_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(TP_SPIKE_OFF_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_OFF_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(TP_SPIKE_OFF_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_OFF_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(TP_SPIKE_OFF_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_OFF_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(TP_SPIKE_ON_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_ON_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(TP_SPIKE_ON_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_ON_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(TP_SPIKE_ON_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_ON_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(TP_SPIKE_ON_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_SPIKE_ON_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(TP_VEVENT_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VEVENT_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(TP_VEVENT_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VEVENT_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(TP_VEVENT_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VEVENT_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(TP_VEVENT_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VEVENT_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(TP_VPHOTO_BL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VPHOTO_BL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(TP_VPHOTO_BR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VPHOTO_BR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(TP_VPHOTO_TL-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VPHOTO_TL")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(TP_VPHOTO_TR-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VPHOTO_TR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(TP_VREF-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VREF")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(TP_VTH_OFF-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VTH_OFF")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(TP_VTH_ON-Pad1)")
+			(class "Default")
+			(node
+				(ref "TP_VTH_ON")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(U_TIA1-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U_TIA1")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(U_TIA1-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "U_TIA1")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "97")
+			(name "unconnected-(U_TIA1-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_TIA1")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(U_TIA2-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U_TIA2")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "99")
+			(name "unconnected-(U_TIA2-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "U_TIA2")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(U_TIA2-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_TIA2")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(U_TIA3-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U_TIA3")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(U_TIA3-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "U_TIA3")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(U_TIA3-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_TIA3")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "104")
+			(name "unconnected-(U_TIA4-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U_TIA4")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "105")
+			(name "unconnected-(U_TIA4-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "U_TIA4")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "106")
+			(name "unconnected-(U_TIA4-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U_TIA4")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+	)
+)
