@@ -6,7 +6,7 @@ An analog front-end (AFE) neuromorphic infrared event sensor board designed in K
 
 | 3D Isometric View | 3D Top View |
 | :---: | :---: |
-| ![3D Isometric](docs/images/sensor_3d_iso.png?raw=true&v=4) | ![3D Top](docs/images/sensor_3d_top.png?raw=true&v=4) |
+| ![3D Isometric](docs/images/sensor_3d_iso.png?raw=true&v=5) | ![3D Top](docs/images/sensor_3d_top.png?raw=true&v=5) |
 
 ---
 
@@ -115,6 +115,7 @@ The board has been thoroughly verified using KiCad 10 CLI verification:
 ## 5. Turnkey Production Package
 
 Ready-to-manufacture files are located in the `production/` and `gerbers/` directories:
+- **3D CAD STEP Model (Full Assembly)**: [`production/neuromorphic-ir-event-sensor-revA.step`](production/neuromorphic-ir-event-sensor-revA.step) *(Ready for direct import into OnShape, SolidWorks, or FreeCAD for mechanical enclosure/lens housing modeling)*
 - **Gerbers & Drill Archive**: `production/neuromorphic-ir-event-sensor-revA-gerber.zip`
 - **Bill of Materials**: `production/neuromorphic-ir-event-sensor-bom.csv` (92 components, 27 unique groups)
 - **Pick-and-Place (CPL)**: `production/neuromorphic-ir-event-sensor-cpl.csv`
