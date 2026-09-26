@@ -118,9 +118,9 @@ Emitter:
 
 Nominal wavelength:
 
-\[
+$$
 \lambda \approx 940\text{ nm}
-\]
+$$
 
 The target contains no electronics or IR emitter.
 
@@ -258,9 +258,9 @@ Each optical channel generates:
 
 Total:
 
-\[
+$$
 4 \times 2 = 8
-\]
+$$
 
 hardware spike outputs.
 
@@ -270,9 +270,9 @@ hardware spike outputs.
 
 Nominal system supply:
 
-\[
-V_{CC}=3.3\text{ V}
-\]
+$$
+V_{\text{CC}} = 3.3\text{ V}
+$$
 
 All active electronics must operate directly from 3.3 V.
 
@@ -290,9 +290,9 @@ Use:
 
 Reference voltage:
 
-\[
-V_{REF}=1.25\text{ V}
-\]
+$$
+V_{\text{REF}} = 1.25\text{ V}
+$$
 
 This replaces the earlier 1.65 V concept.
 
@@ -324,9 +324,9 @@ Each photodiode uses one:
 
 Quantity:
 
-\[
+$$
 4
-\]
+$$
 
 Preferred ordering package:
 
@@ -356,13 +356,13 @@ photodiode ------|-                   |
 
 Nominal values:
 
-\[
-R_F=18.0\,k\Omega
-\]
+$$
+R_F = 18.0\,\text{k}\Omega
+$$
 
-\[
-C_F=47\,pF
-\]
+$$
+C_F = 47\text{ pF}
+$$
 
 Use:
 
@@ -387,29 +387,29 @@ Final polarity should be verified during schematic ERC and first bench test.
 
 Idealized behavior:
 
-\[
-V_{PHOTO}\approx V_{REF}+I_{PHOTO}R_F
-\]
+$$
+V_{\text{PHOTO}} \approx V_{\text{REF}} + I_{\text{PHOTO}} R_F
+$$
 
 Therefore:
 
-\[
-V_{PHOTO}\approx1.25 +(I_{PHOTO})(18\,000)
-\]
+$$
+V_{\text{PHOTO}} \approx 1.25 + (I_{\text{PHOTO}})(18\,000)
+$$
 
 Example:
 
 At:
 
-\[
-I_{PHOTO}=50\,\mu A
-\]
+$$
+I_{\text{PHOTO}} = 50\,\mu\text{A}
+$$
 
 the ideal output is:
 
-\[
-V_{PHOTO}\approx2.15\text{ V}
-\]
+$$
+V_{\text{PHOTO}} \approx 2.15\text{ V}
+$$
 
 This leaves useful positive output headroom on a 3.3 V supply.
 
@@ -482,33 +482,33 @@ VPHOTO_x ----- 100 nF -----+----- VEVENT_x
 
 Nominal values:
 
-\[
-R_A=22\,k\Omega
-\]
+$$
+R_A = 22\,\text{k}\Omega
+$$
 
-\[
-C_A=100\,nF
-\]
+$$
+C_A = 100\text{ nF}
+$$
 
 Therefore:
 
-\[
-\tau=R_AC_A
-\]
+$$
+\tau = R_A C_A
+$$
 
-\[
-\tau=2.2\text{ ms}
-\]
+$$
+\tau = 2.2\text{ ms}
+$$
 
 and approximately:
 
-\[
-f_c=\frac{1}{2\pi R_AC_A}
-\]
+$$
+f_c = \frac{1}{2\pi R_A C_A}
+$$
 
-\[
-f_c\approx72\text{ Hz}
-\]
+$$
+f_c \approx 72\text{ Hz}
+$$
 
 ---
 
@@ -518,9 +518,9 @@ The adaptation circuit rejects static or slowly changing illumination.
 
 At steady illumination:
 
-\[
-V_{EVENT}\rightarrow V_{REF}
-\]
+$$
+V_{\text{EVENT}} \rightarrow V_{\text{REF}}
+$$
 
 A sudden increase in reflected IR generates a positive transient.
 
@@ -548,21 +548,21 @@ OFF event
 
 Nominal event threshold:
 
-\[
-\pm40\text{ mV}
-\]
+$$
+\pm 40\text{ mV}
+$$
 
 about the 1.25 V reference.
 
 Therefore:
 
-\[
-V_{TH,ON}=1.29\text{ V}
-\]
+$$
+V_{\text{TH,ON}} = 1.29\text{ V}
+$$
 
-\[
-V_{TH,OFF}=1.21\text{ V}
-\]
+$$
+V_{\text{TH,OFF}} = 1.21\text{ V}
+$$
 
 ---
 
@@ -576,15 +576,15 @@ This is a dual comparator.
 
 Quantity:
 
-\[
+$$
 4
-\]
+$$
 
 Total comparator channels:
 
-\[
-4\times2=8
-\]
+$$
+4 \times 2 = 8
+$$
 
 Each photodiode channel consumes one dual comparator:
 
@@ -617,17 +617,17 @@ output → RAW_OFF_x
 
 Thus:
 
-\[
-V_{EVENT}>1.29V
-\]
+$$
+V_{\text{EVENT}} > 1.29\text{ V}
+$$
 
 produces an ON assertion.
 
 And:
 
-\[
-V_{EVENT}<1.21V
-\]
+$$
+V_{\text{EVENT}} < 1.21\text{ V}
+$$
 
 produces an OFF assertion.
 
@@ -694,9 +694,9 @@ RHYS_x
 
 approximately:
 
-\[
-470\,k\Omega\text{ to }2\,M\Omega
-\]
+$$
+470\,\text{k}\Omega \text{ to } 2\,\text{M}\Omega
+$$
 
 depending on the desired additional hysteresis.
 
@@ -738,9 +738,9 @@ Use:
 
 Quantity:
 
-\[
+$$
 8
-\]
+$$
 
 One device per event signal.
 
@@ -766,25 +766,25 @@ RAW_OFF_BR → SPIKE_OFF_BR
 
 Nominal timing components:
 
-\[
-R_{EXT}=8.2\,k\Omega
-\]
+$$
+R_{\text{EXT}} = 8.2\,\text{k}\Omega
+$$
 
-\[
-C_{EXT}=12\,nF
-\]
+$$
+C_{\text{EXT}} = 12\text{ nF}
+$$
 
 Nominal target pulse width:
 
-\[
-t_{spike}\approx100\,\mu s
-\]
+$$
+t_{\text{spike}} \approx 100\,\mu\text{s}
+$$
 
 Behavioral simulations used approximately:
 
-\[
-98.4\,\mu s
-\]
+$$
+98.4\,\mu\text{s}
+$$
 
 and produced 100 µs pulses at the simulation timestep.
 
@@ -863,21 +863,21 @@ Place one resistor between each one-shot output and the board connector.
 
 Nominal:
 
-\[
-R_{OUT}=150\Omega
-\]
+$$
+R_{\text{OUT}} = 150\,\Omega
+$$
 
 Acceptable prototype range:
 
-\[
-100\Omega\text{–}220\Omega
-\]
+$$
+100\,\Omega \text{ to } 220\,\Omega
+$$
 
 Quantity:
 
-\[
+$$
 8
-\]
+$$
 
 Purpose:
 
@@ -1020,9 +1020,9 @@ Emitter:
 
 Wavelength:
 
-\[
+$$
 940\text{ nm}
-\]
+$$
 
 The LED should be physically adjacent to the receiver but optically isolated from it.
 
@@ -1064,9 +1064,9 @@ gate ---- 100 kΩ ---- GND
 
 Initial value:
 
-\[
-R_{LED}=82\Omega
-\]
+$$
+R_{\text{LED}} = 82\,\Omega
+$$
 
 Use a 1206 footprint.
 
@@ -1129,9 +1129,9 @@ Preferred:
 
 Every IC receives:
 
-\[
-100\,nF
-\]
+$$
+100\text{ nF}
+$$
 
 directly across supply and ground.
 
@@ -1139,15 +1139,15 @@ Additionally:
 
 Analog group:
 
-\[
-10\,\mu F
-\]
+$$
+10\,\mu\text{F}
+$$
 
 Logic/one-shot group:
 
-\[
-10\,\mu F
-\]
+$$
+10\,\mu\text{F}
+$$
 
 Reference:
 
@@ -1369,17 +1369,17 @@ Optional parallel footprints or easily replaceable 0603 components are recommend
 
 Nominal event threshold:
 
-\[
-40mV
-\]
+$$
+40\text{ mV}
+$$
 
 The board should make the threshold divider resistors accessible enough to change during characterization.
 
 Potential experimental threshold range:
 
-\[
-20mV\text{–}100mV
-\]
+$$
+20\text{ mV to } 100\text{ mV}
+$$
 
 No potentiometer is required for Rev A unless convenient.
 
@@ -1570,15 +1570,15 @@ Target dimensions are not frozen because Rev A is intended to demonstrate event 
 
 Prototype optical testing:
 
-\[
-200\text{–}300\text{ mm}
-\]
+$$
+200\text{ to } 300\text{ mm}
+$$
 
 Nominal characterization distance:
 
-\[
+$$
 250\text{ mm}
-\]
+$$
 
 ---
 
@@ -1586,9 +1586,9 @@ Nominal characterization distance:
 
 Desired approximate acquisition field:
 
-\[
-\pm45^\circ
-\]
+$$
+\pm 45^\circ
+$$
 
 Rev A does not guarantee exact ±45° optical linearity.
 
@@ -1674,15 +1674,15 @@ Expected:
 
 `VEVENT_x` produces a transient and returns toward:
 
-\[
-1.25V
-\]
+$$
+1.25\text{ V}
+$$
 
 with approximately:
 
-\[
-2.2ms
-\]
+$$
+2.2\text{ ms}
+$$
 
 time constant.
 
@@ -1730,9 +1730,9 @@ Expected pulse width:
 
 approximately:
 
-\[
-100\,\mu s
-\]
+$$
+100\,\mu\text{s}
+$$
 
 Pulse amplitude:
 

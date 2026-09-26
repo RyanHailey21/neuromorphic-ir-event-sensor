@@ -118,7 +118,7 @@ By selecting $C_F = 47.0\text{ pF}$, the circuit operates in the **strongly over
 $$\frac{C_F}{C_{F,opt}} = \frac{47.0\text{ pF}}{5.86\text{ pF}} = 8.02$$
 
 ### 3.3 Bode Plot Verification
-![Bode and Stability Response](neuromorphic_afe_frequency_response.png)
+![Bode and Stability Response](images/neuromorphic_afe_frequency_response.png)
 
 | Parameter | Value | Design Target | Verdict |
 | :--- | :--- | :--- | :--- |
@@ -144,7 +144,7 @@ The simulation was run across a continuous 60 ms time span modeling 4 distinct p
 5. **Slow Ambient Sunlight Drift ($35 - 50\text{ ms}$):** Environmental background lighting increases by $+40\,\mu\text{A}$ over $15\text{ ms}$ ($dI/dt = 2.67\,\mu\text{A}/\text{ms}$), testing DC drift rejection.
 
 ### 4.2 Full System Transient Waveforms
-![Full AFE Transient Verification](neuromorphic_afe_transient_response.png)
+![Full AFE Transient Verification](images/neuromorphic_afe_transient_response.png)
 
 ### 4.3 Node Voltage Levels
 | Node / Signal | Baseline ($10\,\mu\text{A}$) | Target ON Peak ($40\,\mu\text{A}$) | Target OFF Valley ($10\,\mu\text{A}$) | Target Plateau ($40\,\mu\text{A}$ steady) |
@@ -169,7 +169,7 @@ At $V_{CC} = 3.3\text{ V}$, the datasheet timing coefficient is $K \approx 1.0$:
 $$t_{spike} = 1.0 \cdot (8.2\times 10^3\,\Omega) \cdot (12.0\times 10^{-9}\,\text{F}) = 98.4\,\mu\text{s} \approx 100\,\mu\text{s}$$
 
 ### 5.2 Microsecond-Scale Timing Detail Plot
-![Spike Detail and Monostable Timing](neuromorphic_afe_spike_detail.png)
+![Spike Detail and Monostable Timing](images/neuromorphic_afe_spike_detail.png)
 
 ### 5.3 Timing Characteristics:
 - **Optical Step to Comparator Assertion Delay:** $< 25\text{ ns}$ (TLV3202 propagation delay).

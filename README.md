@@ -6,7 +6,7 @@ An analog front-end (AFE) neuromorphic infrared event sensor board designed in K
 
 | 3D Isometric View | 3D Top View |
 | :---: | :---: |
-| ![3D Isometric](docs/images/sensor_3d_iso.png?raw=true&v=5) | ![3D Top](docs/images/sensor_3d_top.png?raw=true&v=5) |
+| ![3D Isometric](docs/images/sensor_3d_iso.png) | ![3D Top](docs/images/sensor_3d_top.png) |
 
 ---
 
@@ -114,11 +114,11 @@ The analog front-end (AFE) and asynchronous spike generation stages have undergo
 
 | Full AFE Transient Response (NGSPICE 46) | AC Stability & Bode Response (NGSPICE 46) |
 | :---: | :---: |
-| ![Transient Simulation](docs/images/neuromorphic_afe_transient_response.png?raw=true&v=2) | ![Bode Stability](docs/images/neuromorphic_afe_frequency_response.png?raw=true&v=2) |
+| ![Transient Simulation](docs/images/neuromorphic_afe_transient_response.png) | ![Bode Stability](docs/images/neuromorphic_afe_frequency_response.png) |
 
 | Microsecond-Scale Spike Timing Detail (NGSPICE 46) |
 | :---: |
-| ![Spike Detail](docs/images/neuromorphic_afe_spike_detail.png?raw=true&v=2) |
+| ![Spike Detail](docs/images/neuromorphic_afe_spike_detail.png) |
 
 ### Companion Simulation Files:
 - **SPICE Netlist**: [`simulation/neuromorphic_afe.cir`](simulation/neuromorphic_afe.cir) (native netlist executed via Berkeley NGSPICE 46 / PySpice)
