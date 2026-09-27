@@ -1,58 +1,28 @@
-# Project Context & Hardware Intent
+# Neuromorphic IR Event Sensor — project intent
 
-## 1. Project Goal & Intent
-- **Project Name:** Neuromorphic Ir Event Sensor
-- **Primary Goal:** Quad-channel neuromorphic infrared event sensor implementing asynchronous differential temporal change detection with sub-millisecond spike telemetry for low-power edge perception.
-- **Target Application:** Embedded autonomous sensing, neuromorphic edge computing, and real-time event telemetry.
+## Rev A function
 
-## 2. Electrical Specifications & Architecture
-- **Power Supply Rails:** 3.3V (VCC), GND
-- **Estimated Operating Voltage:** 3.3 VDC
-- **Signal Architecture:**
-  - Front-End: Low-noise transimpedance amplifier (TIA) with photodiode sensor array.
-  - Signal Conditioning: Analog differentiators / threshold comparators for asynchronous event generation.
-  - Event Output: Monostable pulse generators driving digital interfaces / FPGA headers.
+Four Vishay VBPW34S photodiodes feed four OPA381 transimpedance amplifiers. Each channel compares temporal change against ON and OFF thresholds and produces two short FPGA event pulses through SN74LVC1G123 one-shots. A 10-pin J1 carries power and eight event outputs. A separate J3 accepts a 3.3 V FPGA `LED_EN` pulse train to switch the TSAL6200 IR emitter through AO3400A. J2 exposes analog debug signals.
 
-## 3. Real Electronics Components & SPICE Model Verification
-| Reference | Component / Value | Role | SPICE Macromodel Status |
-|-----------|-------------------|------|-------------------------|
-| `U` | `74LVC1G123` | Active Stage IC | Model Required / Verified in Testbench |
-| `U_CMP4` | `TLV3202AIDR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_TIA4` | `OPA381AIDGKR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_CMP3` | `TLV3202AIDR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_OS_ON_TR` | `74LVC1G123` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_OS_OFF_TL` | `74LVC1G123` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_OS_OFF_BL` | `74LVC1G123` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_REF` | `REF3312AIDBZR` | Active Stage IC | Model Required / Verified in Testbench |
-| `U_CMP2` | `TLV3202AIDR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `DPD4` | `VBPW34FASR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_TIA3` | `OPA381AIDGKR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `DPD3` | `VBPW34FASR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_CMP1` | `TLV3202AIDR` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_OS_OFF_BR` | `74LVC1G123` | Active Stage IC | Verified (OPAx381.LIB) |
-| `U_OS_ON_BL` | `74LVC1G123` | Active Stage IC | Verified (OPAx381.LIB) |
+The architecture and component values come from `docs/DESIGN_SPECIFICATION.md` and the user's explicit Rev A decisions. The older root PCB and schematic are historical artifacts, not design authority. The active candidate is `headless_candidate/`.
 
-- **Available SPICE Simulation Files:** neuromorphic_afe.cir
-- **Vendor Macromodel Libraries:** OPAx381.LIB
+## Mechanical and fabrication intent
 
-## 4. Fabrication & Physical Constraints
-- **Target Manufacturer:** JLCPCB (Standard 2-Layer / 4-Layer Process)
-- **Board Outline:** 50.1 mm x 70.5 mm
-- **Copper Layers:** 2
-- **Component Count:** 92 footprints placed
-- **Design Rule Standards:**
-  - Power Netclass: Trace width $\ge 0.50\text{ mm}$, clearance $\ge 0.30\text{ mm}$
-  - Analog Sensitive: Trace width $\ge 0.30\text{ mm}$, clearance $\ge 0.25\text{ mm}$
-  - Digital Events: Trace width $\ge 0.25\text{ mm}$, clearance $\ge 0.20\text{ mm}$
-  - Silkscreen Pad Clearance: $\ge 0.50\text{ mm}$ from all exposed copper pads
+- Two copper layers; 50 × 70 mm board with 3 mm rounded corners.
+- Four M3 board mounts; two M2 lens holder mounts on 20 mm spacing, confirmed by the user.
+- JLCPCB is the tentative fabricator. Order service, assembly scope, stackup, finish, quantity, and component sourcing remain to be established against its current contract.
+- VBPW34S footprint came from the user supplied `VBPW34S.zip`. Its 8.9 mm solder pad span matches the Vishay drawing. Pad labels and polarity marker were corrected to Vishay's top view: anode at local left, cathode at local right.
+- Eight optional 2 MΩ hysteresis resistors are DNP.
 
-## 5. Mandatory Verification Gates
-- [ ] Board-faithful SPICE simulation with verified device models
-- [ ] Physical pinout, polarity, and selected VBPW34S footprint verified
-- [ ] Placement score passing with zero edge overhangs
-- [ ] KiCad ERC, schematic parity, and PCB DRC passing after LED_EN and RPD fixes
-- [ ] Fresh production Gerbers, drills, BOM, CPL, and 3D STEP reviewed after fixes
+## Current candidate checks (2026-09-27)
 
-## 2026-09-27 pre-fabrication status
+- ERC: 0 errors, 0 warnings. ERC excludes the SPICE model and footprint filter checks.
+- PCB DRC after fresh programmatic routing and final ground fills: 0 violations, 0 unconnected, 0 schematic parity issues.
+- Companion pinout and polarity audit: passed. The VBPW34S pad identity was also checked against the manufacturer drawing because the supplied footprint had reversed labels.
+- The photodiode body STEP model is available under `vendor/`, but the board currently has no linked model for D1–D4, so 3D renders cannot prove their assembly orientation.
 
-**NOT READY TO ORDER.** See [the pre-fabrication audit](reports/PREFAB_AUDIT_2026-09-27.md). The user confirmed a 10-pin FPGA event header, Vishay VBPW34S photodiodes, and a separate FPGA-controllable LED_EN input for Rev A.
+## Release gates still open
+
+- Manufacturer model based circuit simulation required by KiCad Companion Rule 12 is incomplete. OPA381 and REF3312 models were found. TI's TLV3202-Q1 PSpice archive was downloaded, but it has not been converted into a verified usable dual-comparator netlist. VBPW34S, TSAL6200, and AO3400A lack confirmed manufacturer SPICE models. The SN74LVC1G123 official HSPICE model also needs compatibility work for the intended simulator.
+- Assembly BOM sourcing is incomplete. Most passives and connectors have no chosen manufacturer part number, and no populated part has an LCSC number in the candidate spec. The JLCPCB placement preview must verify polarity and rotation of every assembled part, especially VBPW34S.
+- No manufacturing package has been released. See `reports/REV_A_CANDIDATE_STATUS_2026-09-27.md` for the current evidence and remaining work.

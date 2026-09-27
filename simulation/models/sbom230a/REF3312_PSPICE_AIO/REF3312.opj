@@ -1,0 +1,59 @@
+(ExpressProject "REF3312"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\ref3312.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "ref3312.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ref3312-pspicefiles\schematic1\ref3312-dc.sim"
+        (DisplayName "SCHEMATIC1-REF3312-DC")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ref3312-pspicefiles\schematic1\ref3312-temp.sim"
+        (DisplayName "SCHEMATIC1-REF3312-TEMP")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\ref3312-pspicefiles\schematic1\ref3312-temp.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\ref3312.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\ref3312.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (REF3312
+      (FullPartName "REF3312.Normal")
+      (LibraryName ".\REF3312.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 833 -4 -23 -18 274 -1 573"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "C:\ELABTRANS_WS\ELABTRANS_DS\Part_Numbers\REF3312\Active_Work_Sankalp\PSPICE\REF3312_PSPICE_AIO"))

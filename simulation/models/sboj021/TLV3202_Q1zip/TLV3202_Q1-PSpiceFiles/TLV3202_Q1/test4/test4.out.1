@@ -1,0 +1,128 @@
+
+**** 06/02/20 11:15:05 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "TLV3202_Q1-test4"  [ C:\Users\a0227287\Documents\TLV3202_Q1\TLV3202_Q1-PSpiceFiles\TLV3202_Q1\test4.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test4.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tlv3202_q1-pspicefiles/subcircuit.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0227287\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 200ns 0 200p 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TLV3202_Q1.net" 
+
+
+
+**** INCLUDING TLV3202_Q1.net ****
+* source TLV3202_Q1
+V_V3         IN- 0 1
+V_V4         VCC 0 5
+V_V5         GND 0 0Vdc
+V_V6         IN+ 0  
++SIN 1 100m 25e6 0 0 0
+X_U1 1IN+ 1IN- 1OUT 2IN+ 2IN- 2OUT GND VCC SCHEMATIC1  
+ 
+.SUBCKT SCHEMATIC1 1IN+ 1IN- 1OUT 2IN+ 2IN- 2OUT GND Vcc  
+X_U38 1IN+_B 1IN-_B ABSMAX1_EN VDD_B VSS_B VinEn  
+X_U46 N701319 N701325 Delay  
+X_U43          ABSMAX2_EN CM2_EN VIN2_EN VDD_B VSS_B ANDGATE
+X_U34 N690186 N690192 Delay  
+X_U42 2IN+_B 2IN-_B ABSMAX2_EN VDD_B VSS_B VinEn  
+V_1_1_2m         HYS 0 2.4m
+I_I2         1IN+ 0 DC 1e-12  
+I_I4         2IN+ 0 DC 1e-12  
+X_U33         SUPPLY_EN VIN1_EN VDD_B VSS_B N690192 1OUT OUTPUT_EN
+X_U36 SUPPLY_EN VDD_B VSS_B SupplyEn  
+X_U41 2IN+_B 2IN-_B CM2_EN VDD_B VSS_B VinCM  
+I_I1         VCC 0 DC 40e-6  
+I_I3         1IN- 0 DC 1e-12  
+X_U39         1IN+ 1IN- 1IN+_B 1IN-_B SUPPLY_BUFFER
+X_U40         2IN+ 2IN- 2IN+_B 2IN-_B SUPPLY_BUFFER
+I_I5         2IN- 0 DC 1e-12  
+X_U28         1IN+_B 1IN-_B N690186 VDD_B VSS_B HYS hpa_comphys
+X_U37 1IN+_B 1IN-_B CM1_EN VDD_B VSS_B VinCM  
+X_U1         VCC GND VDD_B VSS_B SUPPLY_BUFFER
+X_U16          ABSMAX1_EN CM1_EN VIN1_EN VDD_B VSS_B ANDGATE
+X_U44         SUPPLY_EN VIN2_EN VDD_B VSS_B N701325 2OUT OUTPUT_EN
+X_U45         2IN+_B 2IN-_B N701319 VDD_B VSS_B HYS hpa_comphys
+.ENDS
+ 
+.SUBCKT VinCM IN+ IN- INRANGE VDD_B VSS_B  
+X_U22         IN- N37445 N37365 VDD_B VSS_B VCC_RANGE
+V_V7         N37173 VDD_B 0.2
+X_U23          N36791 N36891 N36881 VDD_B VSS_B ANDGATE
+X_U16          N37241 N37365 N37101 VDD_B VSS_B ANDGATE
+V_V1         N36731 VDD_B 0.2
+V_V6         N37005 VSS_B -0.2
+X_U5         N36731 IN+ N36791 VDD_B VSS_B VCC_RANGE
+X_U20         IN+ N37005 N36891 VDD_B VSS_B VCC_RANGE
+X_U19         N36881 N37101 INRANGE VDD_B VSS_B ORGATE
+X_U21         N37173 IN- N37241 VDD_B VSS_B VCC_RANGE
+V_V4         N37445 VSS_B -0.2
+.ENDS
+ 
+.SUBCKT SupplyEn EN VDD_B VSS_B  
+V_V1         N683382 0 7
+X_U5         N683382 N683418 N683394 VDD_B VSS_B VCC_RANGE
+V_V2         N683590 0 -.3
+X_U15         N683418 N683590 N683528 VDD_B VSS_B VCC_Range
+X_U13         VDD_B VSS_B N683418 VDD_B VSS_B DIFFERENCE
+X_U16          N683394 N683528 EN VDD_B VSS_B ANDGATE
+.ENDS
+ 
+.SUBCKT Delay VIN VOUT  
+E_E2         N668183 0 N668171 0 1
+R_R13         VIN N668171  38.4 TC=0,0 
+C_C6         0 N668171  60.5p  TC=0,0 
+T_T1         N668183 0 VOUT 0 Z0=50 TD=40.271n  
+R_R1         0 VOUT  50 TC=0,0 
+.ENDS
+ 
+.SUBCKT VinEn IN+ IN- INRANGE VDD_B VSS_B  
+V_V4         N36246 0 -0.5
+X_U22         IN- N36246 N36166 VDD_B VSS_B VCC_RANGE
+X_U5         N35530 IN+ N35590 VDD_B VSS_B VCC_RANGE
+V_V3         N36062 0 -0.5
+X_U16          N35590 N35690 N35680 VDD_B VSS_B ANDGATE
+X_U24          N35680 N35906 INRANGE VDD_B VSS_B ANDGATE
+X_U23          N36042 N36166 N35906 VDD_B VSS_B ANDGATE
+X_U20         N35734 IN- N35690 VDD_B VSS_B VCC_RANGE
+V_V1         N35530 VDD_B 0.5
+V_V2         N35734 VDD_B 0.5
+X_U21         IN+ N36062 N36042 VDD_B VSS_B VCC_RANGE
+.ENDS
+
+**** RESUMING test4.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file subcircuit.ind for library file subcircuit.lib.
+
+INFO(ORPSIM-15422): Making new index file subcircuit.ind for library file subcircuit.lib.
+
+Index has 9 entries from 1 file(s).
+
+ERROR(ORPSIM-15142): Node 1IN+ is floating
+
+ERROR(ORPSIM-15142): Node 2IN+ is floating
+
+ERROR(ORPSIM-15142): Node 1IN- is floating
+
+ERROR(ORPSIM-15142): Node 2IN- is floating
+

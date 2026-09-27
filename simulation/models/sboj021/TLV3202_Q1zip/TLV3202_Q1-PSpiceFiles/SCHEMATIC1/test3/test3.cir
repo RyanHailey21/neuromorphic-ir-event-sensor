@@ -1,0 +1,28 @@
+** Profile: "SCHEMATIC1-test3"  [ C:\Users\a0227287\Documents\TLV3201\tlv3201-PSpiceFiles\SCHEMATIC1\test3.sim ] 
+
+** Creating circuit file "test3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../hpa_comphys/hpa_comphys.lib" 
+.LIB "../../../vinrange_393/vinrange_393.lib" 
+.LIB "../../../vcc_range/vcc_range.lib" 
+.LIB "../../../supply_buffer/supply_buffer.lib" 
+.LIB "../../../output_en/output_en.lib" 
+.LIB "../../../orgate1701/orgate1701.lib" 
+.LIB "../../../orgate/orgate.lib" 
+.LIB "../../../difference/difference.lib" 
+.LIB "../../../andgate/andgate.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0227287\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

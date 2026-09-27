@@ -1,0 +1,113 @@
+
+**** 04/20/20 17:02:06 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "TLV3201-test2"  [ C:\Users\a0227287\Documents\TLV3201\tlv3201-PSpiceFiles\TLV3201\test2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../hpa_comphys/hpa_comphys.lib" 
+.LIB "../../../vinrange_393/vinrange_393.lib" 
+.LIB "../../../vcc_range/vcc_range.lib" 
+.LIB "../../../supply_buffer/supply_buffer.lib" 
+.LIB "../../../output_en/output_en.lib" 
+.LIB "../../../orgate1701/orgate1701.lib" 
+.LIB "../../../orgate/orgate.lib" 
+.LIB "../../../difference/difference.lib" 
+.LIB "../../../andgate/andgate.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0227287\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TLV3201.net" 
+
+
+
+**** INCLUDING TLV3201.net ****
+* source TLV3201
+.EXTERNAL INPUT IN+
+.EXTERNAL INPUT Vcc
+.EXTERNAL OUTPUT Out
+.EXTERNAL INPUT GND
+E_U1_U34_E2         U1_U34_N668485 0 U1_U34_N668473 0 1
+C_U1_U34_C6         0 U1_U34_N668473  1n  TC=0,0 
+R_U1_U34_R13         U1_N690186 U1_U34_N668473  1.37 TC=0,0 
+R_U1_U34_R1         0 U1_N690192  50 TC=0,0 
+T_U1_U34_T1         U1_U34_N668485 0 U1_N690192 0 Z0=50 TD=38.4064n  
+V_U1_1_1_2m         U1_HYS 0 2.4m
+V_U1_U38_V4         U1_U38_N36246 0 -0.5
+X_U1_U38_U22         IN+ U1_U38_N36246 U1_U38_N36166 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+X_U1_U38_U5         U1_U38_N35530 IN+ U1_U38_N35590 U1_VDD_B U1_VSS_B VCC_RANGE
+V_U1_U38_V3         U1_U38_N36062 0 -0.5
+X_U1_U38_U16          U1_U38_N35590 U1_U38_N35690 U1_U38_N35680 U1_VDD_B
++  U1_VSS_B ANDGATE
+X_U1_U38_U24          U1_U38_N35680 U1_U38_N35906 U1_ABSMAX_EN U1_VDD_B
++  U1_VSS_B ANDGATE
+X_U1_U38_U23          U1_U38_N36042 U1_U38_N36166 U1_U38_N35906 U1_VDD_B
++  U1_VSS_B ANDGATE
+X_U1_U38_U20         U1_U38_N35734 IN+ U1_U38_N35690 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+V_U1_U38_V1         U1_U38_N35530 U1_VDD_B 0.5
+V_U1_U38_V2         U1_U38_N35734 U1_VDD_B 0.5
+X_U1_U38_U21         IN+ U1_U38_N36062 U1_U38_N36042 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+X_U1_U36_U15         U1_U36_N682732 U1_U36_N682904 U1_U36_N682842 U1_VDD_B
++  U1_VSS_B VCC_Range
+X_U1_U36_U13         U1_VDD_B U1_VSS_B U1_U36_N682732 U1_VDD_B U1_VSS_B
++  DIFFERENCE
+X_U1_U36_U16          U1_U36_N682708 U1_U36_N682842 U1_SUPPLY_EN U1_VDD_B
++  U1_VSS_B ANDGATE
+V_U1_U36_V1         U1_U36_N682696 0 7
+X_U1_U36_U5         U1_U36_N682696 U1_U36_N682732 U1_U36_N682708 U1_VDD_B
++  U1_VSS_B VCC_RANGE
+V_U1_U36_V2         U1_U36_N682904 0 0
+X_U1_U33         U1_SUPPLY_EN U1_VIN_EN U1_VDD_B U1_VSS_B U1_N690192 OUT
++  OUTPUT_EN
+I_U1_I1         VCC 0 DC 40e-6  
+X_U1_U16          U1_ABSMAX_EN U1_CM_EN U1_VIN_EN U1_VDD_B U1_VSS_B ANDGATE
+X_U1_U37_U22         IN+ U1_U37_N37445 U1_U37_N37365 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+X_U1_U37_U23          U1_U37_N36791 U1_U37_N36891 U1_U37_N36881 U1_VDD_B
++  U1_VSS_B ANDGATE
+V_U1_U37_V7         U1_U37_N37173 U1_VDD_B 0.2
+X_U1_U37_U16          U1_U37_N37241 U1_U37_N37365 U1_U37_N37101 U1_VDD_B
++  U1_VSS_B ANDGATE
+V_U1_U37_V1         U1_U37_N36731 U1_VDD_B 0.2
+V_U1_U37_V6         U1_U37_N37005 U1_VSS_B -0.2
+X_U1_U37_U5         U1_U37_N36731 IN+ U1_U37_N36791 U1_VDD_B U1_VSS_B VCC_RANGE
+X_U1_U37_U20         IN+ U1_U37_N37005 U1_U37_N36891 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+X_U1_U37_U21         U1_U37_N37173 IN+ U1_U37_N37241 U1_VDD_B U1_VSS_B
++  VCC_RANGE
+X_U1_U37_U19         U1_U37_N36881 U1_U37_N37101 U1_CM_EN U1_VDD_B U1_VSS_B
++  ORGATE
+V_U1_U37_V4         U1_U37_N37445 U1_VSS_B -0.2
+X_U1_U28         IN+ IN+ U1_N690186 U1_VDD_B U1_VSS_B U1_HYS hpa_comphys
+X_U1_U1         VCC GND U1_VDD_B U1_VSS_B SUPPLY_BUFFER
+V_V1         IN+ 0  
++SIN 1 100m 25e6 0 0 0
+V_1_1_2m9         IN+ 0 1
+V_1_1_2m6         VCC 0 5
+V_1_1_2m7         GND 0 0
+
+**** RESUMING test2.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving V_1_1_2m9. You may break the loop by adding a series resistance
+

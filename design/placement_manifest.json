@@ -1,0 +1,7610 @@
+{
+  "metadata": {
+    "purpose": "Rev A electrically constrained PCB placement"
+  },
+  "board": {
+    "outline": {
+      "min_x": 99.95,
+      "min_y": 99.95,
+      "max_x": 150.05,
+      "max_y": 170.05
+    },
+    "edge_clearance": 0.5,
+    "grid": 0.25
+  },
+  "settings": {
+    "iterations": 30000,
+    "seed": 3,
+    "default_net_weight": 1,
+    "ignored_nets": [
+      "/GND",
+      "GND"
+    ],
+    "component_spacing": 0.5,
+    "component_spacing_weight": 50,
+    "routing_crossing_weight": 25,
+    "net_weights": {
+      "/TIA_IN_TL": 100,
+      "/TIA_IN_TR": 100,
+      "/TIA_IN_BL": 100,
+      "/TIA_IN_BR": 100,
+      "/VPHOTO_TL": 40,
+      "/VPHOTO_TR": 40,
+      "/VPHOTO_BL": 40,
+      "/VPHOTO_BR": 40,
+      "/VEVENT_TL": 25,
+      "/VEVENT_TR": 25,
+      "/VEVENT_BL": 25,
+      "/VEVENT_BR": 25
+    }
+  },
+  "components": [
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "x": 110.45,
+      "y": 110.950001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.675,
+          "y": 110.950001,
+          "net": "/VPHOTO_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 111.225,
+          "y": 110.950001,
+          "net": "/VEVENT_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "D4",
+      "value": "VBPW34S",
+      "x": 127.400001,
+      "y": 122.85,
+      "width": 9.49,
+      "height": 4.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "A",
+          "x": 127.400001,
+          "y": 119.275,
+          "net": "/GND",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "K",
+          "x": 127.400001,
+          "y": 126.425,
+          "net": "/TIA_IN_BR",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP1",
+      "value": "VTH_ON",
+      "x": 112.950001,
+      "y": 101.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 112.950001,
+          "y": 101.95,
+          "net": "/VTH_ON",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R25",
+      "value": "82R",
+      "x": 118.45,
+      "y": 132.45,
+      "width": 4.65,
+      "height": 2.35,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 116.9875,
+          "y": 132.45,
+          "net": "/3V3",
+          "size_x": 1.125,
+          "size_y": 1.75,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 119.9125,
+          "y": 132.45,
+          "net": "/LED_A",
+          "size_x": 1.125,
+          "size_y": 1.75,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R30",
+      "value": "10.0k",
+      "x": 109.45,
+      "y": 104.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 108.625,
+          "y": 104.45,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 110.275,
+          "y": 104.45,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C25",
+      "value": "1uF",
+      "x": 120.95,
+      "y": 104.450001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 121.725,
+          "y": 104.450001,
+          "net": "/VREF",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 120.175,
+          "y": 104.450001,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C34",
+      "value": "100nF",
+      "x": 131.95,
+      "y": 149.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 131.95,
+          "y": 150.224999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 131.95,
+          "y": 148.674999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "OPA381AIDGKR",
+      "x": 115.9,
+      "y": 108.15,
+      "width": 6.45,
+      "height": 3.59,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 118.0125,
+          "y": 109.125,
+          "net": "unconnected-(U1-NC-Pad1)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 118.0125,
+          "y": 108.475,
+          "net": "/TIA_IN_TL",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 118.0125,
+          "y": 107.825,
+          "net": "/VREF",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 118.0125,
+          "y": 107.175,
+          "net": "/GND",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 113.7875,
+          "y": 107.175,
+          "net": "unconnected-(U1-NC-Pad5)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 113.7875,
+          "y": 107.825,
+          "net": "/VPHOTO_TL",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 113.7875,
+          "y": 108.475,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 113.7875,
+          "y": 109.125,
+          "net": "unconnected-(U1-NC-Pad8)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C11",
+      "value": "100nF",
+      "x": 110.45,
+      "y": 127.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 111.225,
+          "y": 127.45,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 109.675,
+          "y": 127.45,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "Analog_Debug",
+      "x": 126.300001,
+      "y": 164.65,
+      "width": 3.63,
+      "height": 16.33,
+      "bbox_dx": 3.888253587292846e-16,
+      "bbox_dy": 6.35,
+      "rotation": 90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 126.300001,
+          "y": 164.65,
+          "net": "/GND",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "2",
+          "x": 128.840001,
+          "y": 164.65,
+          "net": "/VREF",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "3",
+          "x": 131.380001,
+          "y": 164.65,
+          "net": "/VPHOTO_TL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "4",
+          "x": 133.920001,
+          "y": 164.65,
+          "net": "/VPHOTO_TR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "5",
+          "x": 136.460001,
+          "y": 164.65,
+          "net": "/VPHOTO_BL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "6",
+          "x": 139.000001,
+          "y": 164.65,
+          "net": "/VPHOTO_BR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        }
+      ]
+    },
+    {
+      "ref": "C35",
+      "value": "100nF",
+      "x": 134.95,
+      "y": 156.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 134.175,
+          "y": 156.949999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 135.725,
+          "y": 156.949999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R34",
+      "value": "2.0M",
+      "x": 142.45,
+      "y": 113.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 142.45,
+          "y": 114.275,
+          "net": "/RAW_ON_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 142.45,
+          "y": 112.625,
+          "net": "/VEVENT_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U9",
+      "value": "SN74LVC1G123DCU",
+      "x": 107.15,
+      "y": 152.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 105.75,
+          "y": 151.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 105.75,
+          "y": 152.4,
+          "net": "/RAW_ON_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 105.75,
+          "y": 152.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 105.75,
+          "y": 153.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 108.55,
+          "y": 153.4,
+          "net": "/OS_OUT_ON_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 108.55,
+          "y": 152.9,
+          "net": "/CEXT_ON_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 108.55,
+          "y": 152.4,
+          "net": "/REXT_ON_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 108.55,
+          "y": 151.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP3",
+      "value": "RAW_ON_TL",
+      "x": 107.450001,
+      "y": 122.45,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 107.450001,
+          "y": 122.45,
+          "net": "/RAW_ON_TL",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "D2",
+      "value": "VBPW34S",
+      "x": 127.4,
+      "y": 111.850001,
+      "width": 9.49,
+      "height": 4.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        -90.0
+      ],
+      "pads": [
+        {
+          "number": "A",
+          "x": 127.4,
+          "y": 115.425001,
+          "net": "/GND",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "K",
+          "x": 127.4,
+          "y": 108.275001,
+          "net": "/TIA_IN_TR",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "OPA381AIDGKR",
+      "x": 133.4,
+      "y": 108.15,
+      "width": 6.45,
+      "height": 3.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 131.2875,
+          "y": 107.175,
+          "net": "unconnected-(U2-NC-Pad1)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 131.2875,
+          "y": 107.825,
+          "net": "/TIA_IN_TR",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 131.2875,
+          "y": 108.475,
+          "net": "/VREF",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 131.2875,
+          "y": 109.125,
+          "net": "/GND",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 135.5125,
+          "y": 109.125,
+          "net": "unconnected-(U2-NC-Pad5)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 135.5125,
+          "y": 108.475,
+          "net": "/VPHOTO_TR",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 135.5125,
+          "y": 107.825,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 135.5125,
+          "y": 107.175,
+          "net": "unconnected-(U2-NC-Pad8)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP4",
+      "value": "RAW_OFF_TL",
+      "x": 142.950001,
+      "y": 108.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 142.950001,
+          "y": 108.95,
+          "net": "/RAW_OFF_TL",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C24",
+      "value": "12nF",
+      "x": 143.45,
+      "y": 160.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 142.675,
+          "y": 160.449999,
+          "net": "/CEXT_OFF_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 144.225,
+          "y": 160.449999,
+          "net": "/REXT_OFF_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "value": "22k",
+      "x": 139.45,
+      "y": 125.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 138.625,
+          "y": 125.45,
+          "net": "/VEVENT_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.275,
+          "y": 125.45,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U15",
+      "value": "SN74LVC1G123DCU",
+      "x": 142.150001,
+      "y": 152.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.750001,
+          "y": 151.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.750001,
+          "y": 152.4,
+          "net": "/RAW_ON_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 140.750001,
+          "y": 152.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 140.750001,
+          "y": 153.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 143.550001,
+          "y": 153.4,
+          "net": "/OS_OUT_ON_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 143.550001,
+          "y": 152.9,
+          "net": "/CEXT_ON_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 143.550001,
+          "y": 152.4,
+          "net": "/REXT_ON_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 143.550001,
+          "y": 151.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C14",
+      "value": "100nF",
+      "x": 144.45,
+      "y": 113.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 144.45,
+          "y": 114.225,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 144.45,
+          "y": 112.675,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H1",
+      "value": "MountingHole",
+      "x": 103.64875,
+      "y": 103.650001,
+      "width": 6.987469,
+      "height": 6.995052,
+      "bbox_dx": 0.001264,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 103.64875,
+          "y": 103.650001,
+          "net": "",
+          "size_x": 3.2,
+          "size_y": 3.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R36",
+      "value": "2.0M",
+      "x": 109.45,
+      "y": 137.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.45,
+          "y": 136.625,
+          "net": "/RAW_ON_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 109.45,
+          "y": 138.275,
+          "net": "/VEVENT_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U13",
+      "value": "SN74LVC1G123DCU",
+      "x": 130.650001,
+      "y": 152.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 129.250001,
+          "y": 151.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 129.250001,
+          "y": 152.4,
+          "net": "/RAW_ON_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 129.250001,
+          "y": 152.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 129.250001,
+          "y": 153.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 132.050001,
+          "y": 153.4,
+          "net": "/OS_OUT_ON_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 132.050001,
+          "y": 152.9,
+          "net": "/CEXT_ON_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 132.050001,
+          "y": 152.4,
+          "net": "/REXT_ON_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 132.050001,
+          "y": 151.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C12",
+      "value": "100nF",
+      "x": 135.45,
+      "y": 122.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 135.45,
+          "y": 123.725,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 135.45,
+          "y": 122.175,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C36",
+      "value": "100nF",
+      "x": 143.45,
+      "y": 149.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 143.45,
+          "y": 150.224999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 143.45,
+          "y": 148.674999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C13",
+      "value": "100nF",
+      "x": 104.45,
+      "y": 122.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 104.45,
+          "y": 122.175,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 104.45,
+          "y": 123.725,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R15",
+      "value": "8.2k",
+      "x": 141.45,
+      "y": 149.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 141.45,
+          "y": 148.625,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 141.45,
+          "y": 150.275,
+          "net": "/REXT_ON_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H2",
+      "value": "MountingHole",
+      "x": 145.648751,
+      "y": 103.650001,
+      "width": 6.987469,
+      "height": 6.995052,
+      "bbox_dx": 0.001264,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 145.648751,
+          "y": 103.650001,
+          "net": "",
+          "size_x": 3.2,
+          "size_y": 3.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C29",
+      "value": "10uF",
+      "x": 132.95,
+      "y": 102.450001,
+      "width": 3.49,
+      "height": 2.05,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 132.0,
+          "y": 102.450001,
+          "net": "/3V3",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 133.9,
+          "y": 102.450001,
+          "net": "/GND",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "value": "18.0k",
+      "x": 115.45,
+      "y": 111.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 116.275,
+          "y": 111.45,
+          "net": "/TIA_IN_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 114.625,
+          "y": 111.45,
+          "net": "/VPHOTO_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "47pF",
+      "x": 133.95,
+      "y": 104.950001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 133.175,
+          "y": 104.950001,
+          "net": "/TIA_IN_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 134.725,
+          "y": 104.950001,
+          "net": "/VPHOTO_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "VBPW34S",
+      "x": 121.9,
+      "y": 111.850001,
+      "width": 9.49,
+      "height": 4.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        -90.0
+      ],
+      "pads": [
+        {
+          "number": "A",
+          "x": 121.9,
+          "y": 115.425001,
+          "net": "/GND",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "K",
+          "x": 121.9,
+          "y": 108.275001,
+          "net": "/TIA_IN_TL",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U16",
+      "value": "SN74LVC1G123DCU",
+      "x": 142.150001,
+      "y": 157.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.750001,
+          "y": 156.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.750001,
+          "y": 157.4,
+          "net": "/RAW_OFF_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 140.750001,
+          "y": 157.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 140.750001,
+          "y": 158.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 143.550001,
+          "y": 158.4,
+          "net": "/OS_OUT_OFF_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 143.550001,
+          "y": 157.9,
+          "net": "/CEXT_OFF_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 143.550001,
+          "y": 157.4,
+          "net": "/REXT_OFF_BR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 143.550001,
+          "y": 156.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U11",
+      "value": "SN74LVC1G123DCU",
+      "x": 118.65,
+      "y": 152.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 117.25,
+          "y": 151.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 117.25,
+          "y": 152.4,
+          "net": "/RAW_ON_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 117.25,
+          "y": 152.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 117.25,
+          "y": 153.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 120.05,
+          "y": 153.4,
+          "net": "/OS_OUT_ON_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 120.05,
+          "y": 152.9,
+          "net": "/CEXT_ON_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 120.05,
+          "y": 152.4,
+          "net": "/REXT_ON_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 120.05,
+          "y": 151.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H4",
+      "value": "MountingHole",
+      "x": 145.64875,
+      "y": 165.65,
+      "width": 6.987469,
+      "height": 6.995052,
+      "bbox_dx": 0.001264,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 145.64875,
+          "y": 165.65,
+          "net": "",
+          "size_x": 3.2,
+          "size_y": 3.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U10",
+      "value": "SN74LVC1G123DCU",
+      "x": 107.15,
+      "y": 157.650001,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 105.75,
+          "y": 156.900001,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 105.75,
+          "y": 157.400001,
+          "net": "/RAW_OFF_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 105.75,
+          "y": 157.900001,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 105.75,
+          "y": 158.400001,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 108.55,
+          "y": 158.400001,
+          "net": "/OS_OUT_OFF_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 108.55,
+          "y": 157.900001,
+          "net": "/CEXT_OFF_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 108.55,
+          "y": 157.400001,
+          "net": "/REXT_OFF_TL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 108.55,
+          "y": 156.900001,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C20",
+      "value": "12nF",
+      "x": 122.95,
+      "y": 158.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 123.725,
+          "y": 158.949999,
+          "net": "/CEXT_OFF_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 122.175,
+          "y": 158.949999,
+          "net": "/REXT_OFF_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "value": "8.2k",
+      "x": 117.95,
+      "y": 149.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 117.95,
+          "y": 148.625,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 117.95,
+          "y": 150.275,
+          "net": "/REXT_ON_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R22",
+      "value": "150R",
+      "x": 128.45,
+      "y": 160.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 129.275,
+          "y": 160.45,
+          "net": "/OS_OUT_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 127.625,
+          "y": 160.45,
+          "net": "/SPIKE_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "D5",
+      "value": "TSAL6200",
+      "x": 124.650001,
+      "y": 135.125,
+      "width": 6.52,
+      "height": 6.51,
+      "bbox_dx": 1.275,
+      "bbox_dy": -7.807123344564376e-17,
+      "rotation": 90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 124.650001,
+          "y": 135.125,
+          "net": "/LED_K",
+          "size_x": 1.8,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "2",
+          "x": 124.650001,
+          "y": 132.585,
+          "net": "/LED_A",
+          "size_x": 1.8,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "value": "22k",
+      "x": 110.45,
+      "y": 112.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.625,
+          "y": 112.95,
+          "net": "/VEVENT_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 111.275,
+          "y": 112.95,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C33",
+      "value": "100nF",
+      "x": 122.95,
+      "y": 156.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 122.175,
+          "y": 156.949999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 123.725,
+          "y": 156.949999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "Q1",
+      "value": "AO3400A",
+      "x": 104.625,
+      "y": 137.645001,
+      "width": 3.95,
+      "height": 3.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 103.6875,
+          "y": 136.695001,
+          "net": "/LED_GATE",
+          "size_x": 1.475,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 103.6875,
+          "y": 138.595001,
+          "net": "/GND",
+          "size_x": 1.475,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 105.5625,
+          "y": 137.645001,
+          "net": "/LED_K",
+          "size_x": 1.475,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C21",
+      "value": "12nF",
+      "x": 134.45,
+      "y": 152.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 134.45,
+          "y": 153.224999,
+          "net": "/CEXT_ON_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 134.45,
+          "y": 151.674999,
+          "net": "/REXT_ON_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "47pF",
+      "x": 116.45,
+      "y": 104.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 117.225,
+          "y": 104.95,
+          "net": "/TIA_IN_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 115.675,
+          "y": 104.95,
+          "net": "/VPHOTO_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R27",
+      "value": "100k",
+      "x": 103.45,
+      "y": 141.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 103.45,
+          "y": 140.625,
+          "net": "/LED_GATE",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 103.45,
+          "y": 142.275,
+          "net": "/GND",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U17",
+      "value": "REF3312AIDBZR",
+      "x": 124.95,
+      "y": 103.45,
+      "width": 4.19,
+      "height": 3.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 123.8125,
+          "y": 102.5,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.325,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 123.8125,
+          "y": 104.4,
+          "net": "/VREF",
+          "size_x": 1.325,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 126.0875,
+          "y": 103.45,
+          "net": "/GND",
+          "size_x": 1.325,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "OPA381AIDGKR",
+      "x": 115.9,
+      "y": 126.65,
+      "width": 6.45,
+      "height": 3.59,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 118.0125,
+          "y": 127.625,
+          "net": "unconnected-(U3-NC-Pad1)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 118.0125,
+          "y": 126.975,
+          "net": "/TIA_IN_BL",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 118.0125,
+          "y": 126.325,
+          "net": "/VREF",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 118.0125,
+          "y": 125.675,
+          "net": "/GND",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 113.7875,
+          "y": 125.675,
+          "net": "unconnected-(U3-NC-Pad5)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 113.7875,
+          "y": 126.325,
+          "net": "/VPHOTO_BL",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 113.7875,
+          "y": 126.975,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 113.7875,
+          "y": 127.625,
+          "net": "unconnected-(U3-NC-Pad8)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C23",
+      "value": "12nF",
+      "x": 145.95,
+      "y": 152.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 145.95,
+          "y": 153.224999,
+          "net": "/CEXT_ON_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 145.95,
+          "y": 151.674999,
+          "net": "/REXT_ON_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C15",
+      "value": "100nF",
+      "x": 101.95,
+      "y": 133.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 101.95,
+          "y": 134.724999,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 101.95,
+          "y": 133.174999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R39",
+      "value": "2.0M",
+      "x": 147.45,
+      "y": 130.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 147.45,
+          "y": 131.775,
+          "net": "/RAW_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 147.45,
+          "y": 130.125,
+          "net": "/VTH_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C7",
+      "value": "100nF",
+      "x": 110.45,
+      "y": 123.450001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.675,
+          "y": 123.450001,
+          "net": "/VPHOTO_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 111.225,
+          "y": 123.450001,
+          "net": "/VEVENT_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U8",
+      "value": "TLV3202AIDR",
+      "x": 142.150001,
+      "y": 132.65,
+      "width": 7.49,
+      "height": 5.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 139.675001,
+          "y": 130.745,
+          "net": "/RAW_ON_BR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 139.675001,
+          "y": 132.015,
+          "net": "/VTH_ON",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 139.675001,
+          "y": 133.285,
+          "net": "/VEVENT_BR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 139.675001,
+          "y": 134.555,
+          "net": "/GND",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 144.625001,
+          "y": 134.555,
+          "net": "/VTH_OFF_BR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 144.625001,
+          "y": 133.285,
+          "net": "/VEVENT_BR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 144.625001,
+          "y": 132.015,
+          "net": "/RAW_OFF_BR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 144.625001,
+          "y": 130.745,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R23",
+      "value": "150R",
+      "x": 145.45,
+      "y": 148.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 145.45,
+          "y": 149.775,
+          "net": "/OS_OUT_ON_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 145.45,
+          "y": 148.125,
+          "net": "/SPIKE_ON_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C18",
+      "value": "12nF",
+      "x": 107.95,
+      "y": 160.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 107.175,
+          "y": 160.449999,
+          "net": "/CEXT_OFF_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 108.725,
+          "y": 160.449999,
+          "net": "/REXT_OFF_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "value": "18.0k",
+      "x": 132.45,
+      "y": 123.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 131.625,
+          "y": 123.45,
+          "net": "/TIA_IN_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 133.275,
+          "y": 123.45,
+          "net": "/VPHOTO_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U5",
+      "value": "TLV3202AIDR",
+      "x": 107.15,
+      "y": 118.15,
+      "width": 7.49,
+      "height": 5.49,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.625,
+          "y": 120.055,
+          "net": "/RAW_ON_TL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 109.625,
+          "y": 118.785,
+          "net": "/VTH_ON",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 109.625,
+          "y": 117.515,
+          "net": "/VEVENT_TL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 109.625,
+          "y": 116.245,
+          "net": "/GND",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 104.675,
+          "y": 116.245,
+          "net": "/VTH_OFF_TL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 104.675,
+          "y": 117.515,
+          "net": "/VEVENT_TL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 104.675,
+          "y": 118.785,
+          "net": "/RAW_OFF_TL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 104.675,
+          "y": 120.055,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C32",
+      "value": "100nF",
+      "x": 119.95,
+      "y": 149.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 119.95,
+          "y": 150.224999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 119.95,
+          "y": 148.674999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R19",
+      "value": "150R",
+      "x": 121.95,
+      "y": 148.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 121.95,
+          "y": 149.775,
+          "net": "/OS_OUT_ON_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 121.95,
+          "y": 148.125,
+          "net": "/SPIKE_ON_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP7",
+      "value": "RAW_ON_BL",
+      "x": 101.950001,
+      "y": 108.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 101.950001,
+          "y": 108.95,
+          "net": "/RAW_ON_BL",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H5",
+      "value": "MountingHole",
+      "x": 114.65125,
+      "y": 117.650001,
+      "width": 4.992511,
+      "height": 4.992509,
+      "bbox_dx": -0.001257,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 114.65125,
+          "y": 117.650001,
+          "net": "",
+          "size_x": 2.2,
+          "size_y": 2.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H3",
+      "value": "MountingHole",
+      "x": 103.64875,
+      "y": 165.65,
+      "width": 6.987469,
+      "height": 6.995052,
+      "bbox_dx": 0.001264,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 103.64875,
+          "y": 165.65,
+          "net": "",
+          "size_x": 3.2,
+          "size_y": 3.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R43",
+      "value": "10.0k",
+      "x": 147.45,
+      "y": 135.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 147.45,
+          "y": 136.275,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 147.45,
+          "y": 134.625,
+          "net": "/VTH_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP6",
+      "value": "RAW_OFF_TR",
+      "x": 135.950001,
+      "y": 113.45,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 135.950001,
+          "y": 113.45,
+          "net": "/RAW_OFF_TR",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R18",
+      "value": "150R",
+      "x": 104.45,
+      "y": 160.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 105.275,
+          "y": 160.45,
+          "net": "/OS_OUT_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 103.625,
+          "y": 160.45,
+          "net": "/SPIKE_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R35",
+      "value": "2.0M",
+      "x": 147.45,
+      "y": 118.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 147.45,
+          "y": 117.625,
+          "net": "/RAW_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 147.45,
+          "y": 119.275,
+          "net": "/VTH_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP9",
+      "value": "RAW_ON_BR",
+      "x": 106.950001,
+      "y": 109.45,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 106.950001,
+          "y": 109.45,
+          "net": "/RAW_ON_BR",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C31",
+      "value": "100nF",
+      "x": 111.45,
+      "y": 156.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 110.675,
+          "y": 156.949999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 112.225,
+          "y": 156.949999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "x": 111.45,
+      "y": 107.950001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 111.45,
+          "y": 108.725001,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 111.45,
+          "y": 107.175001,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "value": "TLV3202AIDR",
+      "x": 142.15,
+      "y": 118.15,
+      "width": 7.49,
+      "height": 5.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 139.675,
+          "y": 116.245,
+          "net": "/RAW_ON_TR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 139.675,
+          "y": 117.515,
+          "net": "/VTH_ON",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 139.675,
+          "y": 118.785,
+          "net": "/VEVENT_TR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 139.675,
+          "y": 120.055,
+          "net": "/GND",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 144.625,
+          "y": 120.055,
+          "net": "/VTH_OFF_TR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 144.625,
+          "y": 118.785,
+          "net": "/VEVENT_TR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 144.625,
+          "y": 117.515,
+          "net": "/RAW_OFF_TR",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 144.625,
+          "y": 116.245,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R10",
+      "value": "8.2k",
+      "x": 111.45,
+      "y": 158.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 112.275,
+          "y": 158.95,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 110.625,
+          "y": 158.95,
+          "net": "/REXT_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R26",
+      "value": "100R",
+      "x": 101.45,
+      "y": 137.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 101.45,
+          "y": 138.275,
+          "net": "/LED_EN",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 101.45,
+          "y": 136.625,
+          "net": "/LED_GATE",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "value": "47pF",
+      "x": 132.95,
+      "y": 129.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 132.175,
+          "y": 129.95,
+          "net": "/TIA_IN_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 133.725,
+          "y": 129.95,
+          "net": "/VPHOTO_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C16",
+      "value": "100nF",
+      "x": 144.45,
+      "y": 127.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 144.45,
+          "y": 128.725,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 144.45,
+          "y": 127.175,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R14",
+      "value": "8.2k",
+      "x": 135.45,
+      "y": 158.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 136.275,
+          "y": 158.95,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 134.625,
+          "y": 158.95,
+          "net": "/REXT_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R41",
+      "value": "10.0k",
+      "x": 144.45,
+      "y": 122.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 144.45,
+          "y": 123.775,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 144.45,
+          "y": 122.125,
+          "net": "/VTH_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "value": "100nF",
+      "x": 139.45,
+      "y": 110.950001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 138.675,
+          "y": 110.950001,
+          "net": "/VPHOTO_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.225,
+          "y": 110.950001,
+          "net": "/VEVENT_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "value": "22k",
+      "x": 110.45,
+      "y": 125.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.625,
+          "y": 125.45,
+          "net": "/VEVENT_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 111.275,
+          "y": 125.45,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "value": "18.0k",
+      "x": 132.95,
+      "y": 111.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 132.125,
+          "y": 111.45,
+          "net": "/TIA_IN_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 133.775,
+          "y": 111.45,
+          "net": "/VPHOTO_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R17",
+      "value": "150R",
+      "x": 110.45,
+      "y": 148.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 110.45,
+          "y": 149.775,
+          "net": "/OS_OUT_ON_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 110.45,
+          "y": 148.125,
+          "net": "/SPIKE_ON_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R42",
+      "value": "10.0k",
+      "x": 104.45,
+      "y": 127.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 104.45,
+          "y": 127.125,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 104.45,
+          "y": 128.775,
+          "net": "/VTH_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C37",
+      "value": "100nF",
+      "x": 146.45,
+      "y": 156.949999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 145.675,
+          "y": 156.949999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 147.225,
+          "y": 156.949999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "value": "18.0k",
+      "x": 115.45,
+      "y": 129.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 116.275,
+          "y": 129.95,
+          "net": "/TIA_IN_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 114.625,
+          "y": 129.95,
+          "net": "/VPHOTO_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R29",
+      "value": "10.0k",
+      "x": 140.45,
+      "y": 102.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.45,
+          "y": 103.275,
+          "net": "/VTH_ON",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.45,
+          "y": 101.625,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R20",
+      "value": "150R",
+      "x": 126.45,
+      "y": 158.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 125.625,
+          "y": 158.45,
+          "net": "/OS_OUT_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 127.275,
+          "y": 158.45,
+          "net": "/SPIKE_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP8",
+      "value": "RAW_OFF_BL",
+      "x": 104.450001,
+      "y": 108.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 104.450001,
+          "y": 108.95,
+          "net": "/RAW_OFF_BL",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "LED_Enable_Input",
+      "x": 143.650001,
+      "y": 138.375,
+      "width": 3.63,
+      "height": 6.18,
+      "bbox_dx": 0.0,
+      "bbox_dy": 1.275,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 143.650001,
+          "y": 138.375,
+          "net": "/LED_EN",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "2",
+          "x": 143.650001,
+          "y": 140.915,
+          "net": "/GND",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        }
+      ]
+    },
+    {
+      "ref": "R31",
+      "value": "301k",
+      "x": 112.95,
+      "y": 104.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 112.125,
+          "y": 104.45,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 113.775,
+          "y": 104.45,
+          "net": "/GND",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C28",
+      "value": "10uF",
+      "x": 128.95,
+      "y": 102.950001,
+      "width": 3.49,
+      "height": 2.05,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 128.95,
+          "y": 103.900001,
+          "net": "/3V3",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 128.95,
+          "y": 102.000001,
+          "net": "/GND",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R21",
+      "value": "150R",
+      "x": 133.95,
+      "y": 148.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 133.95,
+          "y": 149.775,
+          "net": "/OS_OUT_ON_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 133.95,
+          "y": 148.125,
+          "net": "/SPIKE_ON_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U12",
+      "value": "SN74LVC1G123DCU",
+      "x": 118.65,
+      "y": 157.650001,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 117.25,
+          "y": 156.900001,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 117.25,
+          "y": 157.400001,
+          "net": "/RAW_OFF_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 117.25,
+          "y": 157.900001,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 117.25,
+          "y": 158.400001,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 120.05,
+          "y": 158.400001,
+          "net": "/OS_OUT_OFF_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 120.05,
+          "y": 157.900001,
+          "net": "/CEXT_OFF_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 120.05,
+          "y": 157.400001,
+          "net": "/REXT_OFF_TR",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 120.05,
+          "y": 156.900001,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C17",
+      "value": "12nF",
+      "x": 110.95,
+      "y": 152.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 110.95,
+          "y": 153.224999,
+          "net": "/CEXT_ON_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 110.95,
+          "y": 151.674999,
+          "net": "/REXT_ON_TL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C19",
+      "value": "12nF",
+      "x": 122.45,
+      "y": 152.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 122.45,
+          "y": 153.224999,
+          "net": "/CEXT_ON_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 122.45,
+          "y": 151.674999,
+          "net": "/REXT_ON_TR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C10",
+      "value": "100nF",
+      "x": 137.95,
+      "y": 106.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 137.95,
+          "y": 107.725,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 137.95,
+          "y": 106.175,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "value": "8.2k",
+      "x": 114.95,
+      "y": 156.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 114.95,
+          "y": 155.625,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 114.95,
+          "y": 157.275,
+          "net": "/REXT_OFF_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R24",
+      "value": "150R",
+      "x": 139.95,
+      "y": 160.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.775,
+          "y": 160.45,
+          "net": "/OS_OUT_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 139.125,
+          "y": 160.45,
+          "net": "/SPIKE_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP2",
+      "value": "VTH_OFF",
+      "x": 140.45,
+      "y": 107.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.45,
+          "y": 107.95,
+          "net": "/VTH_OFF",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C8",
+      "value": "100nF",
+      "x": 139.45,
+      "y": 123.450001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 138.675,
+          "y": 123.450001,
+          "net": "/VPHOTO_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.225,
+          "y": 123.450001,
+          "net": "/VEVENT_BR",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "TP5",
+      "value": "RAW_ON_TR",
+      "x": 108.950001,
+      "y": 106.95,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 108.950001,
+          "y": 106.95,
+          "net": "/RAW_ON_TR",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C27",
+      "value": "10uF",
+      "x": 116.45,
+      "y": 101.950001,
+      "width": 3.49,
+      "height": 2.05,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 115.5,
+          "y": 101.950001,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 117.4,
+          "y": 101.950001,
+          "net": "/GND",
+          "size_x": 1.0,
+          "size_y": 1.45,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "value": "12nF",
+      "x": 131.95,
+      "y": 160.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 131.175,
+          "y": 160.449999,
+          "net": "/CEXT_OFF_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 132.725,
+          "y": 160.449999,
+          "net": "/REXT_OFF_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C30",
+      "value": "100nF",
+      "x": 108.45,
+      "y": 149.449999,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 108.45,
+          "y": 150.224999,
+          "net": "/3V3",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 108.45,
+          "y": 148.674999,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "FPGA_Events_2x5",
+      "x": 111.77,
+      "y": 165.925,
+      "width": 6.18,
+      "height": 13.79,
+      "bbox_dx": 1.2750000000000001,
+      "bbox_dy": 5.08,
+      "rotation": 90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 111.77,
+          "y": 165.925,
+          "net": "/GND",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "2",
+          "x": 111.77,
+          "y": 163.385,
+          "net": "/3V3",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "3",
+          "x": 114.31,
+          "y": 165.925,
+          "net": "/SPIKE_ON_TL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "4",
+          "x": 114.31,
+          "y": 163.385,
+          "net": "/SPIKE_OFF_TL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "5",
+          "x": 116.85,
+          "y": 165.925,
+          "net": "/SPIKE_ON_TR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "6",
+          "x": 116.85,
+          "y": 163.385,
+          "net": "/SPIKE_OFF_TR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "7",
+          "x": 119.39,
+          "y": 165.925,
+          "net": "/SPIKE_ON_BL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "8",
+          "x": 119.39,
+          "y": 163.385,
+          "net": "/SPIKE_OFF_BL",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "9",
+          "x": 121.93,
+          "y": 165.925,
+          "net": "/SPIKE_ON_BR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        },
+        {
+          "number": "10",
+          "x": 121.93,
+          "y": 163.385,
+          "net": "/SPIKE_OFF_BR",
+          "size_x": 1.7,
+          "size_y": 1.7,
+          "rotation": 90.0,
+          "front": true,
+          "back": true,
+          "through_hole": true
+        }
+      ]
+    },
+    {
+      "ref": "TP10",
+      "value": "RAW_OFF_BR",
+      "x": 140.450001,
+      "y": 105.45,
+      "width": 2.092551,
+      "height": 2.092545,
+      "bbox_dx": -0.001278,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 140.450001,
+          "y": 105.45,
+          "net": "/RAW_OFF_BR",
+          "size_x": 1.0,
+          "size_y": 1.0,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R16",
+      "value": "8.2k",
+      "x": 146.95,
+      "y": 158.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 147.775,
+          "y": 158.95,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 146.125,
+          "y": 158.95,
+          "net": "/REXT_OFF_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R40",
+      "value": "10.0k",
+      "x": 104.45,
+      "y": 113.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 104.45,
+          "y": 112.625,
+          "net": "/VTH_OFF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 104.45,
+          "y": 114.275,
+          "net": "/VTH_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U7",
+      "value": "TLV3202AIDR",
+      "x": 107.150001,
+      "y": 132.65,
+      "width": 7.49,
+      "height": 5.49,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 109.625001,
+          "y": 134.555,
+          "net": "/RAW_ON_BL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 109.625001,
+          "y": 133.285,
+          "net": "/VTH_ON",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 109.625001,
+          "y": 132.015,
+          "net": "/VEVENT_BL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 109.625001,
+          "y": 130.745,
+          "net": "/GND",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 104.675001,
+          "y": 130.745,
+          "net": "/VTH_OFF_BL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 104.675001,
+          "y": 132.015,
+          "net": "/VEVENT_BL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 104.675001,
+          "y": 133.285,
+          "net": "/RAW_OFF_BL",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 104.675001,
+          "y": 134.555,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.95,
+          "size_y": 0.6,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R37",
+      "value": "2.0M",
+      "x": 101.95,
+      "y": 130.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 101.95,
+          "y": 131.275,
+          "net": "/RAW_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 101.95,
+          "y": 129.625,
+          "net": "/VTH_OFF_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "OPA381AIDGKR",
+      "x": 133.4,
+      "y": 126.65,
+      "width": 6.45,
+      "height": 3.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 131.2875,
+          "y": 125.675,
+          "net": "unconnected-(U4-NC-Pad1)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 131.2875,
+          "y": 126.325,
+          "net": "/TIA_IN_BR",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 131.2875,
+          "y": 126.975,
+          "net": "/VREF",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 131.2875,
+          "y": 127.625,
+          "net": "/GND",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 135.5125,
+          "y": 127.625,
+          "net": "unconnected-(U4-NC-Pad5)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 135.5125,
+          "y": 126.975,
+          "net": "/VPHOTO_BR",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 135.5125,
+          "y": 126.325,
+          "net": "/3V3_ANALOG",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 135.5125,
+          "y": 125.675,
+          "net": "unconnected-(U4-NC-Pad8)",
+          "size_x": 1.625,
+          "size_y": 0.4,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "FB1",
+      "value": "BLM18AG601SN1D",
+      "x": 109.45,
+      "y": 102.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 108.6625,
+          "y": 102.45,
+          "net": "/3V3",
+          "size_x": 0.875,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 110.2375,
+          "y": 102.45,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.875,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "value": "8.2k",
+      "x": 106.45,
+      "y": 149.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 106.45,
+          "y": 148.625,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 106.45,
+          "y": 150.275,
+          "net": "/REXT_ON_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R38",
+      "value": "2.0M",
+      "x": 140.45,
+      "y": 128.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 139.625,
+          "y": 128.45,
+          "net": "/RAW_ON_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 141.275,
+          "y": 128.45,
+          "net": "/VEVENT_BR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C26",
+      "value": "100nF",
+      "x": 120.95,
+      "y": 102.450001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 121.725,
+          "y": 102.450001,
+          "net": "/VREF",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 120.175,
+          "y": 102.450001,
+          "net": "/GND",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R33",
+      "value": "2.0M",
+      "x": 101.95,
+      "y": 117.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 101.95,
+          "y": 118.775,
+          "net": "/RAW_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 101.95,
+          "y": 117.125,
+          "net": "/VTH_OFF_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "H6",
+      "value": "MountingHole",
+      "x": 134.65125,
+      "y": 117.650001,
+      "width": 4.992511,
+      "height": 4.992509,
+      "bbox_dx": -0.001257,
+      "bbox_dy": -1e-06,
+      "rotation": 0.0,
+      "fixed": true,
+      "allowed_rotations": [
+        0.0
+      ],
+      "pads": [
+        {
+          "number": "",
+          "x": 134.65125,
+          "y": 117.650001,
+          "net": "",
+          "size_x": 2.2,
+          "size_y": 2.2,
+          "rotation": 0.0,
+          "front": true,
+          "back": true,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "U14",
+      "value": "SN74LVC1G123DCU",
+      "x": 130.650001,
+      "y": 157.65,
+      "width": 4.65,
+      "height": 2.59,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 129.250001,
+          "y": 156.9,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 129.250001,
+          "y": 157.4,
+          "net": "/RAW_OFF_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "3",
+          "x": 129.250001,
+          "y": 157.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "4",
+          "x": 129.250001,
+          "y": 158.4,
+          "net": "/GND",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "5",
+          "x": 132.050001,
+          "y": 158.4,
+          "net": "/OS_OUT_OFF_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "6",
+          "x": 132.050001,
+          "y": 157.9,
+          "net": "/CEXT_OFF_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "7",
+          "x": 132.050001,
+          "y": 157.4,
+          "net": "/REXT_OFF_BL",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "8",
+          "x": 132.050001,
+          "y": 156.9,
+          "net": "/3V3",
+          "size_x": 1.25,
+          "size_y": 0.35,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R28",
+      "value": "499k",
+      "x": 136.95,
+      "y": 102.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 136.125,
+          "y": 102.45,
+          "net": "/3V3_ANALOG",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 137.775,
+          "y": 102.45,
+          "net": "/VTH_ON",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R13",
+      "value": "8.2k",
+      "x": 129.95,
+      "y": 149.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": -90.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 129.95,
+          "y": 148.625,
+          "net": "/3V3",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 129.95,
+          "y": 150.275,
+          "net": "/REXT_ON_BL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 270.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "value": "47pF",
+      "x": 116.45,
+      "y": 123.450001,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": -0.0,
+      "bbox_dy": 0.0,
+      "rotation": 180.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 117.225,
+          "y": 123.450001,
+          "net": "/TIA_IN_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 115.675,
+          "y": 123.450001,
+          "net": "/VPHOTO_BL",
+          "size_x": 0.9,
+          "size_y": 0.95,
+          "rotation": 180.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R32",
+      "value": "2.0M",
+      "x": 112.95,
+      "y": 121.45,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 112.125,
+          "y": 121.45,
+          "net": "/RAW_ON_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 113.775,
+          "y": 121.45,
+          "net": "/VEVENT_TL",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "value": "22k",
+      "x": 139.45,
+      "y": 112.95,
+      "width": 3.05,
+      "height": 1.55,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 0.0,
+      "fixed": false,
+      "allowed_rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "x": 138.625,
+          "y": 112.95,
+          "net": "/VEVENT_TR",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "2",
+          "x": 140.275,
+          "y": 112.95,
+          "net": "/VREF",
+          "size_x": 0.8,
+          "size_y": 0.95,
+          "rotation": 0.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    },
+    {
+      "ref": "D3",
+      "value": "VBPW34S",
+      "x": 121.9,
+      "y": 122.85,
+      "width": 9.49,
+      "height": 4.49,
+      "bbox_dx": 0.0,
+      "bbox_dy": 0.0,
+      "rotation": 90.0,
+      "fixed": true,
+      "allowed_rotations": [
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "A",
+          "x": 121.9,
+          "y": 119.275,
+          "net": "/GND",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        },
+        {
+          "number": "K",
+          "x": 121.9,
+          "y": 126.425,
+          "net": "/TIA_IN_BL",
+          "size_x": 1.75,
+          "size_y": 1.8,
+          "rotation": 90.0,
+          "front": true,
+          "back": false,
+          "through_hole": false
+        }
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "type": "pad_proximity",
+      "ref": "U1",
+      "pad": "2",
+      "anchor_ref": "D1",
+      "anchor_pad": "K",
+      "target": 4,
+      "maximum": 8,
+      "weight": 1000,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R1",
+      "pad": "1",
+      "anchor_ref": "U1",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R1",
+      "pad": "2",
+      "anchor_ref": "U1",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C1",
+      "pad": "1",
+      "anchor_ref": "U1",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C1",
+      "pad": "2",
+      "anchor_ref": "U1",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C9",
+      "pad": "1",
+      "anchor_ref": "U1",
+      "anchor_pad": "7",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C5",
+      "pad": "1",
+      "anchor_ref": "U1",
+      "anchor_pad": "6",
+      "target": 2.0,
+      "maximum": 5.0,
+      "weight": 200,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C5",
+      "pad": "2",
+      "anchor_ref": "R5",
+      "anchor_pad": "1",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 400,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R5",
+      "pad": "1",
+      "anchor_ref": "U1",
+      "anchor_pad": "6",
+      "target": 3.5,
+      "maximum": 6.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C13",
+      "pad": "1",
+      "anchor_ref": "U5",
+      "anchor_pad": "8",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R40",
+      "pad": "2",
+      "anchor_ref": "U5",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R32",
+      "pad": "1",
+      "anchor_ref": "U5",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R33",
+      "pad": "1",
+      "anchor_ref": "U5",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C30",
+      "pad": "1",
+      "anchor_ref": "U9",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R9",
+      "pad": "2",
+      "anchor_ref": "U9",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C17",
+      "pad": "1",
+      "anchor_ref": "U9",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C17",
+      "pad": "2",
+      "anchor_ref": "U9",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R17",
+      "pad": "1",
+      "anchor_ref": "U9",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C31",
+      "pad": "1",
+      "anchor_ref": "U10",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R10",
+      "pad": "2",
+      "anchor_ref": "U10",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C18",
+      "pad": "1",
+      "anchor_ref": "U10",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C18",
+      "pad": "2",
+      "anchor_ref": "U10",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R18",
+      "pad": "1",
+      "anchor_ref": "U10",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "U2",
+      "pad": "2",
+      "anchor_ref": "D2",
+      "anchor_pad": "K",
+      "target": 4,
+      "maximum": 8,
+      "weight": 1000,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R2",
+      "pad": "1",
+      "anchor_ref": "U2",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R2",
+      "pad": "2",
+      "anchor_ref": "U2",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C2",
+      "pad": "1",
+      "anchor_ref": "U2",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C2",
+      "pad": "2",
+      "anchor_ref": "U2",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C10",
+      "pad": "1",
+      "anchor_ref": "U2",
+      "anchor_pad": "7",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C6",
+      "pad": "1",
+      "anchor_ref": "U2",
+      "anchor_pad": "6",
+      "target": 2.0,
+      "maximum": 5.0,
+      "weight": 200,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C6",
+      "pad": "2",
+      "anchor_ref": "R6",
+      "anchor_pad": "1",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 400,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R6",
+      "pad": "1",
+      "anchor_ref": "U2",
+      "anchor_pad": "6",
+      "target": 3.5,
+      "maximum": 6.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C14",
+      "pad": "1",
+      "anchor_ref": "U6",
+      "anchor_pad": "8",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R41",
+      "pad": "2",
+      "anchor_ref": "U6",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R34",
+      "pad": "1",
+      "anchor_ref": "U6",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R35",
+      "pad": "1",
+      "anchor_ref": "U6",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C32",
+      "pad": "1",
+      "anchor_ref": "U11",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R11",
+      "pad": "2",
+      "anchor_ref": "U11",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C19",
+      "pad": "1",
+      "anchor_ref": "U11",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C19",
+      "pad": "2",
+      "anchor_ref": "U11",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R19",
+      "pad": "1",
+      "anchor_ref": "U11",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C33",
+      "pad": "1",
+      "anchor_ref": "U12",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R12",
+      "pad": "2",
+      "anchor_ref": "U12",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C20",
+      "pad": "1",
+      "anchor_ref": "U12",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C20",
+      "pad": "2",
+      "anchor_ref": "U12",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R20",
+      "pad": "1",
+      "anchor_ref": "U12",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "U3",
+      "pad": "2",
+      "anchor_ref": "D3",
+      "anchor_pad": "K",
+      "target": 4,
+      "maximum": 8,
+      "weight": 1000,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R3",
+      "pad": "1",
+      "anchor_ref": "U3",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R3",
+      "pad": "2",
+      "anchor_ref": "U3",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C3",
+      "pad": "1",
+      "anchor_ref": "U3",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C3",
+      "pad": "2",
+      "anchor_ref": "U3",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C11",
+      "pad": "1",
+      "anchor_ref": "U3",
+      "anchor_pad": "7",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C7",
+      "pad": "1",
+      "anchor_ref": "U3",
+      "anchor_pad": "6",
+      "target": 2.0,
+      "maximum": 5.0,
+      "weight": 200,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C7",
+      "pad": "2",
+      "anchor_ref": "R7",
+      "anchor_pad": "1",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 400,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R7",
+      "pad": "1",
+      "anchor_ref": "U3",
+      "anchor_pad": "6",
+      "target": 3.5,
+      "maximum": 6.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C15",
+      "pad": "1",
+      "anchor_ref": "U7",
+      "anchor_pad": "8",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R42",
+      "pad": "2",
+      "anchor_ref": "U7",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R36",
+      "pad": "1",
+      "anchor_ref": "U7",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R37",
+      "pad": "1",
+      "anchor_ref": "U7",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C34",
+      "pad": "1",
+      "anchor_ref": "U13",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R13",
+      "pad": "2",
+      "anchor_ref": "U13",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C21",
+      "pad": "1",
+      "anchor_ref": "U13",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C21",
+      "pad": "2",
+      "anchor_ref": "U13",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R21",
+      "pad": "1",
+      "anchor_ref": "U13",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C35",
+      "pad": "1",
+      "anchor_ref": "U14",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R14",
+      "pad": "2",
+      "anchor_ref": "U14",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C22",
+      "pad": "1",
+      "anchor_ref": "U14",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C22",
+      "pad": "2",
+      "anchor_ref": "U14",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R22",
+      "pad": "1",
+      "anchor_ref": "U14",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "U4",
+      "pad": "2",
+      "anchor_ref": "D4",
+      "anchor_pad": "K",
+      "target": 4,
+      "maximum": 8,
+      "weight": 1000,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R4",
+      "pad": "1",
+      "anchor_ref": "U4",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R4",
+      "pad": "2",
+      "anchor_ref": "U4",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C4",
+      "pad": "1",
+      "anchor_ref": "U4",
+      "anchor_pad": "2",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C4",
+      "pad": "2",
+      "anchor_ref": "U4",
+      "anchor_pad": "6",
+      "target": 1.4,
+      "maximum": 3.5,
+      "weight": 600,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C12",
+      "pad": "1",
+      "anchor_ref": "U4",
+      "anchor_pad": "7",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C8",
+      "pad": "1",
+      "anchor_ref": "U4",
+      "anchor_pad": "6",
+      "target": 2.0,
+      "maximum": 5.0,
+      "weight": 200,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C8",
+      "pad": "2",
+      "anchor_ref": "R8",
+      "anchor_pad": "1",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 400,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R8",
+      "pad": "1",
+      "anchor_ref": "U4",
+      "anchor_pad": "6",
+      "target": 3.5,
+      "maximum": 6.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C16",
+      "pad": "1",
+      "anchor_ref": "U8",
+      "anchor_pad": "8",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R43",
+      "pad": "2",
+      "anchor_ref": "U8",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 250,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R38",
+      "pad": "1",
+      "anchor_ref": "U8",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R39",
+      "pad": "1",
+      "anchor_ref": "U8",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 150,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C36",
+      "pad": "1",
+      "anchor_ref": "U15",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R15",
+      "pad": "2",
+      "anchor_ref": "U15",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C23",
+      "pad": "1",
+      "anchor_ref": "U15",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C23",
+      "pad": "2",
+      "anchor_ref": "U15",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R23",
+      "pad": "1",
+      "anchor_ref": "U15",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C37",
+      "pad": "1",
+      "anchor_ref": "U16",
+      "anchor_pad": "8",
+      "target": 1.0,
+      "maximum": 2.5,
+      "weight": 900,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R16",
+      "pad": "2",
+      "anchor_ref": "U16",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C24",
+      "pad": "1",
+      "anchor_ref": "U16",
+      "anchor_pad": "6",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C24",
+      "pad": "2",
+      "anchor_ref": "U16",
+      "anchor_pad": "7",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 500,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R24",
+      "pad": "1",
+      "anchor_ref": "U16",
+      "anchor_pad": "5",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C25",
+      "pad": "1",
+      "anchor_ref": "U17",
+      "anchor_pad": "2",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 800,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "C26",
+      "pad": "1",
+      "anchor_ref": "U17",
+      "anchor_pad": "2",
+      "target": 1.2,
+      "maximum": 2.5,
+      "weight": 800,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R26",
+      "pad": "2",
+      "anchor_ref": "Q1",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R27",
+      "pad": "1",
+      "anchor_ref": "Q1",
+      "anchor_pad": "1",
+      "target": 1.5,
+      "maximum": 4.0,
+      "weight": 300,
+      "hard": true
+    },
+    {
+      "type": "pad_proximity",
+      "ref": "R25",
+      "pad": "2",
+      "anchor_ref": "D5",
+      "anchor_pad": "2",
+      "target": 3.0,
+      "maximum": 8.0,
+      "weight": 200,
+      "hard": true
+    }
+  ]
+}

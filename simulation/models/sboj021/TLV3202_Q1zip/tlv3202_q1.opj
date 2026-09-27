@@ -1,0 +1,109 @@
+(ExpressProject "TLV3202_Q1"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\tlv3202_q1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File
+       "C:\Users\a0227287\Documents\TLV3202\TLV3202-PSpiceFiles\TLV3202_Q1\TLV3202_Q1.lib")
+    (PSPICE_View_Output "TRUE")
+    (PSPICE_Subcircuit_Format "TRUE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Net_Name_Pref "TRUE")
+    (PSPICE_Hier_Format "TRUE")
+    (PSPICE_Hier_Descend "TRUE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs"
+    (File ".\tlv3202_q1-pspicefiles\tlv3202_q1\tlv3202_q1.net"
+      (Type "Report"))
+    (File "..\tlv3202\tlv3202-pspicefiles\tlv3202_q1\tlv3202_q1.lib"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlv3202_q1-pspicefiles\schematic1\test1.sim"
+        (DisplayName "SCHEMATIC1-test1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlv3202_q1-pspicefiles\tlv3202_q1\test2.sim"
+        (DisplayName "TLV3202_Q1-test2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlv3202_q1-pspicefiles\schematic1\test3.sim"
+        (DisplayName "SCHEMATIC1-test3")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tlv3202_q1-pspicefiles\tlv3202_q1\test4.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlv3202_q1-pspicefiles\tlv3202_q1\test4.sim"
+        (DisplayName "TLV3202_Q1-test4")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tlv3202_q1-pspicefiles\subcircuit.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tlv3202_q1-pspicefiles\subcircuit.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "a0227287")
+  (PartMRUSelector
+    (SCHEMATIC1
+      (FullPartName "SCHEMATIC1.Normal")
+      (LibraryName "C:\USERS\A0227287\DOCUMENTS\TLV3202\TLV3202.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VinEn
+      (FullPartName "VinEn.Normal")
+      (LibraryName "C:\USERS\A0227287\DOCUMENTS\TLV3201\VINEN.OLB")
+      (DeviceIndex "0"))
+    (VinCM
+      (FullPartName "VinCM.Normal")
+      (LibraryName "C:\USERS\A0227287\DOCUMENTS\TLV3201\VINCM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\a0227287\Documents\TLV3201")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\a0227287\appdata\local\temp\tlv3202_q1zip\tlv3202_q1.dsn")
+      (Path "Design Resources"
+         "c:\users\a0227287\appdata\local\temp\tlv3202_q1zip\tlv3202_q1.dsn"
+         "TLV3202_Q1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -11 -45 0 200 0 760"))
+      (Tab 0))))

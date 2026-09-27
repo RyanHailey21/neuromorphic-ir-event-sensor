@@ -13,6 +13,13 @@ _autosave-*
 *.ses
 
 # Local companion & IDE artifacts
-.companion/
+.companion/*
+!.companion/scripts/
+.companion/scripts/*
+!.companion/scripts/import_vbpw34s.py
+!.companion/scripts/correct_vbpw34s_and_restart_route.py
+!.companion/scripts/prepare_fresh_autoroute.py
+!.companion/scripts/remove_dangling_vias.py
+!.companion/scripts/round_candidate_outline.py
 .history/
 reports/*.json

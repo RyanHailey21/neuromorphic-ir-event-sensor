@@ -1,0 +1,1840 @@
+{
+  "title": "Neuromorphic IR Event Sensor",
+  "revision": "Rev A candidate",
+  "notes": "Design specification plus user decisions: 10-pin event header, VBPW34S, FPGA-controlled LED_EN. Nominal VTH_ON 1.2903 V and VTH_OFF 1.2098 V at 3.300/1.250 V; R28-R31 0.1%. This candidate is not yet fabrication approved.",
+  "power_flags": "auto",
+  "parts": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector_Generic:Conn_02x05_Odd_Even",
+      "value": "FPGA_Events_2x5",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3",
+        "3": "SPIKE_ON_TL",
+        "4": "SPIKE_OFF_TL",
+        "5": "SPIKE_ON_TR",
+        "6": "SPIKE_OFF_TR",
+        "7": "SPIKE_ON_BL",
+        "8": "SPIKE_OFF_BL",
+        "9": "SPIKE_ON_BR",
+        "10": "SPIKE_OFF_BR"
+      },
+      "fields": {
+        "Function": "FPGA event and power interface"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector_Generic:Conn_01x06",
+      "value": "Analog_Debug",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "VREF",
+        "3": "VPHOTO_TL",
+        "4": "VPHOTO_TR",
+        "5": "VPHOTO_BL",
+        "6": "VPHOTO_BR"
+      },
+      "fields": {
+        "Function": "Analog debug interface"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "J3",
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "value": "LED_Enable_Input",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "LED_EN",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "FPGA-controlled IR emitter enable"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "FB1",
+      "lib_id": "Device:L_Ferrite",
+      "value": "BLM18AG601SN1D",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "3V3_ANALOG"
+      },
+      "fields": {
+        "Function": "Analog supply filter",
+        "MPN": "BLM18AG601SN1D"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U17",
+      "lib_id": "Reference_Voltage:REF3012",
+      "value": "REF3312AIDBZR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "VREF",
+        "3": "GND"
+      },
+      "fields": {
+        "Function": "1.25 V reference; REF3012 symbol is pin compatible",
+        "MPN": "REF3312AIDBZR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C25",
+      "lib_id": "Device:C",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VREF",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "Reference bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C26",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VREF",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "Reference high-frequency bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C27",
+      "lib_id": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "Analog bulk bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C28",
+      "lib_id": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "Digital bulk bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C29",
+      "lib_id": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "IR emitter bulk bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R28",
+      "lib_id": "Device:R",
+      "value": "499k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "VTH_ON"
+      },
+      "fields": {
+        "Function": "ON threshold upper leg",
+        "Tolerance": "0.1%"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R29",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_ON",
+        "2": "VREF"
+      },
+      "fields": {
+        "Function": "ON threshold lower leg",
+        "Tolerance": "0.1%"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R30",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VREF",
+        "2": "VTH_OFF"
+      },
+      "fields": {
+        "Function": "OFF threshold upper leg",
+        "Tolerance": "0.1%"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R31",
+      "lib_id": "Device:R",
+      "value": "301k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_OFF",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "OFF threshold lower leg",
+        "Tolerance": "0.1%"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R25",
+      "lib_id": "Device:R",
+      "value": "82R",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "LED_A"
+      },
+      "fields": {
+        "Function": "IR emitter current limit"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "D5",
+      "lib_id": "Device:LED",
+      "value": "TSAL6200",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "pins": {
+        "1": "LED_K",
+        "2": "LED_A"
+      },
+      "fields": {
+        "Function": "940 nm emitter",
+        "MPN": "TSAL6200"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "Q1",
+      "lib_id": "Transistor_FET:AO3400A",
+      "value": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "LED_GATE",
+        "2": "GND",
+        "3": "LED_K"
+      },
+      "fields": {
+        "Function": "Low-side IR emitter switch",
+        "MPN": "AO3400A"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R26",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "LED_EN",
+        "2": "LED_GATE"
+      },
+      "fields": {
+        "Function": "MOSFET gate series resistor"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R27",
+      "lib_id": "Device:R",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "LED_GATE",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "MOSFET gate pull-down"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "D1",
+      "lib_id": "VBPW34S:VBPW34S",
+      "value": "VBPW34S",
+      "footprint": "VBPW34S:XDCR_VBPW34S",
+      "pins": {
+        "K": "TIA_IN_TL",
+        "A": "GND"
+      },
+      "fields": {
+        "Function": "TL photodiode; supplied Vishay pad geometry verified",
+        "MPN": "VBPW34S"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Amplifier_Operational:OPA197xDGK",
+      "value": "OPA381AIDGKR",
+      "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+      "pins": {
+        "1": null,
+        "2": "TIA_IN_TL",
+        "3": "VREF",
+        "4": "GND",
+        "5": null,
+        "6": "VPHOTO_TL",
+        "7": "3V3_ANALOG",
+        "8": null
+      },
+      "fields": {
+        "Function": "TL TIA; OPA197 symbol is pin compatible",
+        "MPN": "OPA381AIDGKR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "18.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_TL",
+        "2": "VPHOTO_TL"
+      },
+      "fields": {
+        "Function": "TL transimpedance feedback"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "47pF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_TL",
+        "2": "VPHOTO_TL"
+      },
+      "fields": {
+        "Function": "TL feedback, C0G"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C9",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TL TIA local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VPHOTO_TL",
+        "2": "VEVENT_TL"
+      },
+      "fields": {
+        "Function": "TL temporal coupling"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VEVENT_TL",
+        "2": "VREF"
+      },
+      "fields": {
+        "Function": "TL adaptation return"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U5",
+      "lib_id": "Comparator:MCP6562",
+      "value": "TLV3202AIDR",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pins": {
+        "1": "RAW_ON_TL",
+        "2": "VTH_ON",
+        "3": "VEVENT_TL",
+        "4": "GND",
+        "5": "VTH_OFF_TL",
+        "6": "VEVENT_TL",
+        "7": "RAW_OFF_TL",
+        "8": "3V3_ANALOG"
+      },
+      "fields": {
+        "Function": "TL ON/OFF comparators; MCP6562 symbol is pin compatible",
+        "MPN": "TLV3202AIDR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C13",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TL comparator local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R40",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_OFF",
+        "2": "VTH_OFF_TL"
+      },
+      "fields": {
+        "Function": "TL OFF threshold local feed"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R32",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_ON_TL",
+        "2": "VEVENT_TL"
+      },
+      "fields": {
+        "Function": "TL optional ON hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "R33",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_OFF_TL",
+        "2": "VTH_OFF_TL"
+      },
+      "fields": {
+        "Function": "TL optional OFF hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "U9",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_ON_TL",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_ON_TL",
+        "6": "CEXT_ON_TL",
+        "7": "REXT_ON_TL",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "TL ON one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C30",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TL ON one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R9",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_ON_TL"
+      },
+      "fields": {
+        "Function": "TL ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C17",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_ON_TL",
+        "2": "REXT_ON_TL"
+      },
+      "fields": {
+        "Function": "TL ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R17",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_ON_TL",
+        "2": "SPIKE_ON_TL"
+      },
+      "fields": {
+        "Function": "TL ON event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U10",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_OFF_TL",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_OFF_TL",
+        "6": "CEXT_OFF_TL",
+        "7": "REXT_OFF_TL",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "TL OFF one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C31",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TL OFF one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R10",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_OFF_TL"
+      },
+      "fields": {
+        "Function": "TL OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C18",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_OFF_TL",
+        "2": "REXT_OFF_TL"
+      },
+      "fields": {
+        "Function": "TL OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R18",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_OFF_TL",
+        "2": "SPIKE_OFF_TL"
+      },
+      "fields": {
+        "Function": "TL OFF event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "D2",
+      "lib_id": "VBPW34S:VBPW34S",
+      "value": "VBPW34S",
+      "footprint": "VBPW34S:XDCR_VBPW34S",
+      "pins": {
+        "K": "TIA_IN_TR",
+        "A": "GND"
+      },
+      "fields": {
+        "Function": "TR photodiode; supplied Vishay pad geometry verified",
+        "MPN": "VBPW34S"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U2",
+      "lib_id": "Amplifier_Operational:OPA197xDGK",
+      "value": "OPA381AIDGKR",
+      "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+      "pins": {
+        "1": null,
+        "2": "TIA_IN_TR",
+        "3": "VREF",
+        "4": "GND",
+        "5": null,
+        "6": "VPHOTO_TR",
+        "7": "3V3_ANALOG",
+        "8": null
+      },
+      "fields": {
+        "Function": "TR TIA; OPA197 symbol is pin compatible",
+        "MPN": "OPA381AIDGKR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "18.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_TR",
+        "2": "VPHOTO_TR"
+      },
+      "fields": {
+        "Function": "TR transimpedance feedback"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "47pF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_TR",
+        "2": "VPHOTO_TR"
+      },
+      "fields": {
+        "Function": "TR feedback, C0G"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C10",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TR TIA local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VPHOTO_TR",
+        "2": "VEVENT_TR"
+      },
+      "fields": {
+        "Function": "TR temporal coupling"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VEVENT_TR",
+        "2": "VREF"
+      },
+      "fields": {
+        "Function": "TR adaptation return"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U6",
+      "lib_id": "Comparator:MCP6562",
+      "value": "TLV3202AIDR",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pins": {
+        "1": "RAW_ON_TR",
+        "2": "VTH_ON",
+        "3": "VEVENT_TR",
+        "4": "GND",
+        "5": "VTH_OFF_TR",
+        "6": "VEVENT_TR",
+        "7": "RAW_OFF_TR",
+        "8": "3V3_ANALOG"
+      },
+      "fields": {
+        "Function": "TR ON/OFF comparators; MCP6562 symbol is pin compatible",
+        "MPN": "TLV3202AIDR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C14",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TR comparator local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R41",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_OFF",
+        "2": "VTH_OFF_TR"
+      },
+      "fields": {
+        "Function": "TR OFF threshold local feed"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R34",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_ON_TR",
+        "2": "VEVENT_TR"
+      },
+      "fields": {
+        "Function": "TR optional ON hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "R35",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_OFF_TR",
+        "2": "VTH_OFF_TR"
+      },
+      "fields": {
+        "Function": "TR optional OFF hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "U11",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_ON_TR",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_ON_TR",
+        "6": "CEXT_ON_TR",
+        "7": "REXT_ON_TR",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "TR ON one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C32",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TR ON one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R11",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_ON_TR"
+      },
+      "fields": {
+        "Function": "TR ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C19",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_ON_TR",
+        "2": "REXT_ON_TR"
+      },
+      "fields": {
+        "Function": "TR ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R19",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_ON_TR",
+        "2": "SPIKE_ON_TR"
+      },
+      "fields": {
+        "Function": "TR ON event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U12",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_OFF_TR",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_OFF_TR",
+        "6": "CEXT_OFF_TR",
+        "7": "REXT_OFF_TR",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "TR OFF one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C33",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "TR OFF one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R12",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_OFF_TR"
+      },
+      "fields": {
+        "Function": "TR OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C20",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_OFF_TR",
+        "2": "REXT_OFF_TR"
+      },
+      "fields": {
+        "Function": "TR OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R20",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_OFF_TR",
+        "2": "SPIKE_OFF_TR"
+      },
+      "fields": {
+        "Function": "TR OFF event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "D3",
+      "lib_id": "VBPW34S:VBPW34S",
+      "value": "VBPW34S",
+      "footprint": "VBPW34S:XDCR_VBPW34S",
+      "pins": {
+        "K": "TIA_IN_BL",
+        "A": "GND"
+      },
+      "fields": {
+        "Function": "BL photodiode; supplied Vishay pad geometry verified",
+        "MPN": "VBPW34S"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U3",
+      "lib_id": "Amplifier_Operational:OPA197xDGK",
+      "value": "OPA381AIDGKR",
+      "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+      "pins": {
+        "1": null,
+        "2": "TIA_IN_BL",
+        "3": "VREF",
+        "4": "GND",
+        "5": null,
+        "6": "VPHOTO_BL",
+        "7": "3V3_ANALOG",
+        "8": null
+      },
+      "fields": {
+        "Function": "BL TIA; OPA197 symbol is pin compatible",
+        "MPN": "OPA381AIDGKR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "18.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_BL",
+        "2": "VPHOTO_BL"
+      },
+      "fields": {
+        "Function": "BL transimpedance feedback"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "47pF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_BL",
+        "2": "VPHOTO_BL"
+      },
+      "fields": {
+        "Function": "BL feedback, C0G"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C11",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BL TIA local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VPHOTO_BL",
+        "2": "VEVENT_BL"
+      },
+      "fields": {
+        "Function": "BL temporal coupling"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R7",
+      "lib_id": "Device:R",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VEVENT_BL",
+        "2": "VREF"
+      },
+      "fields": {
+        "Function": "BL adaptation return"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U7",
+      "lib_id": "Comparator:MCP6562",
+      "value": "TLV3202AIDR",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pins": {
+        "1": "RAW_ON_BL",
+        "2": "VTH_ON",
+        "3": "VEVENT_BL",
+        "4": "GND",
+        "5": "VTH_OFF_BL",
+        "6": "VEVENT_BL",
+        "7": "RAW_OFF_BL",
+        "8": "3V3_ANALOG"
+      },
+      "fields": {
+        "Function": "BL ON/OFF comparators; MCP6562 symbol is pin compatible",
+        "MPN": "TLV3202AIDR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C15",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BL comparator local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R42",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_OFF",
+        "2": "VTH_OFF_BL"
+      },
+      "fields": {
+        "Function": "BL OFF threshold local feed"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R36",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_ON_BL",
+        "2": "VEVENT_BL"
+      },
+      "fields": {
+        "Function": "BL optional ON hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "R37",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_OFF_BL",
+        "2": "VTH_OFF_BL"
+      },
+      "fields": {
+        "Function": "BL optional OFF hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "U13",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_ON_BL",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_ON_BL",
+        "6": "CEXT_ON_BL",
+        "7": "REXT_ON_BL",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "BL ON one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C34",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BL ON one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R13",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_ON_BL"
+      },
+      "fields": {
+        "Function": "BL ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C21",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_ON_BL",
+        "2": "REXT_ON_BL"
+      },
+      "fields": {
+        "Function": "BL ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R21",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_ON_BL",
+        "2": "SPIKE_ON_BL"
+      },
+      "fields": {
+        "Function": "BL ON event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U14",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_OFF_BL",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_OFF_BL",
+        "6": "CEXT_OFF_BL",
+        "7": "REXT_OFF_BL",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "BL OFF one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C35",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BL OFF one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R14",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_OFF_BL"
+      },
+      "fields": {
+        "Function": "BL OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C22",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_OFF_BL",
+        "2": "REXT_OFF_BL"
+      },
+      "fields": {
+        "Function": "BL OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R22",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_OFF_BL",
+        "2": "SPIKE_OFF_BL"
+      },
+      "fields": {
+        "Function": "BL OFF event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "D4",
+      "lib_id": "VBPW34S:VBPW34S",
+      "value": "VBPW34S",
+      "footprint": "VBPW34S:XDCR_VBPW34S",
+      "pins": {
+        "K": "TIA_IN_BR",
+        "A": "GND"
+      },
+      "fields": {
+        "Function": "BR photodiode; supplied Vishay pad geometry verified",
+        "MPN": "VBPW34S"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U4",
+      "lib_id": "Amplifier_Operational:OPA197xDGK",
+      "value": "OPA381AIDGKR",
+      "footprint": "Package_SO:MSOP-8_3x3mm_P0.65mm",
+      "pins": {
+        "1": null,
+        "2": "TIA_IN_BR",
+        "3": "VREF",
+        "4": "GND",
+        "5": null,
+        "6": "VPHOTO_BR",
+        "7": "3V3_ANALOG",
+        "8": null
+      },
+      "fields": {
+        "Function": "BR TIA; OPA197 symbol is pin compatible",
+        "MPN": "OPA381AIDGKR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "value": "18.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_BR",
+        "2": "VPHOTO_BR"
+      },
+      "fields": {
+        "Function": "BR transimpedance feedback"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "47pF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "TIA_IN_BR",
+        "2": "VPHOTO_BR"
+      },
+      "fields": {
+        "Function": "BR feedback, C0G"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C12",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BR TIA local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VPHOTO_BR",
+        "2": "VEVENT_BR"
+      },
+      "fields": {
+        "Function": "BR temporal coupling"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R8",
+      "lib_id": "Device:R",
+      "value": "22k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VEVENT_BR",
+        "2": "VREF"
+      },
+      "fields": {
+        "Function": "BR adaptation return"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U8",
+      "lib_id": "Comparator:MCP6562",
+      "value": "TLV3202AIDR",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pins": {
+        "1": "RAW_ON_BR",
+        "2": "VTH_ON",
+        "3": "VEVENT_BR",
+        "4": "GND",
+        "5": "VTH_OFF_BR",
+        "6": "VEVENT_BR",
+        "7": "RAW_OFF_BR",
+        "8": "3V3_ANALOG"
+      },
+      "fields": {
+        "Function": "BR ON/OFF comparators; MCP6562 symbol is pin compatible",
+        "MPN": "TLV3202AIDR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C16",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_ANALOG",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BR comparator local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R43",
+      "lib_id": "Device:R",
+      "value": "10.0k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VTH_OFF",
+        "2": "VTH_OFF_BR"
+      },
+      "fields": {
+        "Function": "BR OFF threshold local feed"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R38",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_ON_BR",
+        "2": "VEVENT_BR"
+      },
+      "fields": {
+        "Function": "BR optional ON hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "R39",
+      "lib_id": "Device:R",
+      "value": "2.0M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAW_OFF_BR",
+        "2": "VTH_OFF_BR"
+      },
+      "fields": {
+        "Function": "BR optional OFF hysteresis"
+      },
+      "dnp": true
+    },
+    {
+      "ref": "U15",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_ON_BR",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_ON_BR",
+        "6": "CEXT_ON_BR",
+        "7": "REXT_ON_BR",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "BR ON one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C36",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BR ON one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R15",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_ON_BR"
+      },
+      "fields": {
+        "Function": "BR ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C23",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_ON_BR",
+        "2": "REXT_ON_BR"
+      },
+      "fields": {
+        "Function": "BR ON pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R23",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_ON_BR",
+        "2": "SPIKE_ON_BR"
+      },
+      "fields": {
+        "Function": "BR ON event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "U16",
+      "lib_id": "74xGxx:74LVC1G123",
+      "value": "SN74LVC1G123DCU",
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "pins": {
+        "1": "GND",
+        "2": "RAW_OFF_BR",
+        "3": "3V3",
+        "4": "GND",
+        "5": "OS_OUT_OFF_BR",
+        "6": "CEXT_OFF_BR",
+        "7": "REXT_OFF_BR",
+        "8": "3V3"
+      },
+      "fields": {
+        "Function": "BR OFF one-shot",
+        "MPN": "SN74LVC1G123DCU"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C37",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "fields": {
+        "Function": "BR OFF one-shot local bypass"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R16",
+      "lib_id": "Device:R",
+      "value": "8.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3",
+        "2": "REXT_OFF_BR"
+      },
+      "fields": {
+        "Function": "BR OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "C24",
+      "lib_id": "Device:C",
+      "value": "12nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CEXT_OFF_BR",
+        "2": "REXT_OFF_BR"
+      },
+      "fields": {
+        "Function": "BR OFF pulse width"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "R24",
+      "lib_id": "Device:R",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "OS_OUT_OFF_BR",
+        "2": "SPIKE_OFF_BR"
+      },
+      "fields": {
+        "Function": "BR OFF event output series"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP1",
+      "lib_id": "Connector:TestPoint",
+      "value": "VTH_ON",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "VTH_ON"
+      },
+      "fields": {
+        "Function": "Probe VTH_ON"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP2",
+      "lib_id": "Connector:TestPoint",
+      "value": "VTH_OFF",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "VTH_OFF"
+      },
+      "fields": {
+        "Function": "Probe VTH_OFF"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP3",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_ON_TL",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_ON_TL"
+      },
+      "fields": {
+        "Function": "Probe RAW_ON_TL"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP4",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_OFF_TL",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_OFF_TL"
+      },
+      "fields": {
+        "Function": "Probe RAW_OFF_TL"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP5",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_ON_TR",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_ON_TR"
+      },
+      "fields": {
+        "Function": "Probe RAW_ON_TR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP6",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_OFF_TR",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_OFF_TR"
+      },
+      "fields": {
+        "Function": "Probe RAW_OFF_TR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP7",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_ON_BL",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_ON_BL"
+      },
+      "fields": {
+        "Function": "Probe RAW_ON_BL"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP8",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_OFF_BL",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_OFF_BL"
+      },
+      "fields": {
+        "Function": "Probe RAW_OFF_BL"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP9",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_ON_BR",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_ON_BR"
+      },
+      "fields": {
+        "Function": "Probe RAW_ON_BR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "TP10",
+      "lib_id": "Connector:TestPoint",
+      "value": "RAW_OFF_BR",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RAW_OFF_BR"
+      },
+      "fields": {
+        "Function": "Probe RAW_OFF_BR"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H1",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "fields": {
+        "Function": "Board mount"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H2",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "fields": {
+        "Function": "Board mount"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H3",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "fields": {
+        "Function": "Board mount"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H4",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "fields": {
+        "Function": "Board mount"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H5",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "fields": {
+        "Function": "Lens holder mount"
+      },
+      "dnp": false
+    },
+    {
+      "ref": "H6",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "fields": {
+        "Function": "Lens holder mount"
+      },
+      "dnp": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+
+**** 04/20/20 15:20:50 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test1"  [ C:\Users\a0227287\Documents\TLV3201\tlv3201-PSpiceFiles\SCHEMATIC1\test1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../vinrange_393/vinrange_393.lib" 
+.LIB "../../../vcc_range/vcc_range.lib" 
+.LIB "../../../supply_buffer/supply_buffer.lib" 
+.LIB "../../../output_en/output_en.lib" 
+.LIB "../../../orgate1701/orgate1701.lib" 
+.LIB "../../../orgate/orgate.lib" 
+.LIB "../../../hpa_comphys/hpa_comphys.lib" 
+.LIB "../../../difference/difference.lib" 
+.LIB "../../../andgate/andgate.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0227287\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TLV3201
+.EXTERNAL OUTPUT RESET_BAR
+.EXTERNAL INPUT VDD
+.EXTERNAL INPUT GND
+.EXTERNAL INPUT IN+
+.EXTERNAL INPUT IN-
+C_U34_C6         0 U34_N666668  1n  TC=0,0 
+R_U34_R13         N690186 U34_N666668  230 TC=0,0 
+R_U34_R1         0 N690192  50 TC=0,0 
+E_U34_E2         U34_N666680 0 U34_N666668 0 1
+T_U34_T1         U34_N666680 0 N690192 0 Z0=50 TD=4.84u  
+V_1_1_2m         HYS 0 15m
+X_U33         SUPPLY_EN SUPPLY_EN N690922 VSS_B N690192 RESET_BAR OUTPUT_EN
+I_I1         VDD 0 DC 40e-6  
+X_U36_U15         U36_N682732 U36_N682904 U36_N682842 N690922 VSS_B VCC_Range
+X_U36_U13         N690922 VSS_B U36_N682732 N690922 VSS_B DIFFERENCE
+X_U36_U16          U36_N682708 U36_N682842 SUPPLY_EN N690922 VSS_B ANDGATE
+V_U36_V1         U36_N682696 0 7
+X_U36_U5         U36_N682696 U36_N682732 U36_N682708 N690922 VSS_B VCC_RANGE
+V_U36_V2         U36_N682904 0 0
+V_1_1_2m5         REF 0 1.2335
+X_U1         VDD GND N690922 VSS_B SUPPLY_BUFFER
+X_U28         IN+ IN- N690186 N690922 VSS_B HYS HPA_COMPHYS
+X_U37_U3         U37_N37173 IN- U37_N37241 N690922 VSS_B VINRANGE_393
+X_U37_U19         U37_N37241 U37_N37365 N689908 N690922 VSS_B ORGATE
+V_U37_V7         U37_N37173 N690922 0.2
+X_U37_U1         U37_N36731 IN+ U37_N36791 N690922 VSS_B VINRANGE_393
+X_U37_U2         IN+ U37_N37005 U37_N36891 N690922 VSS_B VINRANGE_393
+V_U37_V6         U37_N37005 VSS_B -0.2
+V_U37_V1         U37_N36731 N690922 0.2
+X_U37_U17         IN- U37_N37445 U37_N37365 N690922 VSS_B VINRANGE_393
+V_U37_V4         U37_N37445 VSS_B -0.2
+X_U37_U18         U37_N36791 U37_N36891 N36881 N690922 VSS_B ORGATE
+X_U38_U17         IN- U38_N36246 U38_N36166 N690922 VSS_B VINRANGE_393
+V_U38_V4         U38_N36246 0 -.3
+X_U38_U18         U38_N35590 U38_N35690 N35680 N690922 VSS_B ORGATE
+V_U38_V3         U38_N36062 0 -.3
+X_U38_U3         IN+ U38_N36062 U38_N36042 N690922 VSS_B VINRANGE_393
+X_U38_U19         U38_N36042 U38_N36166 N35906 N690922 VSS_B ORGATE
+X_U38_U1         U38_N35530 IN+ U38_N35590 N690922 VSS_B VINRANGE_393
+X_U38_U2         U38_N35734 IN- U38_N35690 N690922 VSS_B VINRANGE_393
+V_U38_V2         U38_N35734 0 7
+V_U38_V1         U38_N35530 0 7
+
+**** RESUMING test1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node VDD is floating
+
+ERROR(ORPSIM-15142): Node GND is floating
+

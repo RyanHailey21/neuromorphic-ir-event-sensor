@@ -1,0 +1,7 @@
+ lib=C:\Users\a0227287\Documents\TLV3201\hpa_comphys\hpa_comphys.lib, offset=43, size=340
+ lib=C:\Users\a0227287\Documents\TLV3201\vcc_range\vcc_range.lib, offset=0, size=131
+ lib=C:\Users\a0227287\Documents\TLV3201\supply_buffer\supply_buffer.lib, offset=0, size=125
+ lib=C:\Users\a0227287\Documents\TLV3201\output_en\output_en.lib, offset=42, size=232
+ lib=C:\Users\a0227287\Documents\TLV3201\orgate\orgate.lib, offset=0, size=160
+ lib=C:\Users\a0227287\Documents\TLV3201\difference\difference.lib, offset=0, size=103
+ lib=C:\Users\a0227287\Documents\TLV3201\andgate\andgate.lib, offset=0, size=161
