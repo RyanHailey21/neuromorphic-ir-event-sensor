@@ -47,8 +47,12 @@
   - Silkscreen Pad Clearance: $\ge 0.50\text{ mm}$ from all exposed copper pads
 
 ## 5. Mandatory Verification Gates
-- [x] SPICE simulation with true Berkeley NGSPICE solver executed
-- [x] Physical pinout and polarity audited against manufacturer datasheets
-- [x] 100/100 Courtyard placement score with zero edge overhangs
-- [x] KiCad DRC passed with 0 errors and 0 unconnected nets
-- [x] Production Gerbers, drill files, BOM, CPL, and 3D STEP exported
+- [ ] Board-faithful SPICE simulation with verified device models
+- [ ] Physical pinout, polarity, and selected VBPW34S footprint verified
+- [ ] Placement score passing with zero edge overhangs
+- [ ] KiCad ERC, schematic parity, and PCB DRC passing after LED_EN and RPD fixes
+- [ ] Fresh production Gerbers, drills, BOM, CPL, and 3D STEP reviewed after fixes
+
+## 2026-09-27 pre-fabrication status
+
+**NOT READY TO ORDER.** See [the pre-fabrication audit](reports/PREFAB_AUDIT_2026-09-27.md). The user confirmed a 10-pin FPGA event header, Vishay VBPW34S photodiodes, and a separate FPGA-controllable LED_EN input for Rev A.
