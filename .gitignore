@@ -21,5 +21,6 @@ _autosave-*
 !.companion/scripts/prepare_fresh_autoroute.py
 !.companion/scripts/remove_dangling_vias.py
 !.companion/scripts/round_candidate_outline.py
+!.companion/scripts/promote_candidate_to_project.py
 .history/
 reports/*.json

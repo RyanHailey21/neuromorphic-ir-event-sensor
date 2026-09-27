@@ -1,8 +1,10 @@
 # Rev A headless candidate — pre-order status (2026-09-27)
 
-**Verdict: do not order yet.** The PCB is routed and passes KiCad geometry/connectivity checks, but the manufacturer-model simulation and assembly sourcing gates are incomplete. This candidate is separate from the historical root board.
+**Verdict: do not order yet.** The PCB is routed and passes KiCad geometry/connectivity checks, but the manufacturer-model simulation and assembly sourcing gates are incomplete. The candidate was promoted into the main project files on 2026-09-27; the previous root design remains in Git history.
 
 ## Saved candidate and reproducible route
+
+The main `neuromorphic-ir-event-sensor.kicad_pro`, `.kicad_sch`, and `.kicad_pcb` now contain this same Rev A design. The root `fp-lib-table` and `sym-lib-table` point to the checked-in `vendor/` library. After promotion, main-project ERC reported 0 violations and Companion DRC reported 0 violations, 0 unconnected items, and 0 schematic parity issues; the pinout audit passed.
 
 - Schematic: `headless_candidate/neuromorphic-ir-event-sensor.kicad_sch` (SHA-256 `CF1DE25CAED6E3BE61EE8BE7880688E1FBBEE2B18AE731B0CE02DE7F79BFB697`).
 - PCB: `headless_candidate/neuromorphic-ir-event-sensor.kicad_pcb` (SHA-256 `90EE0CC67DAF70638215E61CEA5C06281AD2774A76617EC1F1EE3A3E4C9174FA`).

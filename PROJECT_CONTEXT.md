@@ -4,7 +4,7 @@
 
 Four Vishay VBPW34S photodiodes feed four OPA381 transimpedance amplifiers. Each channel compares temporal change against ON and OFF thresholds and produces two short FPGA event pulses through SN74LVC1G123 one-shots. A 10-pin J1 carries power and eight event outputs. A separate J3 accepts a 3.3 V FPGA `LED_EN` pulse train to switch the TSAL6200 IR emitter through AO3400A. J2 exposes analog debug signals.
 
-The architecture and component values come from `docs/DESIGN_SPECIFICATION.md` and the user's explicit Rev A decisions. The older root PCB and schematic are historical artifacts, not design authority. The active candidate is `headless_candidate/`.
+The architecture and component values come from `docs/DESIGN_SPECIFICATION.md` and the user's explicit Rev A decisions. The new Rev A design was promoted from `headless_candidate/` into the main project files on 2026-09-27; opening `neuromorphic-ir-event-sensor.kicad_pro` now opens this design. The previous root files are recoverable from Git history and are not design authority.
 
 ## Mechanical and fabrication intent
 
@@ -25,4 +25,4 @@ The architecture and component values come from `docs/DESIGN_SPECIFICATION.md` a
 
 - Manufacturer model based circuit simulation required by KiCad Companion Rule 12 is incomplete. OPA381 and REF3312 models were found. TI's TLV3202-Q1 PSpice archive was downloaded, but it has not been converted into a verified usable dual-comparator netlist. VBPW34S, TSAL6200, and AO3400A lack confirmed manufacturer SPICE models. The SN74LVC1G123 official HSPICE model also needs compatibility work for the intended simulator.
 - Assembly BOM sourcing is incomplete. Most passives and connectors have no chosen manufacturer part number, and no populated part has an LCSC number in the candidate spec. The JLCPCB placement preview must verify polarity and rotation of every assembled part, especially VBPW34S.
-- No manufacturing package has been released. See `reports/REV_A_CANDIDATE_STATUS_2026-09-27.md` for the current evidence and remaining work.
+- No manufacturing package has been released. See `reports/REV_A_CANDIDATE_STATUS_2026-09-27.md` for the current evidence and remaining work. These gates apply equally to the promoted main board.
