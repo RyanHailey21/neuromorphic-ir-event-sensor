@@ -266,6 +266,15 @@
 			)
 			(embedded_fonts no)
 		)
+		(property "LCSC" "C92496"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Amplifier_Operational:OPA197xDGK"
 			(pin_names
 				(offset 0.127)
